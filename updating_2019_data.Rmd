@@ -24,7 +24,7 @@ library(here)
 1. Read in new data
 ```{r}
 #survey data - read in and add unique_id
-monitoring <- read_csv(here("csv_data","monitoring_updated.csv")) %>% 
+monitoring <- read_csv(here("raw_csv","monitoring_updated.csv")) %>% 
   dplyr::select(1:5, starts_with("pv")) %>% 
   mutate(
     unique_id = paste(substr(plot_id, 2,2), resp_id, sep = "")
