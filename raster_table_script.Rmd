@@ -1,0 +1,66 @@
+---
+title: "Raster Analysis"
+author: "Madeline Berger"
+date: "4/14/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(sf)
+library(stringr)
+library(rgdal)
+library(raster)
+library(maptools)
+library(mapview)
+
+```
+
+This markdown contains code to do the table math when combining all the rasters. That process is still in ArcGIS, but if time will build out the rest of it here.
+
+The input file this script needs is a joined shapefile of all 5 weeks of remote sensing data, with an attribute table built out.
+
+The output file should a raster file with a formatted table that contains a column indicating how many times each polygon has been burned (1 - 5). 
+
+
+**A. Read in file**
+Add a week that has the number of the week in it
+```{r}
+week_1_poly_80_19 <- read_sf(dsn = here::here("/raw_spatial/from_arc"), layer = "week1_poly_80_19") %>% 
+  mutate(
+    week_1 = 1
+  )
+
+week_2_poly_80_19 <- read_sf(dsn = here::here("/raw_spatial/from_arc"), layer = "week2_poly_80_19") %>% 
+  mutate(
+    week_2 = 2
+  )
+
+week_3_poly_80_19 <- read_sf(dsn = here::here("/raw_spatial/from_arc"), layer = "week3_poly_80_19") %>% 
+  mutate(
+    week_3 = 3
+  )
+
+week_4_poly_80_19 <- read_sf(dsn = here::here("/raw_spatial/from_arc"), layer = "week4_poly_80_19") %>% 
+  mutate(
+    week_4 = 4
+  )
+
+week_5_poly_80_19 <- read_sf(dsn = here::here("/raw_spatial/from_arc"), layer = "week5_poly_80_19") %>% 
+  mutate(
+    week_5 = 5
+  )
+
+```
+
+**B. Combine all into one geometry**
+This is not
+```{r}
+
+all_poly_80_19 <- st_union(week_1_poly_80_19,week_2_poly_80_19,week_3_poly_80_19)
+
+
+```
+

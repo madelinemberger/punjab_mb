@@ -1,0 +1,203 @@
+---
+title: "Adding Updated 2019 Data"
+author: "Madeline Berger"
+date: "5/18/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(sf)
+library(stringr)
+library(rgdal)
+library(raster)
+library(maptools)
+library(mapview)
+library(here)
+```
+
+
+##Part 3: Add survey data, updated
+
+1. Read in new data
+```{r}
+#survey data - read in and add unique_id
+monitoring <- read_csv(here("csv_data","monitoring_updated.csv")) %>% 
+  dplyr::select(1:5, starts_with("pv")) %>% 
+  mutate(
+    unique_id = paste(substr(plot_id, 2,2), resp_id, sep = "")
+  )
+
+spotcheck <- read_csv(here("csv_data","spot_check_updated.csv")) %>%
+  dplyr::select(1:3, starts_with("pv"), starts_with("sc")) %>% 
+   mutate(
+    unique_id = paste(substr(plot_id, 2,2), resp_id, sep = "")
+  )
+
+#spatial polygons
+polygons <- read_sf(here(dsn = "outputs_mb"), layer = "test_all")
+
+
+```
+
+###What is burned?
+
+**Monitoring data:** 
+- bl_error = plot is in monitoring but not baseline
+
+- pv_burnt (main burning) =1 if  - Loose straw shows signs of burning (OR) loose straw visible over standing stubble shows signs of burning (OR) standing stubble shows signs of burning (OR) loose straw collected on one side of the plot shows signs or burning (OR) burnt straw/stubble visible on the plot (OR) some paddy straw stem appear burnt.
+- pv_brunt_alt (alternate burning) = 1 if one or more of following: ash visible on soil, wet ash visible on soil, ash floating on soil, burnt grass on boundaries, trees show signs of burning
+- pv_burnt_any = 1 if pv_burnt==1 or pv_burnt_alt==1
+
+**Spot check**
+- pv_burn = if any type of burning is noticed (1 of 7)
+
+7 types of burning measured: 
+1.	 sc_burn_straw_stub "Straw or stubble looks burnt/partially burnt."
+2.	sc_burn_straw_ash  "Black/grey ash on the soil surface."
+3.	sc_burn_resid  "Root residues or stubble/stem residues appear burnt."
+4.	sc_burn_stand_stub Standing stubble appears burnt from the top."
+5.	sc_burn_grass  "Burnt grass and weeds on the plot boundaries."
+6.	sc_burn_trees_burnt  "Burnt leaves/branches of the trees on the plot boundary."
+7.	sc_burn_realtime "Stubble's burning in real time."
+
+
+2. Create df with burn column indicating "1" if any were burned
+```{r}
+#join monitoring data using unique id
+ #this stands for updated monitoring and spotcheck data msc
+
+updated_2019_mon <- inner_join(polygons, monitoring, by = "unique_id") %>% 
+  dplyr::select(-resp_id.x)
+
+burn_any_only_mon <- updated_2019_mon %>% 
+  dplyr::select(unique_id, resp_id.y, pv_burnt_any, geometry)
+
+main_burn_mon <- updated_2019_mon %>% 
+  dplyr::select(unique_id, resp_id.y, pv_burnt, geometry)
+
+#there are 4 fewer lines - this makes sense because there were two in the `bl_error`, and since each entry had two lines for two different dates, a total of 4 should be missing. 
+ 
+```
+
+3. Create df with burn column indicating "1" only for main burning
+```{r}
+#join spot check data 
+updated_2019_sc <- inner_join(polygons, spotcheck, by = "unique_id" ) %>% 
+  dplyr::select(-resp_id.x)
+
+burn_any_only_sc <- updated_2019_sc %>% 
+  dplyr::select(unique_id, resp_id.y, pv_burnt_any, geometry)
+#there are two less - also makes sense because there were two erros that were not in baseline and this one did not have doubles
+
+main_burn_sc <- updated_2019_sc %>%
+  dplyr::select(unique_id, resp_id.y, pv_burnt, geometry)
+  
+
+```
+
+
+4. Create df with burn column indicating "1" only for main burnings OR any burning
+
+```{r}
+#row bind both- any burning
+updated_2019_mon_sc <- rbind(burn_any_only_mon, burn_any_only_sc)
+
+#seems like there are duplicates - remove (may have lost data?)
+
+updated_2019_mon_sc <- updated_2019_mon_sc[!duplicated(updated_2019_mon_sc$unique_id), ]
+
+unique(updated_2019_mon_sc$pv_burnt_any)
+#this has an extra .s thing. filtered out on Arc 
+
+
+updated_2019_main_burn <- rbind(main_burn_sc, main_burn_mon) %>% 
+  filter(pv_burnt != ".s")#this looks ok
+
+unique(updated_2019_main_burn$pv_burnt)
+```
+
+5. Export new dataset
+```{r}
+
+st_write(updated_2019_mon_sc, "updated_2019_mon_sc.shp")
+
+st_write(updated_2019_main_burn, "updated_2019_main_burn.shp")
+```
+
+
+
+6. Experiment with some other burn types
+Try `mutate_at` suggestion - note, I used the pre-sf dfs from the very first chunk for this 
+```{r}
+#mon
+replace.f <- function(x){
+  ifelse(x%in%".s",0,x)
+}
+
+repl_cols_mon <- updated_2019_sc %>% 
+  dplyr::select(starts_with("sc")) %>% 
+  mutate_all(funs(replace.f)) #this is cool 
+
+#spot check 
+
+spec_burn_cols_sc <- spotcheck %>% #work with this one because doesn't like sf objects
+  filter(unique_id != "1110600681" & unique_id != "1118200131") %>% 
+  mutate_all(funs(replace.f)) %>% 
+  dplyr::select(starts_with("sc_burn")) %>%
+  mutate_if(is.character, as.numeric) %>%    #converts to numeric
+  mutate(
+    burn_index = rowSums(spec_burn_cols_sc[,1:6]) #create index
+  )
+
+rest_of_cols <- updated_2019_sc %>%
+  dplyr::select(-starts_with("sc_burn"), -starts_with("pv_burnt"))
+
+sc_burn_index_2019 <- bind_cols(rest_of_cols,spec_burn_cols_sc) # this wasn't working because there are different numbers of rows - makes sense because when we added the geometry data we lost two rows.
+
+dplyr::setdiff(spotcheck$unique_id, updated_2019_sc$unique_id) #use this to find differences, filter out from spotcheck in code starting at line 146
+
+write_csv(sc_burn_index_2019, "./int/sc_burn_index_2019.csv")
+st_write(sc_burn_index_2019, "./outputs_mb/sc_burn_index_2019.shp")
+```
+
+7. Summary statistics and visualizations 
+```{r}
+#read in the data - note that names got kind of fucked up 
+burn_index <- read_sf(here(dsn = "outputs_mb"), layer = "sc_burn_index_2019")
+
+```
+
+What is the most common burn types?
+
+```{r}
+
+burn_graph <- burn_index %>% 
+  filter(brn_n != 0) %>% 
+  mutate(
+    brn_n <- as.character(brn_n)
+  ) %>% 
+  ggplot(aes(x = brn_n))+
+  geom_histogram( fill = "cadetblue3")+
+  theme_bw()+
+  labs(x = "Number of different burn types detected", y = "Polygon Count")
+
+burn_graph
+
+ggsave("./figs/burn_graph.png", burn_graph, width = 8, height = 6)
+```
+
+What's going on for ones that have 1 burn type
+```{r}
+burn_one <- burn_index %>% 
+  filter(brn_n == 6)
+
+```
+
+What's going on for ones that have more than 1
+
+
+
+

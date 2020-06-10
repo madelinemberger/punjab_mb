@@ -1,0 +1,175 @@
+---
+title: "data_prep_2019"
+author: "Madeline Berger"
+date: "4/9/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+
+library(tidyverse)
+library(sf)
+library(stringr)
+library(rgdal)
+library(maptools)
+library(mapview)
+library(here)
+library(lubridate)
+
+```
+
+This markdown includes cleaning and joining the raw spot check data to the polygons created in the `cleaning.rmd` markdown. 
+
+**A.Read in the spatial data**
+
+In the cleaning rmd, it is the same thing as the spatial data frame 'clean_done'. It includes the geometry, and all three id fields: a_hhid, resp_id, and the unique plot_id created for it in the previous script
+
+```{r}
+
+polygons <- read_sf(dsn = here::here("outputs_mb"), layer = "test_all")
+
+```
+
+**B. Read in the survey data**
+
+These data are small subsets that were manually checked by the team on the ground in Punjab.
+- `monitoring_forsensor.csv` includes only plots that were not burned, which is indicated in column `burnt`
+- `spot_check_forsensor.csv` will be used for plots that were confirmed burn, using only the data that has a 1 in column `burnt`
+```{r}
+
+no_burn <- read_csv(here::here("survey_data", "monitoring_forsensor.csv")) %>% 
+  select(resp_id, a_hhid, plot_id, village, district, burnt, monitoring_date)
+
+burn <- read_csv(here::here("survey_data", "spot_check_forsensor.csv")) %>% 
+  filter(burnt == 1) %>% 
+  select(resp_id, a_hhid, plot_id, village, district, burnt, spotcheck_date)
+
+```
+
+###1. Explore data
+
+The field used to join the spatial data and the polygons will be resp_id
+
+```{r}
+
+#how many polygons in each? any overlap?
+
+no_burn_respids <- unique(no_burn$resp_id)
+
+burn_respids <- unique(burn$resp_id) #there are alot more of these
+
+all_respid <- c(no_burn_respids, burn_respids)
+
+duplicates_all <- all_respid[duplicated(all_respid)]
+
+
+```
+There are 24 duplicate resp_ids that appear in both burn and no burn - double check dates
+
+
+**Create some smaller df with just the duplicates to check what's going on** 
+```{r}
+
+no_burn_filter <- subset(no_burn, resp_id %in% duplicates_all) %>% 
+  summarize(
+    end = max(monitoring_date),
+    start = min(monitoring_date)
+  )
+
+burn_filter <- subset(burn, resp_id %in% duplicates_all) %>% 
+  summarize(
+    end = max(spotcheck_date),
+    start = min(spotcheck_date)
+  )
+
+```
+
+So the spotchecks ended on the 18th of Nov while the monitoring went all the way to the 30th. Therefore, per Kelsey's for anything after 11/30/19 in the monitoring data should be left in the monitoring dataset at no burn.
+
+**Find the duplicates in monitoring that are recorded after 11/18/19**
+```{r}
+#find all the duplicates in no burn that occur after 11/18
+no_burn_late <- subset(no_burn, resp_id %in% duplicates) %>% 
+  filter(monitoring_date > "11/18/19")
+
+no_burn_late_ids <- unique(no_burn_late$resp_id)
+
+#filter those out of burn
+
+burn_v2 <- burn[ ! burn$resp_id %in% no_burn_late_ids,  ]
+
+```
+
+For the other 9 that still remain, do somre manual exploration. It appears that some are after and some are before, which means I need to do more filtering out. Thinking some kind of ifelse statement comparing two columns, with a new column indicating what I will be designating it as.
+
+```{r}
+
+no_burn_early <- subset(no_burn, resp_id %in% duplicates_all) %>% 
+  filter(monitoring_date < "11/19/19")
+
+
+
+```
+
+For now, going to pause that and just filter out those duplicates, and join the two together.
+
+###2. Bind the two datasets together and to polygons
+```{r}
+
+burn_clean <- burn[ ! burn$resp_id %in% duplicates_all, ] %>% 
+  mutate(
+    date = spotcheck_date
+  ) %>% 
+  select(-spotcheck_date)
+
+
+
+no_burn_clean <- no_burn[ ! no_burn$resp_id %in% duplicates_all, ] %>% 
+  mutate(
+    burnt = "0",
+    date = monitoring_date
+  ) %>% 
+  select(-monitoring_date)
+
+
+all_2019 <- rbind(burn_clean, no_burn_clean) %>% 
+  mutate(unique_id=paste(substr(plot_id, 2, 2), resp_id)) #create new id to match polygons
+
+all_2019$unique_id <- gsub(" ", "", all_2019$unique_id, fixed = TRUE)
+
+
+```
+
+When joining to the polygons, we want to use the join that only keeps the matche (`inner_join`)
+
+Note:
+when joining to spatial objects do the spatial object first, which will pass on the spatial class to the resulting data frame
+
+```{r}
+
+polygons_with_2019_data <- inner_join(polygons, all_2019, by = "unique_id")
+
+summary(polygons_with_2019_data)
+
+class(polygons_with_2019_data)
+```
+
+weird that there are only 607 vs 611 observations, some polygons may not match? investigate later
+
+Final product is `polygons_with_2019_data`, write out shapefiles here:
+```{r}
+
+st_write(polygons_with_2019_data, "polygons_with_2019_data.shp")
+```
+
+
+**End task - joining new survey data to spatial data**
+
+- at the respondent level, pull out a list of respondent ID, what the spotcheck said and what the monitoring
+-how many are contradicting, is it plot level, or person level?
+(ie join,  )
+
+
+

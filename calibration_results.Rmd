@@ -1,0 +1,192 @@
+---
+title: "calibration_results"
+author: "Madeline Berger"
+date: "5/27/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(paletteer)
+library(here)
+
+```
+
+##Results from calibration
+This script creates visualizations and summary statistics for the results of a calibration analysis of the BASMA burn detection algorithm (cite Gabriel?). The data were generated using ArcGis.
+
+
+###Read in data
+```{r}
+results <- read_csv(here("csv_data", "calibration_results.csv")) %>% 
+  mutate(
+    char_threshold = as.factor(char_threshold),
+    cutoff = as.factor(cutoff)
+  )
+
+```
+
+
+###Summary statistics
+- overall mean
+- average by char threshold
+- average by cutoff
+
+```{r}
+#overall
+average <- results %>% 
+  summarize(
+    avg_match = mean(match),
+    sd_match = sd(match),
+    min_match = min(match),
+    max_match = max(match)
+  )
+
+
+#group by char threshold
+
+char_stats <- results %>% 
+  group_by(char_threshold) %>% 
+  summarize(
+    avg = mean(match),
+    sd = sd(match),
+    min = min(match),
+    max = max(match)
+  )
+
+#group by cutoff
+
+cutoff_stats <- results %>% 
+  group_by(cutoff) %>% 
+  summarize(
+    avg = mean(match),
+    sd = sd(match),
+    min = min(match),
+    max = max(match)
+  )
+
+
+```
+
+
+###Graphs
+```{r}
+
+all_line <- results %>% 
+  filter(cutoff != "3_pix") %>% 
+  ggplot(aes(x = char_threshold, y = match, group = cutoff))+
+  geom_line(aes(color = cutoff))+
+  theme_bw()+
+  labs(x = "Char Threshold", y = "Percentage of matching pixels", color = "Burn Cutoff")+
+  scale_color_paletteer_d("wesanderson::GrandBudapest1")
+
+all_line
+
+ggsave("./figs/all_line.png", all_line, width = 8, height = 6)
+
+
+bar_main <- results %>%
+  filter(cutoff != "3_pix") %>% 
+  filter(value == 2 | value == 3) %>% 
+  mutate(
+    value = as.character(value)
+  ) %>% 
+  ggplot(aes(x = char_threshold, y = percent, group = value))+
+  geom_bar(aes(fill = value), stat = "identity")+
+  facet_wrap(~cutoff)+
+  theme_bw()+
+  labs(x = "Char Threshold", y = "Percent match", fill = "Burn or no burn")
+
+bar_main
+
+ggsave("./figs/bar_main.png", bar_main, width = 8, height = 6)
+```
+
+
+
+##Repeat for any_burn 
+###Read in data
+```{r}
+results_any <- read_csv(here("csv_data", "calibration_results_any.csv")) %>% 
+  mutate(
+    char_threshold = as.factor(char_threshold),
+    cutoff = as.factor(cutoff)
+  )
+
+```
+
+
+###Summary statistics
+- overall mean
+- average by char threshold
+- average by cutoff
+
+```{r}
+#overall
+average_any <- results_any %>% 
+  summarize(
+    avg_match = mean(match),
+    sd_match = sd(match),
+    min_match = min(match),
+    max_match = max(match)
+  )
+
+
+#group by char threshold
+
+char_stats_any <- results_any %>% 
+  group_by(char_threshold) %>% 
+  summarize(
+    avg = mean(match),
+    sd = sd(match),
+    min = min(match),
+    max = max(match)
+  )
+
+#group by cutoff
+
+cutoff_stats_any <- results_any %>% 
+  group_by(cutoff) %>% 
+  summarize(
+    avg = mean(match),
+    sd = sd(match),
+    min = min(match),
+    max = max(match)
+  )
+
+
+```
+
+
+###Graph
+```{r}
+#line
+all_line_any <- ggplot(results_any, aes(x = char_threshold, y = match, group = cutoff))+
+  geom_line(aes(color = cutoff))+
+  theme_bw()+
+  labs(x = "Char Threshold", y = "Percentage of matching pixels", color = "Burn Cutoff")+
+  scale_color_paletteer_d("wesanderson::GrandBudapest1")
+
+all_line_any
+
+ggsave("./figs/all_line_any.png", all_line_any, width = 8, height = 6)
+
+
+#bar
+bar_any <- results_any %>%
+  filter(value == 2 | value == 3) %>% 
+  mutate(
+    value = as.character(value)
+  ) %>% 
+  ggplot(aes(x = char_threshold, y = percent, group = value))+
+  geom_bar(aes(fill = value), stat = "identity")+
+  facet_wrap(~cutoff)+
+  theme_bw()+
+  labs(x = "Char Threshold", y = "Percent match", fill = "Burn or no burn")
+
+bar_any
+
+ggsave("./figs/bar_any.png", bar_any, width = 8, height = 6)
+```
