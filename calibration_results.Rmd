@@ -20,7 +20,7 @@ This script creates visualizations and summary statistics for the results of a c
 
 ###Read in data
 ```{r}
-results <- read_csv(here("csv_data", "calibration_results.csv")) %>% 
+results <- read_csv(here("raw_csv", "calibration_results.csv")) %>% 
   mutate(
     char_threshold = as.factor(char_threshold),
     cutoff = as.factor(cutoff)
