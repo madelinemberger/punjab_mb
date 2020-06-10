@@ -1,4 +1,5 @@
-# Punjab Project MB
+# Punjab Project
+###Scripts, data and outputs created by Madeline Berger 11/19 - 05/20
 This repository contains all cleaning and wrangling done on field data (spatial and survey responses) collected as part of the Punjab Agricultural Burning project. Most up to date scripts can be found in the root folder of the repo. 
 
 Below is a list and descriptions of the folders contained in this repo:
