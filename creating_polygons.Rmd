@@ -9,14 +9,21 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+
+##Creating spatial data
+
+This script takes GIS coordinates provided by the Punjab field team and converts them into polygons representing all the plots that were monitored as part of the experiment (both control and treatment groups)
+
 ```{r}
 library(tidyverse)
 library(sf)
 library(stringr)
 library(rgdal)
+library(raster) #didn't end up using
 library(maptools)
-library(mapview)
+library(mapview) #to view subets 
 library(here)
+
 
 lat_lon <- read.csv(here("raw_spatial", "lag_lng_allbaseline.csv"))
 
@@ -47,7 +54,8 @@ lat_lon_id$unique_id <- gsub(" ", "", lat_lon_id$unique_id, fixed = TRUE) #this 
 summary(lat_lon_id)
 
 check_na <- lat_lon_id %>% 
-  filter(is.na(a_hhid) | is.na(longitude))
+  filter(is.na(a_hhid) | is.na(longitude)) #26 lines missing some data
+
 
 #remove all NAs
 #clean <- lat_lon[complete.cases(lat_lon), ]
@@ -57,7 +65,7 @@ clean_id <-lat_lon_id[complete.cases(lat_lon_id), ]
 
 
 
-###Creating vectors
+###Creating vectors: id_vec is the one used in the final version of loop
 -unique id, resp Id
 
 ```{r}
@@ -114,7 +122,7 @@ length(id_vec_old)
 
 
 
-###Create subsets for testing
+###Create subsets for testing loop (no need to run unless loop is amended)
 ```{r}
 #with unique Id
 #for testing
@@ -196,7 +204,7 @@ plot(line_sf_closed)
 
 ```
 
-Loop to make polygons - you must use 'clean_id_4' as the df for it to run properly 
+**Loop to make polygons - you must use 'clean_id_4' for it to run properly**
 ```{r}
 for(i in seq_along(unique(clean_id_4$unique_id))){
   #filter the df 
@@ -206,7 +214,7 @@ for(i in seq_along(unique(clean_id_4$unique_id))){
   
   df <- clean_id_4 %>% 
     filter(unique_id == id) %>% 
-    select(longitude,latitude)
+    dplyr::select(longitude,latitude)
     as.matrix
     
   print(i)
@@ -223,13 +231,9 @@ for(i in seq_along(unique(clean_id_4$unique_id))){
    poly_sf <- rbind(poly_sf, poly)
  }
  
-print(i)
+print(i) #used these when building the loop to find where it was breaking, and then filtered those out above. 
   
 }
-
-#another idea to try: 
-
-
 
 ```
 
@@ -245,15 +249,9 @@ info <- clean_id_4[-c(1,4:5)]
 
 #merge  - tried three ways
 
-poly_complete_merge <- merge(poly_sf, info, by = "unique_id")
+poly_complete_merge <- merge(info, poly_sf, by = "unique_id") # run this first
 
-poly_complete_join <- merge(x = info, y = poly_sf, by = "unique_id")
-
-join <- left_join(info %>% group_by(unique_id) %>% mutate(id = row_number()), poly_sf %>% group_by(unique_id) %>% mutate(id = row_number()), by= c("unique_id", "id"))
-
-#USE THIS ONE - removed the duplicates from the one above
-
-clean_done <- poly_complete_merge[!duplicated(poly_complete_merge$unique_id), ]
+clean_done <- poly_complete_merge[!duplicated(poly_complete_merge$unique_id), ] #filter out duplicates that result from the merge
 
 ```
 
@@ -282,30 +280,31 @@ all_minus_sample <- anti_join(clean_done, clean_sample, by = "unique_id")
 ```
 
 
-
 Writing out shapefiles and csv  (don't run if they already exist)
 ```{r}
 st_write(poly_sf, "test_noinfo.shp")
 
-st_write(clean_done, "test_all.shp") #this has all the info, is the finalized version
+st_write(clean_done, "test_all.shp") #this has all the info, is the finalized version that was imported into arc
 
-st_write(clean_sample, "random_sample.shp") #randomized 200 polygons
+st_write(clean_sample, "random_sample.shp") #200 for verification
 
-st_write(all_minus_sample_sf, "all_minus_sample.shp")
+st_write(all_minus_sample_sf, "all_minus_sample.shp") #all minus the sample
 
-#better if you could add a path, worry about this later
+#these were all moved to the outputs folder once they were exported
 
 
+##write out csvs: 
 write_csv(clean_id, "H:/punjab_project/punjab_project/ids_2.csv", col_names = TRUE)
 
 write_csv(clean_id_3, "H:/punjab_project/punjab_project/ids_3.csv", col_names = TRUE)
 
 write_csv(check_na, "H:/punjab_project/punjab_project/removed.csv", col_names = TRUE)
+
+write_csv(clean_done,"H:/punjab_project/punjab_project/clean_poly_info.csv", col_names = TRUE )
 ```
 
 
-
-Write out kml file for Google Earth or MyMaps (not working so far)
+Write out kml file for Google Earth or MyMaps
 ```{r}
 #first need to create a spatial polygon from the dataframe - this isn't working
 
@@ -315,105 +314,143 @@ writeOGR(clean_sample, dsn="random_sample.kml", layer = "sample_plots", driver =
 
 ```
 
-##Part 2: Add Survey Data 
+The below script can now be found in the `updating_2019_data.Rmd` 
+<!-- ##Part 2: Add survey data, updated -->
 
-###Read in the dataset
-```{r}
+<!-- 1. Read in new data -->
+<!-- ```{r} -->
+<!-- #survey data -->
+<!-- monitoring <- read_csv(here("raw_csv","monitoring_updated.csv")) %>%  -->
+<!--   dplyr::select(1:5, starts_with("pv")) %>%  -->
+<!--   mutate( -->
+<!--     unique_id = paste(substr(plot_id, 2,2), resp_id, sep = "") -->
+<!--   ) -->
 
-survey_all <- read_csv(here("survey_data", "monitoring_forsensor.csv"))
+<!-- spotcheck <- read_csv(here("survey_data","spot_check_updated.csv")) %>% -->
+<!--   dplyr::select(1:3, starts_with("pv")) %>%  -->
+<!--    mutate( -->
+<!--     unique_id = paste(substr(plot_id, 2,2), resp_id, sep = "") -->
+<!--   ) -->
 
-summary(survey_all)
-
-avg_plot_p_respondent <- 3224 / 148
-
-```
-
-
-Note - there are fewer observations than polygons, which makes sense. From these numbers, farmer have on average 21.7 plots 
-
-
-###Go exploring 
-I don' think many of these variables will be needed for visualization, so make a subset to explore with
-
-```{r}
-
-survey_less <- survey_all %>% 
-  select(resp_id,a_hhid,treatment,plot,plot_id,plot_count,village,district,burnt,harvested,monitoring_date)
-
-length(unique(survey_less$resp_id))
-
-length(unique(survey_less$a_hhid))
-
-treatment_hist <- ggplot(survey_less, aes(x = treatment))+
-    geom_bar()
-
-plotcount_hist <- ggplot(survey_less, aes(x = plot_count)) + 
-  geom_histogram()
-
-plotcount_hist
+<!-- #spatial polygons -->
+<!-- polygons <- read_sf(here(dsn = "outputs_mb"), layer = "test_all") -->
 
 
-```
+<!-- ``` -->
 
-**Somethings I want to know**
--can I group by a_hhid and count the number of plots?
--how many a_hhid - does that match?
+<!-- What is burned? -->
+<!-- Monitoring data:  -->
+<!-- - pv_burn_any == 1 means it was burned, either main or alt -->
+<!-- - bl_error = plot is in monitoring but not baseline -->
 
-Number of resp_id = 148
-Number of a_hhid = 148
-
-**Questions**
-
-Looking at burnt, all of these respondents said no? Are none of the control groups here? 
-
-###Join data
-use inner join and resp_id to join 
-
-```{r}
+<!-- Spot check -->
+<!-- - pv_burn = if any type of burning is noticed (1 of 7) -->
 
 
-length(unique(clean_done$resp_id))
+<!-- 7 types of burning measured:  -->
+<!-- 1.	 sc_burn_straw_stub "Straw or stubble looks burnt/partially burnt." -->
+<!-- 2.	sc_burn_straw_ash  "Black/grey ash on the soil surface." -->
+<!-- 3.	sc_burn_resid  "Root residues or stubble/stem residues appear burnt." -->
+<!-- 4.	sc_burn_stand_stub Standing stubble appears burnt from the top." -->
+<!-- 5.	sc_burn_grass  "Burnt grass and weeds on the plot boundaries." -->
+<!-- 6.	sc_burn_trees_burnt  "Burnt leaves/branches of the trees on the plot boundary." -->
+<!-- 7.	sc_burn_realtime "Stubble's burning in real time." -->
 
-clean_poly_everything <- inner_join(survey_less,clean_done, by = "resp_id")
+<!-- 2. Create df with burn column indicating "1" if any were burned -->
+<!-- ```{r} -->
+<!-- #join monitoring data using unique id -->
+<!--  #this stands for updated monitoring and spotcheck data msc -->
 
-```
+<!-- updated_2019_mon <- inner_join(polygons, monitoring, by = "unique_id") %>%  -->
+<!--   dplyr::select(-resp_id.x) -->
 
-###Look at results (small subsets)
+<!-- burn_alt_only_mon <- updated_2019_mon %>%  -->
+<!--   dplyr::select(unique_id, resp_id.y, pv_burnt_alt, geometry) -->
 
-```{r}
+<!-- #there are 4 fewer lines - this makes sense because there were two in the `bl_error`, and since each entry had two lines for two different dates, a total of 4 should be missing.  -->
 
-clean_poly_everything <- st_as_sf(x = clean_poly_everything, sf_column_name = "geometry") 
+<!-- ``` -->
 
-clean_poly_ablu <- clean_poly_everything %>% 
-  filter(village == "Ablu")
+<!-- 3. Create df with burn column indicating "1" only for main burning -->
+<!-- ```{r} -->
+<!-- #join spot check data  -->
+<!-- updated_2019_sc <- inner_join(polygons, spotcheck, by = "unique_id" ) %>%  -->
+<!--   dplyr::select(-resp_id.x) -->
 
-mapview(clean_poly_ablu) # yay    
+<!-- burn_alt_only_sc <- updated_2019_sc %>%  -->
+<!--   dplyr::select(unique_id, resp_id.y, pv_burnt_alt, geometry) -->
+<!-- #there are two less - also makes sense because there were two erros that were not in baseline and this one did not have doubles -->
 
-```
-
-#next step 
-
-Since all of these polygons say "no burn"
+<!-- ``` -->
 
 
+<!-- 4. Create df with burn column indicating "1" only for alternate burning -->
+
+<!-- ```{r} -->
+<!-- #row bind both -->
+<!-- updated_2019_mon_sc <- rbind(burn_alt_only_mon, burn_alt_only_sc) -->
+
+<!-- #seems like there are duplicates - remove (may have lost data?) -->
+
+<!-- updated_2019_mon_sc <- updated_2019_mon_sc[!duplicated(updated_2019_mon_sc$unique_id), ] -->
+
+<!-- ``` -->
+
+<!-- 5. Export new dataset -->
+<!-- ```{r} -->
+
+<!-- st_write(updated_2019_mon_sc, "updated_2019_mon_sc.shp") -->
 
 
-From kelsey's email:
+<!-- ``` -->
 
-Kelsey Jack kelseyjack@ucsb.edu via gmail.com 
-Feb 11, 2020, 10:32 AM
-to Ayushi, Hongdi, Maddie
 
-Okay, great — 
+<!-- Next step raster data:  -->
 
-Maddie, let’s code a burn variable as follows: (Ayushi, let us know if you think we should change)
+<!-- ##Read in raster data -->
+<!-- Start with week1_90 from BAMSA -->
+<!-- ```{r} -->
 
-burn = 0 if land_plot_burn == 0 | land_plot_burn == 2
-burn = 1 if land_plot_burn == 1 
+<!-- week1_90 <- raster("week1_90.tif") -->
 
-For the partially burnt case, let’s code it as missing for now. And the missing vals are genuinely missing.
+<!-- #look at it -->
 
-Thanks!
+
+<!-- mapview(week1_90) -->
+
+
+<!-- #cool! What are the colors for? -->
+
+
+<!-- ex <- mapview(clean_poly_ablu, layer.name = "Plots")+ -->
+<!--   mapview(week1_90, layer.name = "Burn scars") -->
+
+<!-- mapshot(ex, url = paste0(getwd(), "/example.html")) -->
+
+<!-- ``` -->
+
+
+<!-- ##Reclassify raster to binary  -->
+<!-- ```{r} -->
+
+
+<!-- #we want everything besides 0 to be 1 and 0 to stay zero -->
+<!-- #first create a vector that will become the matrix you feed to the reclass function -->
+
+<!-- m <- c(0,0,0,1,255,1) -->
+
+<!-- #create matrix -->
+<!-- rclmat <- matrix(m, ncol=3, byrow=TRUE) -->
+
+<!-- rclmat -->
+
+<!-- week1_90_rcl <- reclassify(week1_90, rclmat, include.lowest=TRUE) -->
+
+<!-- #look at it -->
+
+<!-- mapview(week1_90_rcl) -->
+<!-- ``` -->
+
 
 
 
@@ -498,7 +535,7 @@ Overall - NONE of these IDs are unique to the polygon!!
 Notes from kelsey
 a_hhid = farmer / household id 
 missing for 25 observations
-
+  
 resp_id = 
 is never missing 
 

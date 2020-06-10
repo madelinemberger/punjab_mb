@@ -1,0 +1,410 @@
+---
+title: "baseline_data_clean"
+author: "Madeline Berger"
+date: "11/8/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+##Creating spatial data - OLD VERSION FOR RECORDS ONLY
+
+For up to date version of this analysis see `creating_polygons.Rmd`
+
+```{r}
+library(tidyverse)
+library(sf)
+library(stringr)
+library(rgdal)
+library(maptools) 
+library(mapview)
+library(here) #helpful for pieces of the data
+
+lat_lon <- read.csv(here("raw_spatial", "lag_lng_allbaseline.csv"))
+
+head(lat_lon$latitude[1])
+
+x = lat_lon$latitude[1]
+
+#create a unique identifier for each group of vertices by merging the plot id column with the farmer id to create a new id
+
+lat_lon_id <- lat_lon %>%
+  mutate(unique_id=paste(substr(plot_id, 2, 2), resp_id))
+  
+
+lat_lon_id$unique_id <- gsub(" ", "", lat_lon_id$unique_id, fixed = TRUE) #this gets rid of the space, take space and sub it with nospace 
+
+
+```
+
+##Part 1: Create and Export the Polygons
+
+###Data Cleaning
+```{r}
+#find any values with Na
+
+summary(lat_lon_id)
+
+check_na <- lat_lon_id %>% 
+  filter(is.na(a_hhid) | is.na(longitude)) #26 vertices that have NA in some category
+
+#remove all NAs
+
+clean_id <-lat_lon_id[complete.cases(lat_lon_id), ]
+```
+
+###Creating vectors
+-unique id, resp Id
+
+```{r}
+#unique id 
+
+id_vec <- unique(clean_id$unique_id) #make a list of all the values in unique_id column, use this one for loop
+
+#try with resp id - more for data exploration
+
+id_vec_resp <- unique(clean_id$resp_id)
+
+#try with a_hhid -  more for data exploration
+
+id_vec_ah <-unique(clean_id$a_hhid)
+
+
+```
+
+
+
+###Data Exploration
+1. How many loops (ie polygons) are we dealing with?
+2. What are the first and last values?
+
+```{r}
+
+#1.How many unique resp_ids?
+length(id_vec_resp)
+
+head(id_vec_resp)
+
+tail(id_vec_resp,1)
+
+#2. How many unique_ids?
+
+length(id_vec)
+
+#4. How many a_hhid
+
+length(id_vec_ah)
+
+#4.Compared to old?
+
+length(id_vec_old)
+
+```
+
+
+###Create subsets for testing if the code in the loop works 
+```{r}
+#with unique Id
+#for testing
+df_short <- lat_lon_id %>% 
+   filter(unique_id == "110010033" | unique_id == "110010039" | unique_id == "110010075") 
+
+#make a shorter list for the test set
+id_vec_test <- unique(df_short$unique_id)
+
+
+#with resp id 
+df_resp <- lat_lon_id %>% 
+    filter(resp_id == 101600981) %>% 
+    as.matrix
+```
+
+
+###Filtered sets post-error - *you need to run this to make sure the loop is operating on the clean data set*
+The unique_ids that were breaking the loop and were removed: 1110600681, 1122201051, 1220301321, 1118200131
+```{r}
+#second
+clean_id_2 <- clean_id %>% 
+  filter(unique_id != 1110600681)
+
+id_vec_2 <- unique(clean_id_2$unique_id)
+
+#third
+
+clean_id_3 <- clean_id_2 %>% 
+  filter(unique_id != 1122201051)
+
+id_vec_3 <- unique(clean_id_3$unique_id)
+
+#fourth
+
+clean_id_35 <- clean_id_3 %>% 
+  filter(unique_id != 1220301371)
+
+clean_id_4 <- clean_id_35 %>% 
+  filter(unique_id != 1118200131)
+
+id_vec_4 <- unique(clean_id_4$unique_id)
+
+```
+
+
+Loop to make polygons - you must use 'clean_id_4' as the df for it to run properly 
+```{r}
+for(i in seq_along(unique(clean_id_4$unique_id))){
+  #filter the df 
+  print(i)
+  
+  id = id_vec_4[i]
+  
+  df <- clean_id_4 %>% 
+    filter(unique_id == id) %>% 
+    select(longitude,latitude)
+    as.matrix
+    
+  print(i)
+  #get the coodrinates
+  #create the polygon, and add attributes
+  poly <- st_sf(data.frame(unique_id = id, 
+                           st_sfc(st_polygon(list(as.matrix(df))),crs = 4326)))
+  
+ print(i)
+  
+ if(i == 1) {
+   poly_sf <- poly
+ } else {
+   poly_sf <- rbind(poly_sf, poly)
+ }
+ 
+print(i)
+  
+}
+
+#another idea to try: 
+
+
+
+```
+
+
+Bind poly_id, farmer id, and family id to poly_sf 
+
+```{r}
+
+#create table of IDs minus the lat lon data
+
+info <- clean_id_4[-c(1,4:5)]
+
+
+#merge  - tried three ways
+
+poly_complete_merge <- merge(poly_sf, info, by = "unique_id")
+
+poly_complete_join <- merge(x = info, y = poly_sf, by = "unique_id")
+
+join <- left_join(info %>% group_by(unique_id) %>% mutate(id = row_number()), poly_sf %>% group_by(unique_id) %>% mutate(id = row_number()), by= c("unique_id", "id"))
+
+#USE THIS ONE - removed the duplicates from the one above
+
+clean_done <- poly_complete_merge[!duplicated(poly_complete_merge$unique_id), ]
+
+```
+
+Select random sample of 200 for verification 
+
+```{r}
+
+clean_sample <- sample_n(clean_done, 200)
+#just randomly selecs 200 rows from the specified data frame, dplyr
+
+info_sample <- clean_sample[-c(4)]
+
+#create a data set with the random sample removed, per Kelsey's request
+
+#use `anti_join` from the tidverse to take out the 200 sample
+
+#clean_done_df <- as.data.frame(clean_done)
+
+#clean_sample_df <- as.data.frame(clean_sample)
+
+all_minus_sample <- anti_join(clean_done, clean_sample, by = "unique_id")
+
+#convert back to spatial object
+#all_minus_sample_sf <- st_as_sf(x = all_minus_sample, sf_column_name = "geometry") #this didn't work 
+
+```
+
+
+
+Writing out shapefiles and csv  (don't run if they already exist)
+```{r}
+st_write(poly_sf, "test_noinfo.shp")
+
+st_write(clean_done, "test_all.shp") #this has all the info, is the finalized version
+
+st_write(clean_sample, "random_sample.shp") #randomized 200 polygons
+
+st_write(all_minus_sample_sf, "all_minus_sample.shp")
+
+#better if you could add a path, worry about this later
+
+
+write_csv(clean_id, "H:/punjab_project/punjab_project/ids_2.csv", col_names = TRUE)
+
+write_csv(clean_id_3, "H:/punjab_project/punjab_project/ids_3.csv", col_names = TRUE)
+
+write_csv(check_na, "H:/punjab_project/punjab_project/removed.csv", col_names = TRUE)
+```
+
+
+
+Write out kml file for Google Earth or MyMaps (not working so far)
+```{r}
+#first need to create a spatial polygon from the dataframe - this isn't working
+
+SpatialPolygonsDataFrame(poly_sf, info)
+
+writeOGR(clean_sample, dsn="random_sample.kml", layer = "sample_plots", driver = "KML")
+
+```
+
+##Part 2: Add Survey Data 
+
+###Read in the dataset
+```{r}
+
+survey_all <- read_csv(here("survey_data", "monitoring_forsensor.csv"))
+
+summary(survey_all)
+
+avg_plot_p_respondent <- 3224 / 148
+
+```
+
+
+Note - there are fewer observations than polygons, which makes sense. From these numbers, farmer have on average 21.7 plots 
+
+
+###Go exploring 
+I don' think many of these variables will be needed for visualization, so make a subset to explore with
+
+```{r}
+
+survey_less <- survey_all %>% 
+  select(resp_id,a_hhid,treatment,plot,plot_id,plot_count,village,district,burnt,harvested,monitoring_date)
+
+length(unique(survey_less$resp_id))
+
+length(unique(survey_less$a_hhid))
+
+treatment_hist <- ggplot(survey_less, aes(x = treatment))+
+    geom_bar()
+
+plotcount_hist <- ggplot(survey_less, aes(x = plot_count)) + 
+  geom_histogram()
+
+plotcount_hist
+
+
+```
+
+**Somethings I want to know**
+-can I group by a_hhid and count the number of plots?
+-how many a_hhid - does that match?
+
+Number of resp_id = 148
+Number of a_hhid = 148
+
+**Questions**
+
+Looking at burnt, all of these respondents said no? Are none of the control groups here? 
+
+###Join data
+use inner join and resp_id to join 
+
+```{r}
+
+
+length(unique(clean_done$resp_id))
+
+clean_poly_everything <- inner_join(survey_less,clean_done, by = "resp_id")
+
+```
+
+###Look at results (small subsets)
+
+```{r}
+
+clean_poly_everything <- st_as_sf(x = clean_poly_everything, sf_column_name = "geometry") 
+
+clean_poly_ablu <- clean_poly_everything %>% 
+  filter(village == "Ablu")
+
+mapview(clean_poly_ablu) # yay    
+
+```
+
+#next step 
+
+Since all of these polygons say "no burn"
+
+
+
+
+From kelsey's email:
+
+Kelsey Jack kelseyjack@ucsb.edu via gmail.com 
+Feb 11, 2020, 10:32 AM
+to Ayushi, Hongdi, Maddie
+
+Okay, great — 
+
+Maddie, let’s code a burn variable as follows: (Ayushi, let us know if you think we should change)
+
+burn = 0 if land_plot_burn == 0 | land_plot_burn == 2
+burn = 1 if land_plot_burn == 1 
+
+For the partially burnt case, let’s code it as missing for now. And the missing vals are genuinely missing.
+
+Thanks!
+
+
+***
+
+###Helpful code that I did not end up using: 
+
+Code to add another point for closure - if needed, not necessary to run the loop
+```{r}
+#making matrices and testing for closure
+
+ id = id_vec[i]
+  
+df <- lat_lon_id %>% 
+    filter(unique_id == id) %>% 
+    select(longitude, latitude) %>% 
+    as.matrix
+
+line_sf <- st_linestring(df)
+
+plot(line_sf)
+
+#check whether the first and last rows are the same point: 
+
+df[1, ] == df[nrow(df), ]
+
+#bind the matrix with its own first row to close it
+
+df_closed <- rbind(df, df[1, ])
+
+#check again if the first and last rows are closed
+
+df_closed[1, ] == df_closed[nrow(df_closed), ]
+
+line_sf_closed <- st_linestring(df_closed)
+
+plot(line_sf_closed)
+
+
+```
