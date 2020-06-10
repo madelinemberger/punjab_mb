@@ -1,0 +1,755 @@
+resp_id,a_hhid,plot,plot_id,district,village,treatment,plot_gpslatitude,plot_gpslongitude,plot_gpsaltitude,plot_gpsaccuracy,mon_paddy,harvested,manage_status,manage_type1,manage_type2,burnt,burn_technique,burn_technique_1,burn_technique_2,burn_technique_3,burn_technique_4,burn_technique_5,burn_technique_6,burn_technique_7,sowed,comments,village_id,spotcheck_date
+101200141,10120014,1,p1,Bathinda,Aklia Jalal,PES + 50% UCT 800/acres,30.51297188,75.16953278,207.1999969,4.800000191,Yes,Yes,Stubble managed,Burnt,,1,3,0,0,1,0,0,0,0,No,,1005,11/14/19
+101200271,10120027,1,p1,Bathinda,Aklia Jalal,PES + 50% UCT 800/acres,30.52646446,75.13352966,219.1999969,4.699999809,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,,1005,11/11/19
+101200291,10120029,1,p1,Bathinda,Aklia Jalal,PES + 50% UCT 800/acres,30.51086998,75.1447525,207.1000061,4.800000191,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,No,,1005,11/11/19
+101201601,10120160,3,p3,Bathinda,Aklia Jalal,PES + 50% UCT 800/acres,30.51344299,75.16113281,227.3999939,4.900000095,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,No,,1005,11/11/19
+101201651,10120165,1,p1,Bathinda,Aklia Jalal,PES + 50% UCT 800/acres,30.51080132,75.16374207,184,4.900000095,Yes,Yes,Stubble managed,Can't determine,,0,,,,,,,,,No,,1005,11/12/19
+101400021,10140002,1,p1,Bathinda,Amarpura Urf Gurthuri,PES 1600 /acres,30.04421997,74.83109283,195.6000061,4.300000191,Yes,Yes,Stubble managed,Burnt,,1,1 5 6,1,0,0,0,1,1,0,No,Ok,1007,11/12/19
+101400031,10140003,2,p2,Bathinda,Amarpura Urf Gurthuri,PES 1600 /acres,30.04645538,74.82575989,188.3000031,4,Yes,Yes,Stubble managed,Used CRM machine,,0,,,,,,,,,Yes,Ok,1007,11/10/19
+101400071,10140007,1,p1,Bathinda,Amarpura Urf Gurthuri,PES 1600 /acres,30.05290794,74.8306427,199.8999939,3.900000095,Yes,Yes,Stubble managed,Used CRM machine,,0,,,,,,,,,No,Ok,1007,11/10/19
+101400291,10140029,2,p2,Bathinda,Amarpura Urf Gurthuri,PES 1600 /acres,30.03606987,74.82337189,186.3999939,4.699999809,Yes,Yes,Stubble managed,Burnt,,1,1 2 5,1,1,0,0,1,0,0,No,Ok,1007,11/10/19
+101400471,10140047,1,p1,Bathinda,Amarpura Urf Gurthuri,PES 1600 /acres,30.04022026,74.82891846,190.3000031,4.800000191,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,No,Ok,1007,11/14/19
+101400481,10140048,2,p2,Bathinda,Amarpura Urf Gurthuri,PES 1600 /acres,30.04760361,74.8399353,191.8999939,3.900000095,Yes,Yes,Stubble managed,Burnt,,1,1 5,1,0,0,0,1,0,0,No,Ok,1007,11/14/19
+101400731,10140073,1,p1,Bathinda,Amarpura Urf Gurthuri,PES 1600 /acres,30.03334618,74.81682587,185.6000061,4.800000191,No,,,,,,,,,,,,,,,Cottan in the plot,1007,11/10/19
+101400741,10140074,1,p1,Bathinda,Amarpura Urf Gurthuri,PES 1600 /acres,30.0587635,74.84915161,37.79999924,4.599999905,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,Yes,Ok,1007,11/14/19
+101400811,10140081,1,p1,Bathinda,Amarpura Urf Gurthuri,PES 1600 /acres,30.05749893,74.85800171,207,4.699999809,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,Yes,Ok,1007,11/10/19
+101400831,10140083,2,p2,Bathinda,Amarpura Urf Gurthuri,PES 1600 /acres,30.04005814,74.82988739,195.6000061,4.699999809,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,No,Ok,1007,11/14/19
+101400971,10140097,1,p1,Bathinda,Amarpura Urf Gurthuri,PES 1600 /acres,30.04947281,74.83508301,187.8999939,4.5,Yes,Yes,Stubble managed,Burnt,,1,1 3 6,1,0,1,0,0,1,0,Yes,Ok,1007,11/14/19
+101401011,10140101,1,p1,Bathinda,Amarpura Urf Gurthuri,PES 1600 /acres,30.05037498,74.84468079,196.8000031,4.800000191,Yes,Yes,Stubble managed,Burnt,,1,1 3 7,1,0,1,0,0,0,1,No,Ok,1007,11/14/19
+102300061,10230006,2,p2,Bathinda,Balianwali,PES + 25% UCT 800/acres,30.15912247,75.19239807,202.3000031,4,No,,,,,,,,,,,,,,,Cotton plot,1015,11/11/19
+102300691,10230069,2,p2,Bathinda,Balianwali,PES + 25% UCT 800/acres,30.19242859,75.1842041,195.6000061,4.099999905,Yes,Yes,Stubble managed,Used CRM machine,,0,,,,,,,,,Yes,,1015,11/15/19
+102300701,10230070,3,p3,Bathinda,Balianwali,PES + 25% UCT 800/acres,30.14941978,75.19415283,199.5,5,Yes,Yes,Stubble managed,Burnt,,1,1,1,0,0,0,0,0,0,Yes,,1015,11/15/19
+102300751,10230075,1,p1,Bathinda,Balianwali,PES + 25% UCT 800/acres,30.15331459,75.1900177,204,8,Yes,Yes,Stubble managed,Burnt,,1,5,0,0,0,0,1,0,0,Yes,,1015,11/11/19
+102301081,10230108,1,p1,Bathinda,Balianwali,PES + 25% UCT 800/acres,30.18648911,75.19090271,239.3999939,4.400000095,No,,,,,,,,,,,,,,,Cotton plot,1015,11/11/19
+102301881,10230188,2,p2,Bathinda,Balianwali,PES + 25% UCT 800/acres,30.20148087,75.16917419,204.1999969,4.300000191,Yes,Yes,Stubble managed,Burnt,,1,2 3 5 7,0,1,1,0,1,0,1,No,,1015,11/11/19
+102302421,10230242,1,p1,Bathinda,Balianwali,PES + 25% UCT 800/acres,30.20771027,75.1939621,335.7000122,4.300000191,Yes,Yes,Stubble management ongoing,,Using CRM machine,0,,,,,,,,,,,1015,11/15/19
+102303051,10230305,1,p1,Bathinda,Balianwali,PES + 25% UCT 800/acres,30.16906929,75.18640137,216,4.400000095,Yes,Yes,Stubble managed,Burnt,,1,7,0,0,0,0,0,0,1,No,,1015,11/15/19
+102700181,10270018,1,p1,Bathinda,Bandi,PES + 25% UCT 800/acres,30.06291199,74.75531769,185.6000061,3.900000095,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,,1019,11/15/19
+102700231,10270023,1,p1,Bathinda,Bandi,PES + 25% UCT 800/acres,30.04226685,74.74534607,183.8000031,3.900000095,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,,1019,11/15/19
+102700311,10270031,1,p1,Bathinda,Bandi,PES + 25% UCT 800/acres,30.02641106,74.76321411,184.1999969,3.900000095,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,,1019,11/15/19
+102700391,10270039,2,p2,Bathinda,Bandi,PES + 25% UCT 800/acres,30.06379509,74.7705307,190.6000061,3.900000095,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 4 5 6,1,1,1,1,1,1,0,Yes,,1019,11/12/19
+102700421,10270042,1,p1,Bathinda,Bandi,PES + 25% UCT 800/acres,30.02937508,74.74607849,188.3000031,3.900000095,Yes,Yes,Stubble managed,Can't determine,,0,,,,,,,,,Yes,,1019,11/12/19
+102700651,10270065,1,p1,Bathinda,Bandi,PES + 25% UCT 800/acres,30.04217529,74.74517059,190.1000061,3.900000095,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,Yes,,1019,11/12/19
+102700681,10270068,1,p1,Bathinda,Bandi,PES + 25% UCT 800/acres,30.03717232,74.76010895,187.6999969,3.900000095,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 4 5,1,1,1,1,1,0,0,Yes,,1019,11/12/19
+102700701,10270070,1,p1,Bathinda,Bandi,PES + 25% UCT 800/acres,30.05877686,74.76056671,164.8999939,4.699999809,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,Yes,,1019,11/15/19
+102701011,10270101,1,p1,Bathinda,Bandi,PES + 25% UCT 800/acres,30.06628036,74.74780273,185.8000031,3.900000095,Yes,Yes,Stubble not managed,,,,,,,,,,,,,,1019,11/12/19
+102800011,10280001,1,p1,Bathinda,Bangher Charat Singh,PES 1600 /acres,30.05912018,75.08676147,199.6000061,4.400000095,Yes,Yes,Stubble managed,Burnt,,1,5 6,0,0,0,0,1,1,0,Yes,,1020,11/15/19
+102800151,10280015,2,p2,Bathinda,Bangher Charat Singh,PES 1600 /acres,30.05945587,75.08633423,207.8000031,4,Yes,Yes,Stubble managed,Burnt,,1,5 6,0,0,0,0,1,1,0,Yes,,1020,11/15/19
+102800401,10280040,2,p2,Bathinda,Bangher Charat Singh,PES 1600 /acres,30.05107689,75.09870911,196.8000031,4.099999905,Yes,Yes,Stubble managed,Burnt,,1,6,0,0,0,0,0,1,0,Yes,,1020,11/15/19
+102800461,10280046,1,p1,Bathinda,Bangher Charat Singh,PES 1600 /acres,30.05605507,75.09489441,207.3999939,3.900000095,Yes,Yes,Stubble managed,Burnt,,1,5,0,0,0,0,1,0,0,No,,1020,11/10/19
+102800661,10280066,1,p1,Bathinda,Bangher Charat Singh,PES 1600 /acres,30.05111694,75.09872437,190.6000061,4.199999809,Yes,Yes,Stubble managed,Burnt,,1,2 3 5,0,1,1,0,1,0,0,No,,1020,11/10/19
+102800681,10280068,2,p2,Bathinda,Bangher Charat Singh,PES 1600 /acres,30.0507946,75.09863281,194.1999969,4.199999809,Yes,Yes,Stubble managed,Burnt,,1,6,0,0,0,0,0,1,0,Yes,,1020,11/15/19
+102800801,10280080,1,p1,Bathinda,Bangher Charat Singh,PES 1600 /acres,30.0464325,75.09938812,194.3999939,4.800000191,Yes,Yes,Stubble managed,Burnt,,1,3 6,0,0,1,0,0,1,0,Yes,,1020,11/15/19
+102800921,10280092,1,p1,Bathinda,Bangher Charat Singh,PES 1600 /acres,30.0491581,75.09423828,195.3000031,4.599999905,Yes,Yes,Stubble management ongoing,,Using CRM machine,0,,,,,,,,,,,1020,11/10/19
+103400151,10340015,4,p4,Bathinda,Bath,PES + 25% UCT 800/acres,30.28909302,75.13240814,192.3999939,4.900000095,Yes,Yes,Stubble managed,Burnt,,1,4 5 6,0,0,0,1,1,1,0,No,,1026,11/11/19
+103400341,10340034,2,p2,Bathinda,Bath,PES + 25% UCT 800/acres,30.28770828,75.12998199,223.8000031,4.199999809,Yes,Yes,Stubble managed,Burnt,,1,5 6,0,0,0,0,1,1,0,No,,1026,11/11/19
+103400441,10340044,2,p2,Bathinda,Bath,PES + 25% UCT 800/acres,30.27835655,75.14443207,201.8000031,4,Yes,Yes,Stubble managed,Burnt,,1,4,0,0,0,1,0,0,0,Yes,Crm use,1026,11/14/19
+103400491,10340049,1,p1,Bathinda,Bath,PES + 25% UCT 800/acres,30.27645111,75.13712311,210.8999939,4.900000095,Yes,Yes,Stubble managed,Burnt,,1,1,1,0,0,0,0,0,0,Yes,Crm use,1026,11/14/19
+103400591,10340059,3,p3,Bathinda,Bath,PES + 25% UCT 800/acres,30.29141998,75.13640594,205.8000031,4.699999809,Yes,Yes,Stubble managed,Used CRM machine,,0,,,,,,,,,Yes,Crm use good way,1026,11/14/19
+103400601,10340060,3,p3,Bathinda,Bath,PES + 25% UCT 800/acres,30.28689957,75.14919281,198.1999969,5,Yes,Yes,Stubble managed,Burnt,,1,3 6,0,0,1,0,0,1,0,Yes,,1026,11/11/19
+103400611,10340061,1,p1,Bathinda,Bath,PES + 25% UCT 800/acres,30.29222298,75.14527893,189.3000031,5.099999905,Yes,Yes,Stubble managed,Used CRM machine,,0,,,,,,,,,No,,1026,11/11/19
+103400641,10340064,1,p1,Bathinda,Bath,PES + 25% UCT 800/acres,30.2818985,75.14065552,210.8999939,4.099999905,Yes,Yes,Stubble managed,Burnt,,1,1,1,0,0,0,0,0,0,Yes,Crm use,1026,11/14/19
+103400701,10340070,1,p1,Bathinda,Bath,PES + 25% UCT 800/acres,30.27412415,75.13565063,196.1000061,4.699999809,Yes,Yes,Stubble managed,Burnt,,1,5 6,0,0,0,0,1,1,0,Yes,,1026,11/11/19
+103800251,10380025,1,p1,Bathinda,Behman Diwana,PES 800/acres,30.21778679,74.81952667,183.8000031,4.699999809,Yes,Yes,Stubble managed,Burnt,,1,6,0,0,0,0,0,1,0,Yes,,1027,11/12/19
+103800541,10380054,1,p1,Bathinda,Behman Diwana,PES 800/acres,30.22917175,74.81463623,194.8000031,4.099999905,Yes,Yes,Stubble managed,Burnt,,1,3,0,0,1,0,0,0,0,No,,1027,11/10/19
+103800621,10380062,1,p1,Bathinda,Behman Diwana,PES 800/acres,30.21887016,74.87393951,196.6000061,4.099999905,Yes,Yes,Stubble managed,Burnt,,1,2 3 5 6,0,1,1,0,1,1,0,No,,1027,11/13/19
+103800831,10380083,1,p1,Bathinda,Behman Diwana,PES 800/acres,30.22115898,74.83030701,189.6000061,6.099999905,Yes,Yes,Stubble management ongoing,,Using CRM machine,0,,,,,,,,,,,1027,11/10/19
+103801051,10380105,1,p1,Bathinda,Behman Diwana,PES 800/acres,30.22118187,74.83022308,186,4.300000191,Yes,Yes,Stubble management ongoing,,Using CRM machine,0,,,,,,,,,,,1027,11/10/19
+103801251,10380125,1,p1,Bathinda,Behman Diwana,PES 800/acres,30.21960258,74.84542847,190.3000031,4.099999905,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,Yes,,1027,11/13/19
+103801451,10380145,1,p1,Bathinda,Behman Diwana,PES 800/acres,30.2289238,74.8443985,195.1999969,5,Yes,Yes,Stubble managed,Burnt,,1,6,0,0,0,0,0,1,0,Yes,,1027,11/13/19
+104200311,10420031,2,p2,Bathinda,Bhagi Bandar,PES 800/acres,30.03930664,75.07675934,192,4.699999809,Yes,Yes,Stubble managed,Burnt,,1,2 3,0,1,1,0,0,0,0,No,,1030,11/10/19
+104200371,10420037,3,p3,Bathinda,Bhagi Bandar,PES 800/acres,30.00455856,75.08576202,194.6000061,4.099999905,Yes,Yes,Stubble management ongoing,,Creating bales,0,,,,,,,,,,,1030,11/10/19
+104200511,10420051,2,p2,Bathinda,Bhagi Bandar,PES 800/acres,30.05570793,75.06625366,199.8999939,4.099999905,Yes,Yes,Stubble managed,Burnt,,1,5 6,0,0,0,0,1,1,0,No,,1030,11/15/19
+104201241,10420124,1,p1,Bathinda,Bhagi Bandar,PES 800/acres,30.03575134,75.08141327,192.1000061,4.199999809,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,Yes,,1030,11/13/19
+104201921,10420192,1,p1,Bathinda,Bhagi Bandar,PES 800/acres,30.02626038,75.04706573,191.1000061,4.400000095,Yes,Yes,Stubble managed,Burnt,,1,6,0,0,0,0,0,1,0,Yes,,1030,11/15/19
+104202141,10420214,1,p1,Bathinda,Bhagi Bandar,PES 800/acres,30.01677132,75.09030914,191.6999969,3.900000095,Yes,Yes,Stubble managed,Used CRM machine,,0,,,,,,,,,Yes,,1030,11/10/19
+104300051,10430005,2,p2,Bathinda,Bhagta Bhai Ka,PES + 50% UCT 800/acres,30.48316193,75.10555267,196.8999939,7.900000095,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,Yes,,1031,11/14/19
+104700811,10470081,1,p1,Bathinda,Bhai Rupa Pati Kanger,Control,30.44541359,75.20715332,207.1000061,4.800000191,Yes,Yes,Stubble managed,Burnt,,1,2,0,1,0,0,0,0,0,Yes,,1033,11/14/19
+104701311,10470131,4,p4,Bathinda,Bhai Rupa Pati Kanger,Control,30.45621109,75.18906403,190.1000061,4.699999809,Yes,Yes,Stubble management ongoing,,Burning,0,1,1,0,0,0,0,0,0,,,1033,11/10/19
+104702321,10470232,3,p3,Bathinda,Bhai Rupa Pati Kanger,Control,30.45633698,75.19745636,203.8999939,4.800000191,Yes,Yes,Stubble not managed,,,,,,,,,,,,,,1033,11/14/19
+104702791,10470279,1,p1,Bathinda,Bhai Rupa Pati Kanger,Control,30.46358871,75.22182465,211.6000061,1.600000024,Yes,Yes,Stubble management ongoing,,Incorporating stubble into the soil,0,,,,,,,,,,,1033,11/10/19
+104703391,10470339,1,p1,Bathinda,Bhai Rupa Pati Kanger,Control,30.42856789,75.25572968,234.6000061,4.900000095,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,Yes,,1033,11/12/19
+104703411,10470341,1,p1,Bathinda,Bhai Rupa Pati Kanger,Control,30.46415901,75.22200775,175.8999939,5,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,,1033,11/12/19
+104800071,10480007,1,p1,Bathinda,Bhaini,Control,30.35714149,75.15997314,218.1999969,4.5,Yes,Yes,Stubble management ongoing,,Burning,0,7,0,0,0,0,0,0,1,,,1034,11/10/19
+104800261,10480026,2,p2,Bathinda,Bhaini,Control,30.34856796,75.14186859,216.5,4.300000191,Yes,Yes,Stubble managed,Burnt,,1,2 5,0,1,0,0,1,0,0,No,,1034,11/10/19
+104800391,10480039,2,p2,Bathinda,Bhaini,Control,30.35647964,75.14706421,213.1000061,4.900000095,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,No,,1034,11/10/19
+104800561,10480056,2,p2,Bathinda,Bhaini,Control,30.34504318,75.17549896,197.1000061,4.800000191,Yes,Yes,Stubble managed,Burnt,,1,5 6,0,0,0,0,1,1,0,Yes,,1034,11/13/19
+104800621,10480062,1,p1,Bathinda,Bhaini,Control,30.3371582,75.16178894,218,4.099999905,Yes,Yes,Stubble managed,Burnt,,1,6,0,0,0,0,0,1,0,Yes,,1034,11/13/19
+104800821,10480082,2,p2,Bathinda,Bhaini,Control,30.34508514,75.16538239,195.3999939,4.5,Yes,Yes,Stubble management ongoing,,Burning,0,7,0,0,0,0,0,0,1,,,1034,11/10/19
+104800871,10480087,1,p1,Bathinda,Bhaini,Control,30.35378456,75.16372681,213,3.900000095,Yes,Yes,Stubble managed,Burnt,,1,1,1,0,0,0,0,0,0,Yes,,1034,11/13/19
+104800881,10480088,1,p1,Bathinda,Bhaini,Control,30.35377884,75.16338348,214.3999939,4.400000095,Yes,Yes,Stubble managed,Burnt,,1,5,0,0,0,0,1,0,0,Yes,,1034,11/13/19
+105300051,10530005,1,p1,Bathinda,Bhukhianwali,PES 1600 /acres,30.05100632,74.8884201,194.8000031,3.900000095,Yes,Yes,Stubble managed,Burnt,,1,1,1,0,0,0,0,0,0,Yes,,1037,11/14/19
+105300111,10530011,2,p2,Bathinda,Bhukhianwali,PES 1600 /acres,30.06227875,74.92165375,202.8000031,4.900000095,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,,1037,11/11/19
+105300121,10530012,1,p1,Bathinda,Bhukhianwali,PES 1600 /acres,30.07324791,74.93215179,193.8999939,2.900000095,Yes,Yes,Stubble managed,Burnt,,1,1 3,1,0,1,0,0,0,0,Yes,,1037,11/14/19
+105300371,10530037,1,p1,Bathinda,Bhukhianwali,PES 1600 /acres,30.05678749,74.8782959,207.3000031,2.900000095,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,No,,1037,11/14/19
+105300531,10530053,1,p1,Bathinda,Bhukhianwali,PES 1600 /acres,30.06638336,74.8796463,181.6999969,4.599999905,Yes,Yes,Stubble managed,Burnt,,1,2 3,0,1,1,0,0,0,0,Yes,,1037,11/11/19
+105300751,10530075,3,p3,Bathinda,Bhukhianwali,PES 1600 /acres,30.06653786,74.91991425,192.8999939,2.299999952,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,,1037,11/11/19
+105400641,10540064,2,p2,Bathinda,Bhunder,PES + 25% UCT 800/acres,30.19046783,75.2239151,206.8999939,5,Yes,No,,,,,,,,,,,,,,Good,1038,11/11/19
+105400861,10540086,2,p2,Bathinda,Bhunder,PES + 25% UCT 800/acres,30.21883583,75.23162842,211.3000031,4.900000095,No,,,,,,,,,,,,,,,Cothn is the plot,1038,11/14/19
+105400921,10540092,1,p1,Bathinda,Bhunder,PES + 25% UCT 800/acres,30.21581459,75.22594452,211.8000031,3.900000095,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,Good,1038,11/14/19
+105401091,10540109,1,p1,Bathinda,Bhunder,PES + 25% UCT 800/acres,30.22406006,75.21455383,200.1000061,4.699999809,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,Good,1038,11/11/19
+105401211,10540121,2,p2,Bathinda,Bhunder,PES + 25% UCT 800/acres,30.18720245,75.21217346,194.8000031,4.300000191,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,No,Good,1038,11/11/19
+105401631,10540163,1,p1,Bathinda,Bhunder,PES + 25% UCT 800/acres,30.20324707,75.23075867,203.6000061,4.199999809,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,Good,1038,11/14/19
+105402101,10540210,1,p1,Bathinda,Bhunder,PES + 25% UCT 800/acres,30.1950798,75.20944214,218.3999939,4.199999809,Yes,Yes,Stubble managed,Used CRM machine,,0,,,,,,,,,No,Good,1038,11/11/19
+105402431,10540243,1,p1,Bathinda,Bhunder,PES + 25% UCT 800/acres,30.20921707,75.21634674,201.3999939,5,Yes,Yes,Stubble managed,Used CRM machine,,0,,,,,,,,,No,Good,1038,11/11/19
+105402791,10540279,1,p1,Bathinda,Bhunder,PES + 25% UCT 800/acres,30.20238495,75.20667267,206.5,3.900000095,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,No,Good,1038,11/14/19
+105403311,10540331,2,p2,Bathinda,Bhunder,PES + 25% UCT 800/acres,30.19577217,75.21417236,212.1000061,4.900000095,No,,,,,,,,,,,,,,,Cothn is the plot,1038,11/14/19
+105403361,10540336,2,p2,Bathinda,Bhunder,PES + 25% UCT 800/acres,30.19859695,75.21279144,207.8999939,4.400000095,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,No,Good,1038,11/11/19
+105800051,10580005,2,p2,Bathinda,Bugra,PES + 50% UCT 800/acres,30.32281113,75.31408691,218.6000061,3.900000095,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,Yes,Good,1039,11/12/19
+105800311,10580031,2,p2,Bathinda,Bugra,PES + 50% UCT 800/acres,30.30763054,75.31601715,205.6999969,4.599999905,Yes,Yes,Stubble managed,Used CRM machine,,0,,,,,,,,,No,Good,1039,11/10/19
+105800331,10580033,1,p1,Bathinda,Bugra,PES + 50% UCT 800/acres,30.30851746,75.30534363,208.3000031,4.699999809,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,Good,1039,11/10/19
+105800861,10580086,1,p1,Bathinda,Bugra,PES + 50% UCT 800/acres,30.31509209,75.31375885,210.1000061,4.800000191,Yes,Yes,Stubble managed,Burnt,,1,3,0,0,1,0,0,0,0,Yes,Good,1039,11/14/19
+105801051,10580105,1,p1,Bathinda,Bugra,PES + 50% UCT 800/acres,30.30850792,75.29865265,216.5,4.900000095,Yes,Yes,Stubble managed,Used CRM machine,,0,,,,,,,,,Yes,Good,1039,11/10/19
+105801131,10580113,2,p2,Bathinda,Bugra,PES + 50% UCT 800/acres,30.32109261,75.3119812,205.5,3.700000048,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,No,Good,1039,11/14/19
+105801151,10580115,1,p1,Bathinda,Bugra,PES + 50% UCT 800/acres,30.31824684,75.30657959,214.3000031,4.5,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,Good,1039,11/14/19
+105801181,10580118,3,p3,Bathinda,Bugra,PES + 50% UCT 800/acres,30.31066704,75.3183136,222.3000031,4.300000191,Yes,Yes,Stubble managed,Used CRM machine,,0,,,,,,,,,Yes,Good,1039,11/14/19
+105801261,10580126,1,p1,Bathinda,Bugra,PES + 50% UCT 800/acres,30.3187027,75.30303955,211,4.300000191,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,No,Good,1039,11/10/19
+105900111,10590011,1,p1,Bathinda,Buraj Throd,Control,30.47207069,75.05638123,161.1000061,4.199999809,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,Yes,,1040,11/16/19
+105900411,10590041,1,p1,Bathinda,Buraj Throd,Control,30.46130943,75.04446411,206.3000031,4.800000191,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,,1040,11/11/19
+105900521,10590052,1,p1,Bathinda,Buraj Throd,Control,30.45275307,75.05942535,207.5,4.699999809,Yes,Yes,Stubble managed,Burnt,,1,3,0,0,1,0,0,0,0,Yes,,1040,11/16/19
+105900531,10590053,1,p1,Bathinda,Buraj Throd,Control,30.46032906,75.04733276,200.8000031,4.699999809,Yes,Yes,Stubble management ongoing,,Using CRM machine,0,,,,,,,,,,,1040,11/11/19
+105900571,10590057,1,p1,Bathinda,Buraj Throd,Control,30.47019386,75.04483032,185.3999939,4.599999905,Yes,Yes,Stubble managed,Burnt,,1,3,0,0,1,0,0,0,0,Yes,,1040,11/16/19
+105900671,10590067,1,p1,Bathinda,Buraj Throd,Control,30.45432663,75.05207825,186,5,Yes,Yes,Stubble managed,Burnt,,1,3,0,0,1,0,0,0,0,No,,1040,11/16/19
+105900691,10590069,2,p2,Bathinda,Buraj Throd,Control,30.4580574,75.05400085,179.1000061,4.800000191,Yes,Yes,Stubble managed,Burnt,,1,3,0,0,1,0,0,0,0,No,,1040,11/16/19
+105900711,10590071,2,p2,Bathinda,Buraj Throd,Control,30.4727993,75.05606842,212.3000031,4.900000095,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,No,,1040,11/11/19
+105900741,10590074,1,p1,Bathinda,Buraj Throd,Control,30.46452141,75.05845642,175.3999939,5,Yes,Yes,Stubble managed,Burnt,,1,1,1,0,0,0,0,0,0,No,,1040,11/16/19
+105900851,10590085,1,p1,Bathinda,Buraj Throd,Control,30.46964264,75.05267334,203.6999969,5,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,Yes,,1040,11/11/19
+105900941,10590094,1,p1,Bathinda,Buraj Throd,Control,30.46994781,75.05618286,203.6000061,4.900000095,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,No,,1040,11/11/19
+105901091,10590109,1,p1,Bathinda,Buraj Throd,Control,30.46500397,75.05692291,204.8999939,3.900000095,Yes,Yes,Stubble not managed,,,,,,,,,,,,,,1040,11/12/19
+106100181,10610018,2,p2,Bathinda,Burj Gill,PES 800/acres,30.39042091,75.23950958,203.1000061,3.900000095,Yes,Yes,Stubble managed,Burnt,,1,4,0,0,0,1,0,0,0,No,Good,1042,11/10/19
+106100251,10610025,2,p2,Bathinda,Burj Gill,PES 800/acres,30.38666916,75.22911835,211.6999969,4.599999905,Yes,Yes,Stubble managed,Burnt,,1,4,0,0,0,1,0,0,0,No,Good,1042,11/13/19
+106100661,10610066,1,p1,Bathinda,Burj Gill,PES 800/acres,30.39019775,75.23369598,209.3000031,4.599999905,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,Good,1042,11/10/19
+106100701,10610070,2,p2,Bathinda,Burj Gill,PES 800/acres,30.40385628,75.23173523,219.6999969,4.199999809,Yes,Yes,Stubble managed,Used CRM machine,,0,,,,,,,,,No,Good,1042,11/10/19
+106100841,10610084,2,p2,Bathinda,Burj Gill,PES 800/acres,30.39570427,75.21608734,207.1000061,4.099999905,Yes,Yes,Stubble managed,Used CRM machine,,0,,,,,,,,,No,Good,1042,11/12/19
+106101041,10610104,2,p2,Bathinda,Burj Gill,PES 800/acres,30.39823723,75.22471619,212.6000061,4.300000191,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,Good,1042,11/13/19
+106101051,10610105,1,p1,Bathinda,Burj Gill,PES 800/acres,30.39978027,75.22296906,209.6000061,4.099999905,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,No,Good,1042,11/10/19
+106101181,10610118,1,p1,Bathinda,Burj Gill,PES 800/acres,30.40367699,75.21834564,205,4,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,Good,1042,11/10/19
+106101231,10610123,4,p4,Bathinda,Burj Gill,PES 800/acres,30.39445305,75.23755646,218.8000031,4.400000095,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,No,Good,1042,11/13/19
+106101291,10610129,2,p2,Bathinda,Burj Gill,PES 800/acres,30.38966179,75.22521973,204.6000061,3.900000095,Yes,Yes,Stubble managed,Used CRM machine,,0,,,,,,,,,Yes,Good,1042,11/13/19
+106500111,10650011,1,p1,Bathinda,Burj Ladha Singh Wala,PES 1600 /acres,30.54156876,74.75879669,0,2848,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,,1044,11/12/19
+106500361,10650036,1,p1,Bathinda,Burj Ladha Singh Wala,PES 1600 /acres,30.51092148,75.07775116,215.8000031,8.199999809,Yes,Yes,Stubble managed,Used CRM machine,,0,,,,,,,,,Yes,,1044,11/14/19
+106500671,10650067,2,p2,Bathinda,Burj Ladha Singh Wala,PES 1600 /acres,30.23034477,74.93486786,241.8999939,671.5,Yes,Yes,Stubble managed,Used CRM machine,,0,,,,,,,,,Yes,,1044,11/20/19
+106500761,10650076,1,p1,Bathinda,Burj Ladha Singh Wala,PES 1600 /acres,30.50875092,75.07688141,225.6000061,10.30000019,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,Yes,,1044,11/14/19
+106500841,10650084,1,p1,Bathinda,Burj Ladha Singh Wala,PES 1600 /acres,30.50600433,75.07555389,202.6000061,6.300000191,Yes,Yes,Stubble managed,Used CRM machine,,0,,,,,,,,,Yes,,1044,11/14/19
+106500991,10650099,2,p2,Bathinda,Burj Ladha Singh Wala,PES 1600 /acres,30.54156876,74.75879669,0,2848,Yes,Yes,Stubble managed,Burnt,,1,2,0,1,0,0,0,0,0,Yes,,1044,11/12/19
+106700141,10670014,2,p2,Bathinda,Burj Sema,Control,30.07271957,75.12654877,214.6000061,4.900000095,Yes,Yes,Stubble managed,Burnt,,1,5,0,0,0,0,1,0,0,Yes,Good,1046,11/15/19
+106700171,10670017,2,p2,Bathinda,Burj Sema,Control,30.07249069,75.12628937,197,2.400000095,Yes,Yes,Stubble managed,Burnt,,1,1,1,0,0,0,0,0,0,No,Good,1046,11/12/19
+106700251,10670025,1,p1,Bathinda,Burj Sema,Control,30.05260849,75.1145401,204.6999969,4.5,Yes,Yes,Stubble managed,Burnt,,1,5,0,0,0,0,1,0,0,Yes,Good,1046,11/12/19
+106700621,10670062,3,p3,Bathinda,Burj Sema,Control,30.06303406,75.12251282,206.1000061,2.099999905,Yes,Yes,Stubble managed,Burnt,,1,5,0,0,0,0,1,0,0,Yes,Good,1046,11/15/19
+106700631,10670063,1,p1,Bathinda,Burj Sema,Control,30.06324959,75.11525726,188.6000061,3.200000048,Yes,Yes,Stubble managed,Burnt,,1,5,0,0,0,0,1,0,0,Yes,Good,1046,11/12/19
+106700641,10670064,3,p3,Bathinda,Burj Sema,Control,30.07361221,75.12767792,197.3000031,2.200000048,No,,,,,,,,,,,,,,,Cotton,1046,11/15/19
+106700691,10670069,1,p1,Bathinda,Burj Sema,Control,30.06720924,75.11404419,199.5,2.599999905,Yes,Yes,Stubble managed,Burnt,,1,1,1,0,0,0,0,0,0,No,Good,1046,11/12/19
+106700811,10670081,1,p1,Bathinda,Burj Sema,Control,30.06668472,75.11936188,200.3000031,3,No,,,,,,,,,,,,,,,Cooton,1046,11/12/19
+106700921,10670092,1,p1,Bathinda,Burj Sema,Control,30.05998611,75.10961151,191.8000031,3.099999905,No,,,,,,,,,,,,,,,Cotton,1046,11/15/19
+107200101,10720010,1,p1,Bathinda,Chak Hira Singhwala Urf Pakka Khurd,Control,30.00726891,74.8769989,196.8999939,3.900000095,Yes,Yes,Stubble managed,Burnt,,1,5,0,0,0,0,1,0,0,Yes,Good,1049,11/14/19
+107200191,10720019,1,p1,Bathinda,Chak Hira Singhwala Urf Pakka Khurd,Control,30.02395058,74.8972168,204.8999939,4.599999905,Yes,Yes,Stubble managed,Burnt,,1,1,1,0,0,0,0,0,0,Yes,Good,1049,11/11/19
+107200261,10720026,2,p2,Bathinda,Chak Hira Singhwala Urf Pakka Khurd,Control,29.98378563,74.88331604,184.3000031,3.200000048,Yes,Yes,Stubble managed,Burnt,,1,3 5,0,0,1,0,1,0,0,No,Good,1049,11/14/19
+107200551,10720055,1,p1,Bathinda,Chak Hira Singhwala Urf Pakka Khurd,Control,30.01548576,74.88774109,213.5,1.899999976,Yes,Yes,Stubble managed,Burnt,,1,1,1,0,0,0,0,0,0,Yes,Good,1049,11/11/19
+107200761,10720076,1,p1,Bathinda,Chak Hira Singhwala Urf Pakka Khurd,Control,30.01796722,74.89352417,189.1999969,4.599999905,Yes,Yes,Stubble managed,Burnt,,1,3,0,0,1,0,0,0,0,No,Good,1049,11/14/19
+107200821,10720082,1,p1,Bathinda,Chak Hira Singhwala Urf Pakka Khurd,Control,30.01607513,74.88860321,205.3000031,3.200000048,Yes,Yes,Stubble managed,Burnt,,1,5,0,0,0,0,1,0,0,Yes,Good,1049,11/11/19
+107200971,10720097,1,p1,Bathinda,Chak Hira Singhwala Urf Pakka Khurd,Control,30.0097847,74.87042999,207.3999939,1.899999976,No,,,,,,,,,,,,,,,Cotton,1049,11/11/19
+107201201,10720120,1,p1,Bathinda,Chak Hira Singhwala Urf Pakka Khurd,Control,30.01101303,74.88183594,199.3000031,5,No,,,,,,,,,,,,,,,Cotton,1049,11/14/19
+107201361,10720136,1,p1,Bathinda,Chak Hira Singhwala Urf Pakka Khurd,Control,30.00561142,74.86871338,194.5,2.200000048,Yes,Yes,Stubble managed,Burnt,,1,1,1,0,0,0,0,0,0,Yes,Good,1049,11/11/19
+107201441,10720144,1,p1,Bathinda,Chak Hira Singhwala Urf Pakka Khurd,Control,29.99961281,74.85874939,200,4.400000095,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,Good,1049,11/11/19
+107201481,10720148,2,p2,Bathinda,Chak Hira Singhwala Urf Pakka Khurd,Control,30.01288223,74.88439178,188.1999969,4.599999905,Yes,Yes,Stubble managed,Burnt,,1,3 5,0,0,1,0,1,0,0,Yes,Good,1049,11/14/19
+107201571,10720157,3,p3,Bathinda,Chak Hira Singhwala Urf Pakka Khurd,Control,30.01609039,74.86708069,180.1999969,4.300000191,Yes,Yes,Stubble managed,Used CRM machine,,0,,,,,,,,,No,Good,1049,11/14/19
+107201681,10720168,2,p2,Bathinda,Chak Hira Singhwala Urf Pakka Khurd,Control,30.02454948,74.89521027,184.3000031,4.699999809,Yes,Yes,Stubble managed,Burnt,,1,5,0,0,0,0,1,0,0,Yes,Good,1049,11/11/19
+107701031,10770103,2,p2,Bathinda,Chauke,Control,30.20133781,75.33816528,219.3000031,4.900000095,Yes,Yes,Stubble managed,Burnt,,1,3,0,0,1,0,0,0,0,Yes,No,1053,11/14/19
+107701101,10770110,1,p1,Bathinda,Chauke,Control,30.20664024,75.35317993,210.3000031,5,Yes,Yes,Stubble managed,Burnt,,1,3,0,0,1,0,0,0,0,Yes,Burnt n sowed,1053,11/14/19
+107702081,10770208,1,p1,Bathinda,Chauke,Control,30.16597939,75.32446289,207.3000031,4.300000191,Yes,Yes,Stubble managed,Burnt,,1,3,0,0,1,0,0,0,0,Yes,Jkh,1053,11/14/19
+107702261,10770226,1,p1,Bathinda,Chauke,Control,30.19047546,75.32080078,204,4.800000191,Yes,Yes,Stubble managed,Burnt,,1,3,0,0,1,0,0,0,0,Yes,,1053,11/14/19
+107702271,10770227,3,p3,Bathinda,Chauke,Control,30.1714325,75.32565308,207.1999969,4.900000095,Yes,Yes,Stubble managed,Burnt,,1,4,0,0,0,1,0,0,0,No,,1053,11/14/19
+107702511,10770251,1,p1,Bathinda,Chauke,Control,30.16248131,75.34207153,205.1000061,4.5,Yes,Yes,Stubble managed,Burnt,,1,3,0,0,1,0,0,0,0,Yes,Burned n sowed,1053,11/14/19
+107702551,10770255,3,p3,Bathinda,Chauke,Control,30.2080822,75.3521347,219.6000061,4.699999809,Yes,Yes,Stubble managed,Burnt,,1,3,0,0,1,0,0,0,0,Yes,Sowed,1053,11/14/19
+107702801,10770280,1,p1,Bathinda,Chauke,Control,30.20570374,75.33260345,211.8000031,4,Yes,Yes,Stubble managed,Burnt,,1,1 3,1,0,1,0,0,0,0,Yes,S B,1053,11/14/19
+107703221,10770322,1,p1,Bathinda,Chauke,Control,30.16967201,75.31565857,200.1000061,4.599999905,Yes,Yes,Stubble managed,Burnt,,1,3,0,0,1,0,0,0,0,Yes,Sowed after burning,1053,11/14/19
+107703441,10770344,1,p1,Bathinda,Chauke,Control,30.16521835,75.35347748,200.8999939,4.099999905,Yes,Yes,Stubble managed,Burnt,,1,2,0,1,0,0,0,0,0,No,Burnt,1053,11/14/19
+107900661,10790066,1,p1,Bathinda,Dan Singh Wala,PES + 50% UCT 800/acres,30.34593391,74.82814789,194.3999939,3.900000095,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,,1054,11/11/19
+107900721,10790072,1,p1,Bathinda,Dan Singh Wala,PES + 50% UCT 800/acres,30.33283234,74.80867004,193.1999969,3.900000095,Yes,Yes,Stubble managed,Burnt,,1,1 2 4 5,1,1,0,1,1,0,0,Yes,,1054,11/14/19
+107900991,10790099,2,p2,Bathinda,Dan Singh Wala,PES + 50% UCT 800/acres,30.35801315,74.84695435,195,3.900000095,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,,1054,11/11/19
+107901291,10790129,1,p1,Bathinda,Dan Singh Wala,PES + 50% UCT 800/acres,30.33898163,74.82093048,189.8999939,4.699999809,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,Yes,,1054,11/14/19
+107901601,10790160,1,p1,Bathinda,Dan Singh Wala,PES + 50% UCT 800/acres,30.36849594,74.84869385,188.3999939,4.199999809,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 4 5,1,1,1,1,1,0,0,Yes,,1054,11/11/19
+107901661,10790166,1,p1,Bathinda,Dan Singh Wala,PES + 50% UCT 800/acres,30.33549309,74.81017303,199.8999939,4.900000095,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 4 5,1,1,1,1,1,0,0,Yes,,1054,11/11/19
+107902081,10790208,2,p2,Bathinda,Dan Singh Wala,PES + 50% UCT 800/acres,30.33698845,74.8136673,180.3000031,4.699999809,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 4,1,1,1,1,0,0,0,No,,1054,11/14/19
+107902151,10790215,1,p1,Bathinda,Dan Singh Wala,PES + 50% UCT 800/acres,30.37026978,74.85237885,191.3000031,4.400000095,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 4 5,1,1,1,1,1,0,0,Yes,,1054,11/11/19
+107902801,10790280,1,p1,Bathinda,Dan Singh Wala,PES + 50% UCT 800/acres,30.36603355,74.85285187,187.3999939,3.900000095,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,Yes,,1054,11/14/19
+108000271,10800027,1,p1,Bathinda,Daulatpura,PES 1600 /acres,30.19371414,75.15820313,203.5,4.800000191,Yes,Yes,Stubble managed,Used CRM machine,,0,,,,,,,,,No,Good,1055,11/11/19
+108000531,10800053,1,p1,Bathinda,Daulatpura,PES 1600 /acres,30.19371986,75.1582489,194.3999939,4.300000191,Yes,Yes,Stubble managed,Burnt,,1,3,0,0,1,0,0,0,0,No,Good,1055,11/14/19
+108000631,10800063,2,p2,Bathinda,Daulatpura,PES 1600 /acres,30.1920681,75.15131378,199.3000031,4.199999809,Yes,Yes,Stubble managed,Burnt,,1,3,0,0,1,0,0,0,0,No,Good,1055,11/14/19
+108000731,10800073,1,p1,Bathinda,Daulatpura,PES 1600 /acres,30.19795609,75.1624527,200.6999969,4.199999809,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,No,Good,1055,11/11/19
+108000921,10800092,1,p1,Bathinda,Daulatpura,PES 1600 /acres,30.19771767,75.15657043,201.6999969,4.800000191,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,No,Good,1055,11/11/19
+108000931,10800093,1,p1,Bathinda,Daulatpura,PES 1600 /acres,30.19365883,75.15827942,199.3000031,3.900000095,Yes,Yes,Stubble managed,Used CRM machine,,0,,,,,,,,,Yes,Good,1055,11/14/19
+109700181,10970018,1,p1,Bathinda,Dyalpura Mirza,PES 800/acres,30.37822533,75.15641022,203.3000031,4,Yes,Yes,Stubble managed,Burnt,,1,5,0,0,0,0,1,0,0,Yes,,1064,11/10/19
+109700401,10970040,1,p1,Bathinda,Dyalpura Mirza,PES 800/acres,30.41746712,75.12812042,206,4.699999809,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,,1064,11/13/19
+109700761,10970076,1,p1,Bathinda,Dyalpura Mirza,PES 800/acres,30.40573692,75.12345123,205,4.5,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,No,,1064,11/13/19
+109700831,10970083,2,p2,Bathinda,Dyalpura Mirza,PES 800/acres,30.39445686,75.13883972,208.8999939,4.599999905,Yes,Yes,Stubble management ongoing,,Incorporating stubble into the soil,0,,,,,,,,,,,1064,11/10/19
+109701241,10970124,2,p2,Bathinda,Dyalpura Mirza,PES 800/acres,30.40755844,75.13527679,205.1999969,4.5,Yes,Yes,Stubble managed,Burnt,,1,2 5,0,1,0,0,1,0,0,Yes,,1064,11/10/19
+109701341,10970134,2,p2,Bathinda,Dyalpura Mirza,PES 800/acres,30.4044075,75.16040039,221,4.400000095,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,No,,1064,11/13/19
+109701811,10970181,1,p1,Bathinda,Dyalpura Mirza,PES 800/acres,30.40435791,75.15433502,205.3000031,5.599999905,Yes,Yes,Stubble managed,Burnt,,1,5,0,0,0,0,1,0,0,No,,1064,11/10/19
+109702111,10970211,1,p1,Bathinda,Dyalpura Mirza,PES 800/acres,30.38755226,75.14993286,209.1999969,4.5,Yes,Yes,Stubble managed,Burnt,,1,5 6,0,0,0,0,1,1,0,No,,1064,11/13/19
+109702241,10970224,1,p1,Bathinda,Dyalpura Mirza,PES 800/acres,30.39056206,75.14360809,204.3000031,4.900000095,Yes,Yes,Stubble managed,Burnt,,1,5,0,0,0,0,1,0,0,No,,1064,11/10/19
+109702641,10970264,1,p1,Bathinda,Dyalpura Mirza,PES 800/acres,30.40442467,75.14195251,211,4,Yes,Yes,Stubble managed,Burnt,,1,1 5,1,0,0,0,1,0,0,Yes,,1064,11/10/19
+109702951,10970295,1,p1,Bathinda,Dyalpura Mirza,PES 800/acres,30.40988731,75.15288544,214.1999969,4.300000191,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,,1064,11/13/19
+109703061,10970306,1,p1,Bathinda,Dyalpura Mirza,PES 800/acres,30.40439224,75.15042877,208.3000031,4.5,Yes,Yes,Stubble managed,Burnt,,1,1 2 5,1,1,0,0,1,0,0,No,,1064,11/10/19
+109703311,10970331,1,p1,Bathinda,Dyalpura Mirza,PES 800/acres,30.40437126,75.15869141,206.5,4.5,Yes,Yes,Stubble managed,Burnt,,1,5 6,0,0,0,0,1,1,0,No,,1064,11/13/19
+109800021,10980002,1,p1,Bathinda,Faridkot,PES + 25% UCT 800/acres,30.03826332,74.72598267,182.8999939,4.199999809,Yes,Yes,Stubble managed,Used CRM machine,,0,,,,,,,,,Yes,Ok,1065,11/10/19
+109800141,10980014,1,p1,Bathinda,Faridkot,PES + 25% UCT 800/acres,30.05545807,74.71485901,193.6999969,4.599999905,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,Yes,Ok,1065,11/13/19
+109800251,10980025,1,p1,Bathinda,Faridkot,PES + 25% UCT 800/acres,30.05029869,74.72808838,189,4.400000095,No,,,,,,,,,,,,,,,Cottan in the plot,1065,11/10/19
+109800351,10980035,1,p1,Bathinda,Faridkot,PES + 25% UCT 800/acres,30.02881432,74.71039581,186.1000061,3.900000095,Yes,Yes,Stubble managed,Burnt,,1,1 2 3,1,1,1,0,0,0,0,Yes,Ok,1065,11/13/19
+109800501,10980050,1,p1,Bathinda,Faridkot,PES + 25% UCT 800/acres,30.03249741,74.73255157,195.1999969,4.599999905,Yes,Yes,Stubble managed,Burnt,,1,1 3 5,1,0,1,0,1,0,0,Yes,Ok,1065,11/12/19
+109800561,10980056,1,p1,Bathinda,Faridkot,PES + 25% UCT 800/acres,30.04929733,74.71044922,186.6000061,4.900000095,Yes,Yes,Stubble managed,Burnt,,1,1 2 3,1,1,1,0,0,0,0,No,Ok,1065,11/10/19
+109800711,10980071,1,p1,Bathinda,Faridkot,PES + 25% UCT 800/acres,30.03645706,74.73710632,180.6000061,5,Yes,Yes,Stubble managed,Burnt,,1,1 3 6,1,0,1,0,0,1,0,Yes,Ok,1065,11/13/19
+109800811,10980081,1,p1,Bathinda,Faridkot,PES + 25% UCT 800/acres,30.04611969,74.70944977,180.6999969,4,Yes,Yes,Stubble managed,Burnt,,1,1 3 5,1,0,1,0,1,0,0,Yes,Ok,1065,11/13/19
+110400161,11040016,1,p1,Bathinda,Gehri Butter,Control,30.1166935,74.88600159,182,4.5,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,Yes,,1071,11/12/19
+110400281,11040028,1,p1,Bathinda,Gehri Butter,Control,30.12163544,74.87775421,188.8000031,3.900000095,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,Yes,,1071,11/15/19
+110400361,11040036,2,p2,Bathinda,Gehri Butter,Control,30.10151863,74.89979553,189.6000061,4.300000191,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,Yes,,1071,11/15/19
+110400511,11040051,1,p1,Bathinda,Gehri Butter,Control,30.08749008,74.85375977,189.6000061,3.900000095,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 4 5,1,1,1,1,1,0,0,Yes,,1071,11/15/19
+110400621,11040062,2,p2,Bathinda,Gehri Butter,Control,30.08801079,74.88227844,187.8999939,4.599999905,Yes,Yes,Stubble managed,Burnt,,1,1 2 5,1,1,0,0,1,0,0,Yes,,1071,11/15/19
+110400641,11040064,1,p1,Bathinda,Gehri Butter,Control,30.09814644,74.89118195,182.6999969,4.800000191,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,,1071,11/12/19
+110400761,11040076,2,p2,Bathinda,Gehri Butter,Control,30.11212921,74.89308167,194.3000031,4,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 4 5 6,1,1,1,1,1,1,0,Yes,,1071,11/12/19
+110400801,11040080,1,p1,Bathinda,Gehri Butter,Control,30.10681915,74.89016724,206.5,4.699999809,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 4 5,1,1,1,1,1,0,0,Yes,,1071,11/12/19
+110400931,11040093,1,p1,Bathinda,Gehri Butter,Control,30.10181046,74.89490509,188.8000031,4.099999905,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,Yes,,1071,11/15/19
+110400971,11040097,1,p1,Bathinda,Gehri Butter,Control,30.11747932,74.87553406,193.3999939,3.900000095,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,Yes,,1071,11/12/19
+110401021,11040102,1,p1,Bathinda,Gehri Butter,Control,30.10171509,74.88960266,189,3.900000095,Yes,Yes,Stubble managed,Burnt,,1,1 3 5,1,0,1,0,1,0,0,No,,1071,11/15/19
+110401081,11040108,1,p1,Bathinda,Gehri Butter,Control,30.11129761,74.88286591,186.1000061,3.900000095,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,Yes,,1071,11/12/19
+110401091,11040109,2,p2,Bathinda,Gehri Butter,Control,30.11084938,74.89176178,224.6000061,4.800000191,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 4,1,1,1,1,0,0,0,Yes,,1071,11/12/19
+110600061,11060006,2,p2,Bathinda,Ghanda Bana,Control,30.41363525,75.28334808,205.1999969,4.099999905,Yes,Yes,Stubble managed,Burnt,,1,4,0,0,0,1,0,0,0,No,,1073,11/11/19
+110600371,11060037,1,p1,Bathinda,Ghanda Bana,Control,30.42654228,75.2806015,203.1999969,4.300000191,Yes,Yes,Stubble managed,Burnt,,1,7,0,0,0,0,0,0,1,No,,1073,11/14/19
+110600641,11060064,4,p4,Bathinda,Ghanda Bana,Control,30.42938995,75.27600861,214.1000061,4.699999809,Yes,Yes,Stubble managed,Burnt,,1,1 2 5,1,1,0,0,1,0,0,Yes,,1073,11/11/19
+110600661,11060066,1,p1,Bathinda,Ghanda Bana,Control,30.41447449,75.25908661,210.8000031,4.5,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,,1073,11/14/19
+110600681,11060068,1,p1,Bathinda,Ghanda Bana,Control,30.41036987,75.24993896,204.3000031,4.199999809,Yes,Yes,Stubble managed,Burnt,,1,1,1,0,0,0,0,0,0,Yes,,1073,11/14/19
+110601051,11060105,1,p1,Bathinda,Ghanda Bana,Control,30.42199135,75.28114319,205.5,5.199999809,Yes,Yes,Stubble managed,Burnt,,1,5,0,0,0,0,1,0,0,Yes,,1073,11/11/19
+110601091,11060109,1,p1,Bathinda,Ghanda Bana,Control,30.41802406,75.26299286,209.3999939,4.300000191,Yes,Yes,Stubble managed,Burnt,,1,6,0,0,0,0,0,1,0,Yes,,1073,11/11/19
+111100171,11110017,2,p2,Bathinda,Ghudda,PES + 25% UCT 800/acres,30.14121628,74.77623749,194.8999939,4.699999809,No,,,,,,,,,,,,,,,Cotton plot,1077,11/15/19
+111100451,11110045,1,p1,Bathinda,Ghudda,PES + 25% UCT 800/acres,30.10689163,74.78307343,197.1000061,4.800000191,Yes,Yes,Stubble management ongoing,,Burning,0,7,0,0,0,0,0,0,1,,,1077,11/15/19
+111100601,11110060,1,p1,Bathinda,Ghudda,PES + 25% UCT 800/acres,30.12141037,74.79701233,196,4.800000191,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,Yes,,1077,11/12/19
+111101091,11110109,1,p1,Bathinda,Ghudda,PES + 25% UCT 800/acres,30.11430168,74.79496765,187.5,4.800000191,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,Yes,,1077,11/15/19
+111101581,11110158,2,p2,Bathinda,Ghudda,PES + 25% UCT 800/acres,30.12282944,74.80757141,187.8999939,4.599999905,Yes,Yes,Stubble managed,Burnt,,1,6,0,0,0,0,0,1,0,No,,1077,11/12/19
+111101981,11110198,1,p1,Bathinda,Ghudda,PES + 25% UCT 800/acres,30.12307167,74.80393219,191.6999969,4.900000095,Yes,Yes,Stubble managed,Burnt,,1,5 6,0,0,0,0,1,1,0,No,,1077,11/12/19
+111102051,11110205,1,p1,Bathinda,Ghudda,PES + 25% UCT 800/acres,30.11779594,74.7730484,198.1999969,3.900000095,No,,,,,,,,,,,,,,,Cotton plot,1077,11/12/19
+111102231,11110223,1,p1,Bathinda,Ghudda,PES + 25% UCT 800/acres,30.11310005,74.80060577,192.8000031,3.900000095,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,Yes,,1077,11/12/19
+111102311,11110231,2,p2,Bathinda,Ghudda,PES + 25% UCT 800/acres,30.13589859,74.8127594,192.3000031,4.400000095,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,,1077,11/15/19
+111102511,11110251,1,p1,Bathinda,Ghudda,PES + 25% UCT 800/acres,30.13604164,74.8130722,191,4.699999809,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,,1077,11/15/19
+111102611,11110261,1,p1,Bathinda,Ghudda,PES + 25% UCT 800/acres,30.10463905,74.8028717,184.5,4.5,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,No,,1077,11/12/19
+111102661,11110266,1,p1,Bathinda,Ghudda,PES + 25% UCT 800/acres,30.13381767,74.81349945,191.3000031,4.300000191,Yes,Yes,Stubble managed,Burnt,,1,7,0,0,0,0,0,0,1,No,,1077,11/12/19
+111102911,11110291,1,p1,Bathinda,Ghudda,PES + 25% UCT 800/acres,30.12295532,74.80667877,193.8999939,4.400000095,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,,1077,11/15/19
+111700041,11170004,2,p2,Bathinda,Gobindpura,PES 1600 /acres,30.29097366,75.03636169,195.5,4.800000191,Yes,Yes,Stubble managed,Burnt,,1,5 6,0,0,0,0,1,1,0,Yes,,1081,11/11/19
+111700121,11170012,1,p1,Bathinda,Gobindpura,PES 1600 /acres,30.29269791,75.02027893,198.3000031,4.900000095,Yes,Yes,Stubble managed,Burnt,,1,3 5,0,0,1,0,1,0,0,Yes,,1081,11/11/19
+111700201,11170020,2,p2,Bathinda,Gobindpura,PES 1600 /acres,30.29964256,75.03239441,201.5,4.800000191,Yes,Yes,Stubble managed,Burnt,,1,3 5 6 7,0,0,1,0,1,1,1,No,Burning,1081,11/14/19
+111700491,11170049,1,p1,Bathinda,Gobindpura,PES 1600 /acres,30.3008976,75.00861359,208,4.099999905,Yes,Yes,Stubble managed,Burnt,,1,2 3 4 5 6,0,1,1,1,1,1,0,No,,1081,11/11/19
+111700761,11170076,1,p1,Bathinda,Gobindpura,PES 1600 /acres,30.29181099,74.98661041,208.1999969,4.800000191,Yes,Yes,Stubble managed,Burnt,,1,3,0,0,1,0,0,0,0,Yes,No,1081,11/14/19
+111700831,11170083,1,p1,Bathinda,Gobindpura,PES 1600 /acres,30.30717087,75.02944183,204.1000061,3.900000095,Yes,Yes,Stubble management ongoing,,Burning,0,7,0,0,0,0,0,0,1,,Bura hll,1081,11/14/19
+111700881,11170088,2,p2,Bathinda,Gobindpura,PES 1600 /acres,30.305336,75.03736877,208.1000061,4,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,Good work,1081,11/14/19
+111700971,11170097,1,p1,Bathinda,Gobindpura,PES 1600 /acres,30.26086044,75.02050781,212.8000031,5,Yes,Yes,Stubble managed,Used CRM machine,,0,,,,,,,,,No,,1081,11/11/19
+111701611,11170161,1,p1,Bathinda,Gobindpura,PES 1600 /acres,30.29101181,75.03623962,202.6000061,4.5,Yes,Yes,Stubble managed,Burnt,,1,5 6,0,0,0,0,1,1,0,Yes,,1081,11/11/19
+111800151,11180015,2,p2,Bathinda,Golewala,PES + 50% UCT 800/acres,29.82166862,75.15556335,214.6999969,4.699999809,Yes,Yes,Stubble not managed,,,,,,,,,,,,,Only harvesting hoi hai,1082,11/14/19
+111800191,11180019,1,p1,Bathinda,Golewala,PES + 50% UCT 800/acres,29.83084869,75.15105438,208.1000061,4.800000191,Yes,Yes,Stubble managed,Burnt,,1,2 3 5,0,1,1,0,1,0,0,No,Burning hoi hai,1082,11/14/19
+111800271,11180027,2,p2,Bathinda,Golewala,PES + 50% UCT 800/acres,29.83708572,75.1550827,200.1999969,4.300000191,Yes,Yes,Stubble managed,Burnt,,1,3,0,0,1,0,0,0,0,No,Burning hoi hai,1082,11/11/19
+111801211,11180121,1,p1,Bathinda,Golewala,PES + 50% UCT 800/acres,29.83050156,75.16170502,185.6000061,4.800000191,Yes,Yes,Stubble not managed,,,,,,,,,,,,,Harvesting hoi hai,1082,11/12/19
+111801351,11180135,1,p1,Bathinda,Golewala,PES + 50% UCT 800/acres,29.82800102,75.16675568,197.1999969,5,Yes,Yes,Stubble not managed,,,,,,,,,,,,,Only harvesting hoi hai,1082,11/14/19
+111801741,11180174,1,p1,Bathinda,Golewala,PES + 50% UCT 800/acres,29.82825089,75.14922333,192,4.900000095,Yes,No,,,,,,,,,,,,,,Harvesting nhi hoi,1082,11/12/19
+111802611,11180261,1,p1,Bathinda,Golewala,PES + 50% UCT 800/acres,29.82923126,75.1497879,197.3000031,4.5,Yes,Yes,Stubble not managed,,,,,,,,,,,,,Harvesting hoi hai,1082,11/12/19
+111802891,11180289,2,p2,Bathinda,Golewala,PES + 50% UCT 800/acres,29.82668304,75.15722656,213,4.800000191,Yes,Yes,Stubble managed,Burnt,,1,3,0,0,1,0,0,0,0,Yes,Burning hoi hai,1082,11/14/19
+112200101,11220010,1,p1,Bathinda,Gumti Kalan,PES 1600 /acres,30.41879082,75.15863037,211.3000031,5.099999905,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,No,,1085,11/10/19
+112200291,11220029,1,p1,Bathinda,Gumti Kalan,PES 1600 /acres,30.40791512,75.17353058,206.8000031,4.199999809,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,,1085,11/14/19
+112200441,11220044,2,p2,Bathinda,Gumti Kalan,PES 1600 /acres,30.41076279,75.15841675,134.8999939,9.600000381,Yes,Yes,Stubble managed,Burnt,,1,5,0,0,0,0,1,0,0,Yes,,1085,11/10/19
+112200461,11220046,3,p3,Bathinda,Gumti Kalan,PES 1600 /acres,30.43757629,75.14602661,220.3999939,4.800000191,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,,1085,11/14/19
+112200621,11220062,2,p2,Bathinda,Gumti Kalan,PES 1600 /acres,30.42450905,75.14936066,200.8999939,4,Yes,Yes,Stubble managed,Burnt,,1,5,0,0,0,0,1,0,0,Yes,,1085,11/14/19
+112200771,11220077,2,p2,Bathinda,Gumti Kalan,PES 1600 /acres,30.42323494,75.15337372,200.8000031,4.5,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,No,,1085,11/12/19
+112200811,11220081,1,p1,Bathinda,Gumti Kalan,PES 1600 /acres,30.40640068,75.16735077,208.6999969,5,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,Yes,,1085,11/14/19
+112200941,11220094,1,p1,Bathinda,Gumti Kalan,PES 1600 /acres,30.4312458,75.15778351,204.6000061,4.400000095,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,,1085,11/14/19
+112200971,11220097,2,p2,Bathinda,Gumti Kalan,PES 1600 /acres,30.42455101,75.14728546,205.8000031,5.800000191,Yes,Yes,Stubble managed,Burnt,,1,5,0,0,0,0,1,0,0,No,,1085,11/10/19
+112201171,11220117,3,p3,Bathinda,Gumti Kalan,PES 1600 /acres,30.43214607,75.16811371,201.5,4,Yes,Yes,Stubble management ongoing,,Incorporating stubble into the soil,0,,,,,,,,,,,1085,11/10/19
+112201221,11220122,3,p3,Bathinda,Gumti Kalan,PES 1600 /acres,30.44747925,75.15828705,218.6999969,4.5,Yes,Yes,Stubble managed,Burnt,,1,5,0,0,0,0,1,0,0,No,,1085,11/12/19
+112201381,11220138,2,p2,Bathinda,Gumti Kalan,PES 1600 /acres,30.3951683,75.17858124,204.8000031,4.900000095,Yes,Yes,Stubble managed,Burnt,,1,2 5,0,1,0,0,1,0,0,No,,1085,11/14/19
+112201591,11220159,1,p1,Bathinda,Gumti Kalan,PES 1600 /acres,30.42763901,75.17142487,208.3000031,5,Yes,Yes,Stubble managed,Burnt,,1,5,0,0,0,0,1,0,0,No,,1085,11/12/19
+112500021,11250002,1,p1,Bathinda,Hakam Singh Wala,PES + 50% UCT 800/acres,30.54156876,74.75879669,0,2848,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,Yes,,1088,11/12/19
+112500171,11250017,1,p1,Bathinda,Hakam Singh Wala,PES + 50% UCT 800/acres,30.54156876,74.75879669,0,2848,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,Yes,,1088,11/12/19
+112500691,11250069,2,p2,Bathinda,Hakam Singh Wala,PES + 50% UCT 800/acres,30.23031044,74.93603516,0,2000,Yes,Yes,Stubble managed,Burnt,,1,1 3,1,0,1,0,0,0,0,Yes,,1088,11/20/19
+112500851,11250085,2,p2,Bathinda,Hakam Singh Wala,PES + 50% UCT 800/acres,30.23046684,74.93476105,241.8000031,4.800000191,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,Yes,,1088,11/20/19
+112500931,11250093,2,p2,Bathinda,Hakam Singh Wala,PES + 50% UCT 800/acres,30.54156876,74.75879669,0,2848,Yes,Yes,Stubble managed,Used CRM machine,,0,,,,,,,,,Yes,,1088,11/12/19
+112500951,11250095,2,p2,Bathinda,Hakam Singh Wala,PES + 50% UCT 800/acres,30.23031044,74.93603516,0,2000,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,Yes,,1088,11/20/19
+112600081,11260008,1,p1,Bathinda,Hamirgarh,PES 800/acres,30.48467064,75.13230896,206.1000061,4.900000095,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,Yes,,1089,11/14/19
+112600161,11260016,1,p1,Bathinda,Hamirgarh,PES 800/acres,30.48477554,75.13384247,211.8999939,4.599999905,Yes,Yes,Stubble managed,Used CRM machine,,0,,,,,,,,,Yes,,1089,11/11/19
+112600191,11260019,1,p1,Bathinda,Hamirgarh,PES 800/acres,30.48457146,75.133255,202.6999969,7.5,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,,1089,11/14/19
+112600731,11260073,1,p1,Bathinda,Hamirgarh,PES 800/acres,30.48079491,75.14318085,203.8999939,4.099999905,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,Yes,,1089,11/11/19
+112600831,11260083,2,p2,Bathinda,Hamirgarh,PES 800/acres,30.48075294,75.14320374,214.3999939,4.199999809,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,Yes,,1089,11/11/19
+112601251,11260125,1,p1,Bathinda,Hamirgarh,PES 800/acres,30.48647881,75.13916779,208.6000061,5.300000191,Yes,Yes,Stubble management ongoing,,Using CRM machine,0,,,,,,,,,,Not stubble management,1089,11/11/19
+112601391,11260139,1,p1,Bathinda,Hamirgarh,PES 800/acres,30.48431396,75.12800598,202.6999969,4.800000191,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,Yes,,1089,11/11/19
+112602121,11260212,1,p1,Bathinda,Hamirgarh,PES 800/acres,30.48510551,75.14009857,199.6000061,7.5,Yes,Yes,Stubble managed,Used CRM machine,,0,,,,,,,,,Yes,,1089,11/14/19
+113200561,11320056,1,p1,Bathinda,Jajjal,Control,29.94497108,75.01025391,208,4.400000095,Yes,Yes,Stubble managed,Burnt,,1,5,0,0,0,0,1,0,0,Yes,Good,1092,11/15/19
+113200601,11320060,1,p1,Bathinda,Jajjal,Control,29.96009827,75.03835297,190,2.200000048,Yes,Yes,Stubble managed,Burnt,,1,5,0,0,0,0,1,0,0,Yes,Good,1092,11/12/19
+113200621,11320062,3,p3,Bathinda,Jajjal,Control,29.95896721,75.0415802,190,2.200000048,Yes,Yes,Stubble managed,Burnt,,1,5,0,0,0,0,1,0,0,Yes,Good,1092,11/15/19
+113200701,11320070,1,p1,Bathinda,Jajjal,Control,29.97623253,75.02811432,196.6000061,2.700000048,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,No,Good,1092,11/12/19
+113200811,11320081,1,p1,Bathinda,Jajjal,Control,29.97044373,75.03938293,190.8000031,3,Yes,Yes,Stubble managed,Burnt,,1,5,0,0,0,0,1,0,0,Yes,Good,1092,11/12/19
+113200851,11320085,2,p2,Bathinda,Jajjal,Control,29.96025658,75.01602173,192.8999939,4.300000191,Yes,Yes,Stubble managed,Burnt,,1,5,0,0,0,0,1,0,0,Yes,Good,1092,11/12/19
+113200881,11320088,1,p1,Bathinda,Jajjal,Control,29.96231461,75.03471375,192.6999969,2.5,Yes,Yes,Stubble managed,Burnt,,1,5,0,0,0,0,1,0,0,No,Done,1092,11/15/19
+113200941,11320094,1,p1,Bathinda,Jajjal,Control,29.97433662,75.03333282,193.1999969,1.299999952,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,Done,1092,11/15/19
+113201071,11320107,3,p3,Bathinda,Jajjal,Control,29.97386551,75.03999329,179.5,3.700000048,No,,,,,,,,,,,,,,,Cotton,1092,11/12/19
+113900031,11390003,1,p1,Bathinda,Jethuke,PES + 50% UCT 800/acres,30.27919006,75.3238678,197.8000031,4.300000191,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,Yes,Ok,1096,11/14/19
+113900161,11390016,1,p1,Bathinda,Jethuke,PES + 50% UCT 800/acres,30.28479958,75.32711029,217.6000061,4.400000095,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,Ok,1096,11/14/19
+113900421,11390042,2,p2,Bathinda,Jethuke,PES + 50% UCT 800/acres,30.29051018,75.33308411,204,4.699999809,Yes,Yes,Stubble management ongoing,,Burning,0,1 3,1,0,1,0,0,0,0,,Ok,1096,11/10/19
+113900741,11390074,1,p1,Bathinda,Jethuke,PES + 50% UCT 800/acres,30.29700279,75.34031677,210.3000031,4.900000095,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,Ok,1096,11/10/19
+113900831,11390083,3,p3,Bathinda,Jethuke,PES + 50% UCT 800/acres,30.29835892,75.31611633,206.1999969,4.099999905,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,Ok,1096,11/10/19
+113900881,11390088,1,p1,Bathinda,Jethuke,PES + 50% UCT 800/acres,30.28526497,75.34551239,222.8999939,4.800000191,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,Ok,1096,11/14/19
+113900991,11390099,1,p1,Bathinda,Jethuke,PES + 50% UCT 800/acres,30.30163574,75.32630157,220,4.699999809,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,Ok,1096,11/10/19
+113901251,11390125,1,p1,Bathinda,Jethuke,PES + 50% UCT 800/acres,30.27924728,75.34179688,203.6000061,4.900000095,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,Ok,1096,11/14/19
+113901621,11390162,2,p2,Bathinda,Jethuke,PES + 50% UCT 800/acres,30.28162384,75.32686615,212,4.5,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,Ok,1096,11/10/19
+113901991,11390199,1,p1,Bathinda,Jethuke,PES + 50% UCT 800/acres,30.28077126,75.32205963,213.1999969,4.5,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,Ok,1096,11/14/19
+113902291,11390229,5,p5,Bathinda,Jethuke,PES + 50% UCT 800/acres,30.29867935,75.31164551,208.3999939,4.199999809,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,Ok,1096,11/10/19
+114400011,11440001,1,p1,Bathinda,Jhumba,PES 800/acres,30.16691017,74.79380035,180.6999969,4.699999809,Yes,Yes,Stubble management ongoing,,Using CRM machine,0,,,,,,,,,,,1098,11/10/19
+114400331,11440033,1,p1,Bathinda,Jhumba,PES 800/acres,30.15277672,74.77294922,175.1999969,4.5,Yes,Yes,Stubble managed,Burnt,,1,3 5,0,0,1,0,1,0,0,No,Burning hoi hai,1098,11/19/19
+114400401,11440040,1,p1,Bathinda,Jhumba,PES 800/acres,30.1638546,74.79928589,203.8999939,4,Yes,Yes,Stubble managed,Burnt,,1,5,0,0,0,0,1,0,0,Yes,,1098,11/10/19
+114400451,11440045,1,p1,Bathinda,Jhumba,PES 800/acres,30.16187477,74.79431915,183.6000061,4.300000191,Yes,Yes,Stubble managed,Burnt,,1,6,0,0,0,0,0,1,0,No,,1098,11/12/19
+114400731,11440073,1,p1,Bathinda,Jhumba,PES 800/acres,30.16188622,74.79431152,184.8999939,4.099999905,Yes,Yes,Stubble managed,Burnt,,1,6,0,0,0,0,0,1,0,No,,1098,11/12/19
+114400751,11440075,1,p1,Bathinda,Jhumba,PES 800/acres,30.15753174,74.76568604,189.6000061,4.800000191,Yes,Yes,Stubble managed,Burnt,,1,3 5,0,0,1,0,1,0,0,Yes,Burning hoi hai,1098,11/19/19
+114400851,11440085,1,p1,Bathinda,Jhumba,PES 800/acres,30.15333366,74.78152466,188.1999969,4.800000191,Yes,Yes,Stubble not managed,,,,,,,,,,,,,Only harvesting hoi hai,1098,11/19/19
+114400961,11440096,1,p1,Bathinda,Jhumba,PES 800/acres,30.15365982,74.76797485,185.6999969,4.800000191,Yes,Yes,Stubble managed,Burnt,,1,3,0,0,1,0,0,0,0,Yes,Burning hoi hai,1098,11/19/19
+114401041,11440104,1,p1,Bathinda,Jhumba,PES 800/acres,30.17934418,74.74578857,186.6000061,3.599999905,Yes,Yes,Stubble managed,Burnt,,1,2 3 4 5 6,0,1,1,1,1,1,0,No,,1098,11/12/19
+114401151,11440115,1,p1,Bathinda,Jhumba,PES 800/acres,30.16781616,74.76554108,193.8999939,4.400000095,Yes,Yes,Stubble managed,Burnt,,1,3,0,0,1,0,0,0,0,Yes,Burning hoi c,1098,11/19/19
+114401881,11440188,1,p1,Bathinda,Jhumba,PES 800/acres,30.15296555,74.76192474,192,4.900000095,Yes,Yes,Stubble managed,Burnt,,1,5,0,0,0,0,1,0,0,No,,1098,11/10/19
+114401961,11440196,1,p1,Bathinda,Jhumba,PES 800/acres,30.16916656,74.77732849,185.8999939,4.5,Yes,Yes,Stubble managed,Burnt,,1,5,0,0,0,0,1,0,0,No,,1098,11/10/19
+114402151,11440215,1,p1,Bathinda,Jhumba,PES 800/acres,30.1561451,74.78816986,189.3000031,4.699999809,Yes,Yes,Stubble managed,Burnt,,1,3,0,0,1,0,0,0,0,Yes,Burning hoi hai,1098,11/19/19
+114402191,11440219,1,p1,Bathinda,Jhumba,PES 800/acres,30.16926956,74.76557922,186.1000061,4.699999809,Yes,Yes,Stubble managed,Burnt,,1,5,0,0,0,0,1,0,0,No,,1098,11/10/19
+114402261,11440226,1,p1,Bathinda,Jhumba,PES 800/acres,30.15337944,74.79575348,192.5,4.300000191,Yes,Yes,Stubble managed,Burnt,,1,5 6,0,0,0,0,1,1,0,No,,1098,11/12/19
+114900381,11490038,1,p1,Bathinda,Kalal Wala,PES 1600 /acres,29.82033348,75.11933899,195.8000031,4.699999809,Yes,Yes,Stubble managed,Burnt,,1,1 2 3,1,1,1,0,0,0,0,Yes,,1103,11/15/19
+114900921,11490092,2,p2,Bathinda,Kalal Wala,PES 1600 /acres,29.80319595,75.14253235,199.1999969,1.799999952,Yes,Yes,Stubble managed,Burnt,,1,4 5,0,0,0,1,1,0,0,No,,1103,11/15/19
+114901161,11490116,1,p1,Bathinda,Kalal Wala,PES 1600 /acres,29.82088852,75.14325714,198.8999939,2.5,Yes,Yes,Stubble managed,Burnt,,1,1 7,1,0,0,0,0,0,1,No,,1103,11/15/19
+114901281,11490128,1,p1,Bathinda,Kalal Wala,PES 1600 /acres,29.82095146,75.1434021,189.3000031,3.900000095,Yes,Yes,Stubble managed,Burnt,,1,1 3,1,0,1,0,0,0,0,No,,1103,11/10/19
+114901551,11490155,1,p1,Bathinda,Kalal Wala,PES 1600 /acres,29.81251335,75.13651276,193.1999969,4.5,Yes,Yes,Stubble managed,Burnt,,1,2,0,1,0,0,0,0,0,No,,1103,11/10/19
+114901711,11490171,2,p2,Bathinda,Kalal Wala,PES 1600 /acres,29.8197937,75.1413269,191,4.099999905,Yes,Yes,Stubble managed,Burnt,,1,1,1,0,0,0,0,0,0,No,,1103,11/10/19
+114901791,11490179,1,p1,Bathinda,Kalal Wala,PES 1600 /acres,29.80712891,75.14117432,194,3.099999905,Yes,Yes,Stubble managed,Burnt,,1,2 6,0,1,0,0,0,1,0,No,,1103,11/15/19
+114901831,11490183,1,p1,Bathinda,Kalal Wala,PES 1600 /acres,29.80647278,75.14857483,210.8999939,4.400000095,Yes,Yes,Stubble managed,Burnt,,1,1,1,0,0,0,0,0,0,No,,1103,11/10/19
+115100071,11510007,1,p1,Bathinda,Kaljharani,Control,30.07809258,74.69867706,202,4.800000191,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,,1104,11/13/19
+115100221,11510022,2,p2,Bathinda,Kaljharani,Control,30.08712387,74.68841553,189.1000061,4.400000095,Yes,Yes,Stubble managed,Burnt,,1,1 2 5 6,1,1,0,0,1,1,0,No,,1104,11/9/19
+115100411,11510041,1,p1,Bathinda,Kaljharani,Control,30.08288002,74.70289612,198.8999939,4.800000191,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,,1104,11/13/19
+115100471,11510047,1,p1,Bathinda,Kaljharani,Control,30.10313988,74.69464874,193.6999969,4.400000095,Yes,Yes,Stubble managed,Burnt,,1,3 5 6,0,0,1,0,1,1,0,Yes,,1104,11/13/19
+115100481,11510048,1,p1,Bathinda,Kaljharani,Control,30.09347725,74.69158173,189.6000061,4.599999905,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,Yes,,1104,11/9/19
+115100601,11510060,1,p1,Bathinda,Kaljharani,Control,30.09791374,74.70230865,203.8000031,4.599999905,Yes,Yes,Stubble not managed,,,,,,,,,,,,,,1104,11/9/19
+115400031,11540003,1,p1,Bathinda,Kangar,PES + 25% UCT 800/acres,30.49108887,75.23047638,186.3999939,4.900000095,Yes,Yes,Stubble managed,Burnt,,1,3,0,0,1,0,0,0,0,No,Good,1107,11/14/19
+115400141,11540014,2,p2,Bathinda,Kangar,PES + 25% UCT 800/acres,30.48686218,75.21425629,190.6000061,2.700000048,Yes,Yes,Stubble managed,Burnt,,1,2,0,1,0,0,0,0,0,Yes,,1107,11/11/19
+115400291,11540029,1,p1,Bathinda,Kangar,PES + 25% UCT 800/acres,30.4913559,75.23352051,202.3999939,1.700000048,Yes,Yes,Stubble managed,Burnt,,1,1,1,0,0,0,0,0,0,No,Good,1107,11/11/19
+115400341,11540034,1,p1,Bathinda,Kangar,PES + 25% UCT 800/acres,30.48601913,75.22937012,214.5,4.599999905,Yes,Yes,Stubble managed,Burnt,,1,2,0,1,0,0,0,0,0,No,Good,1107,11/11/19
+115400471,11540047,1,p1,Bathinda,Kangar,PES + 25% UCT 800/acres,30.49835396,75.2248764,206.8999939,4.699999809,Yes,Yes,Stubble managed,Used CRM machine,,0,,,,,,,,,Yes,Good,1107,11/14/19
+115400871,11540087,1,p1,Bathinda,Kangar,PES + 25% UCT 800/acres,30.49237442,75.23067474,205.1000061,2.700000048,Yes,Yes,Stubble managed,Burnt,,1,5,0,0,0,0,1,0,0,No,Good,1107,11/14/19
+115401051,11540105,1,p1,Bathinda,Kangar,PES + 25% UCT 800/acres,30.50250816,75.23326874,215.5,3,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,No,Good,1107,11/14/19
+115500361,11550036,4,p4,Bathinda,Karar Wala,PES + 25% UCT 800/acres,30.28977776,75.27977753,213.8000031,4.199999809,Yes,Yes,Stubble managed,Burnt,,1,1 3 5,1,0,1,0,1,0,0,Yes,Ok,1108,11/13/19
+115500851,11550085,1,p1,Bathinda,Karar Wala,PES + 25% UCT 800/acres,30.2911377,75.30793762,209.8000031,4.800000191,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,Ok,1108,11/13/19
+115500981,11550098,1,p1,Bathinda,Karar Wala,PES + 25% UCT 800/acres,30.29702377,75.29116058,204.6999969,4.599999905,Yes,Yes,Stubble not managed,,,,,,,,,,,,,Ok,1108,11/13/19
+115501121,11550112,1,p1,Bathinda,Karar Wala,PES + 25% UCT 800/acres,30.29348564,75.28225708,195.8000031,4.599999905,Yes,Yes,Stubble management ongoing,,Burning,0,1 3 5,1,0,1,0,1,0,0,,Ok,1108,11/10/19
+115501331,11550133,1,p1,Bathinda,Karar Wala,PES + 25% UCT 800/acres,30.28652382,75.31121826,206.5,4.900000095,Yes,Yes,Stubble management ongoing,,Incorporating stubble into the soil,0,,,,,,,,,,Ok,1108,11/10/19
+115501551,11550155,1,p1,Bathinda,Karar Wala,PES + 25% UCT 800/acres,30.27581596,75.29379272,210.3999939,4.400000095,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,Yes,Ok,1108,11/10/19
+115501631,11550163,1,p1,Bathinda,Karar Wala,PES + 25% UCT 800/acres,30.30596352,75.29336548,230.1000061,4.400000095,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,Ok,1108,11/13/19
+115501661,11550166,1,p1,Bathinda,Karar Wala,PES + 25% UCT 800/acres,30.29152489,75.31594086,208.8999939,4.099999905,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,Ok,1108,11/10/19
+115501701,11550170,1,p1,Bathinda,Karar Wala,PES + 25% UCT 800/acres,30.30626488,75.28612518,199.3999939,4.5,Yes,Yes,Stubble management ongoing,,Burning,0,1 2 3 4 5 7,1,1,1,1,1,0,1,,Ok,1108,11/10/19
+116700751,11670075,1,p1,Bathinda,Kot Bhaktu,PES 1600 /acres,30.04223442,74.98336029,209.3000031,4.800000191,Yes,Yes,Stubble managed,Burnt,,1,3 5,0,0,1,0,1,0,0,Yes,Burning hoi hai,1115,11/16/19
+116700851,11670085,1,p1,Bathinda,Kot Bhaktu,PES 1600 /acres,30.03854942,74.96669769,194.6999969,4.199999809,Yes,Yes,Stubble managed,Burnt,,1,1 2 6,1,1,0,0,0,1,0,No,Ok,1115,11/11/19
+116700881,11670088,1,p1,Bathinda,Kot Bhaktu,PES 1600 /acres,30.03199768,74.97906494,194.3000031,4.300000191,Yes,Yes,Stubble managed,Burnt,,1,1 3 6,1,0,1,0,0,1,0,Yes,Ok,1115,11/11/19
+116701001,11670100,3,p3,Bathinda,Kot Bhaktu,PES 1600 /acres,30.03695869,75.00548553,194.3999939,5,Yes,Yes,Stubble managed,Burnt,,1,1 3 6,1,0,1,0,0,1,0,Yes,Ok,1115,11/11/19
+116701151,11670115,1,p1,Bathinda,Kot Bhaktu,PES 1600 /acres,30.03769493,74.98545074,207.3999939,4.800000191,Yes,Yes,Stubble managed,Burnt,,1,3 5,0,0,1,0,1,0,0,Yes,Burning hoi hai,1115,11/16/19
+116701721,11670172,1,p1,Bathinda,Kot Bhaktu,PES 1600 /acres,30.04796791,74.96270752,216.1999969,3.900000095,Yes,Yes,Stubble managed,Burnt,,1,3 6,0,0,1,0,0,1,0,Yes,Ok,1115,11/11/19
+116701771,11670177,1,p1,Bathinda,Kot Bhaktu,PES 1600 /acres,30.04156685,74.96389771,210.8000031,4,No,,,,,,,,,,,,,,,Cottan in the plot,1115,11/11/19
+116702111,11670211,1,p1,Bathinda,Kot Bhaktu,PES 1600 /acres,30.04952049,74.94966125,198.5,4.099999905,Yes,Yes,Stubble managed,Burnt,,1,3 5,0,0,1,0,1,0,0,Yes,Burning hoi hai,1115,11/16/19
+116702591,11670259,2,p2,Bathinda,Kot Bhaktu,PES 1600 /acres,30.04619026,74.98858643,209.6999969,4.300000191,Yes,Yes,Stubble managed,Burnt,,1,3 5,0,0,1,0,1,0,0,Yes,Burning hoi hai,1115,11/16/19
+116702871,11670287,2,p2,Bathinda,Kot Bhaktu,PES 1600 /acres,30.0368042,74.95922852,193.1999969,4.300000191,No,,,,,,,,,,,,,,,Cottan in the plot,1115,11/11/19
+116703001,11670300,1,p1,Bathinda,Kot Bhaktu,PES 1600 /acres,30.03536797,74.96903992,197.1000061,4.300000191,Yes,Yes,Stubble managed,Burnt,,1,3 5,0,0,1,0,1,0,0,Yes,Burning hoi hai,1115,11/16/19
+116800121,11680012,1,p1,Bathinda,Kot Bhara,PES + 50% UCT 800/acres,30.09383774,75.0438385,220.6999969,4.599999905,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 4 5,1,1,1,1,1,0,0,Yes,,1116,11/11/19
+116800181,11680018,1,p1,Bathinda,Kot Bhara,PES + 50% UCT 800/acres,30.0916996,75.0753479,194.3999939,3.900000095,Yes,No,,,,,,,,,,,,,,Polot Cotton,1116,11/16/19
+116800231,11680023,1,p1,Bathinda,Kot Bhara,PES + 50% UCT 800/acres,30.09541512,75.07991028,193.6999969,3.900000095,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 4 5 6,1,1,1,1,1,1,0,Yes,,1116,11/16/19
+116800361,11680036,1,p1,Bathinda,Kot Bhara,PES + 50% UCT 800/acres,30.1043663,75.05625153,196.6000061,3.900000095,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 4 5,1,1,1,1,1,0,0,Yes,,1116,11/11/19
+116800381,11680038,1,p1,Bathinda,Kot Bhara,PES + 50% UCT 800/acres,30.09267235,75.07434082,196.5,4,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,,1116,11/16/19
+116800521,11680052,1,p1,Bathinda,Kot Bhara,PES + 50% UCT 800/acres,30.09658051,75.07448578,196.8000031,4,No,,,,,,,,,,,,,,,Cotton polot,1116,11/11/19
+116800791,11680079,1,p1,Bathinda,Kot Bhara,PES + 50% UCT 800/acres,30.10003662,75.07042694,204.8000031,3.900000095,No,,,,,,,,,,,,,,,Cotton polot,1116,11/11/19
+116800931,11680093,1,p1,Bathinda,Kot Bhara,PES + 50% UCT 800/acres,30.0983429,75.0531311,196.1000061,3.900000095,No,,,,,,,,,,,,,,,Polot Cotton,1116,11/16/19
+116801181,11680118,1,p1,Bathinda,Kot Bhara,PES + 50% UCT 800/acres,30.09383965,75.08830261,203.3999939,3.900000095,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,,1116,11/11/19
+116801491,11680149,1,p1,Bathinda,Kot Bhara,PES + 50% UCT 800/acres,30.09490776,75.07435608,197.3000031,5,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 4 5,1,1,1,1,1,0,0,Yes,,1116,11/11/19
+116801911,11680191,1,p1,Bathinda,Kot Bhara,PES + 50% UCT 800/acres,30.10053635,75.06228638,194.3000031,4.400000095,Yes,Yes,Stubble managed,Burnt,,1,1 3,1,0,1,0,0,0,0,Yes,,1116,11/16/19
+116802081,11680208,1,p1,Bathinda,Kot Bhara,PES + 50% UCT 800/acres,30.09738159,75.07563019,194.3000031,4.400000095,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,Yes,,1116,11/16/19
+117400121,11740012,1,p1,Bathinda,Kotli Khurd,PES + 50% UCT 800/acres,29.99667549,75.26013947,207.8999939,4.599999905,Yes,Yes,Stubble managed,Burnt,,1,1,1,0,0,0,0,0,0,No,Farmer self confessed Burned the Plot,1121,11/13/19
+117400131,11740013,2,p2,Bathinda,Kotli Khurd,PES + 50% UCT 800/acres,29.98937988,75.25808716,200.8000031,4.800000191,Yes,Yes,Stubble managed,Burnt,,1,1,1,0,0,0,0,0,0,No,Burned,1121,11/13/19
+117400191,11740019,1,p1,Bathinda,Kotli Khurd,PES + 50% UCT 800/acres,30.00499725,75.28281403,203.3000031,4.800000191,Yes,Yes,Stubble managed,Burnt,,1,5,0,0,0,0,1,0,0,Yes,Sowing done plot inspected and surely burnt,1121,11/13/19
+117400471,11740047,1,p1,Bathinda,Kotli Khurd,PES + 50% UCT 800/acres,30.00658989,75.27951813,205.8999939,4,Yes,Yes,Stubble managed,Burnt,,1,5,0,0,0,0,1,0,0,Yes,Self mentioned that burnt it,1121,11/13/19
+117400531,11740053,1,p1,Bathinda,Kotli Khurd,PES + 50% UCT 800/acres,29.99953461,75.27172852,204,4.900000095,Yes,Yes,Stubble managed,Burnt,,1,3,0,0,1,0,0,0,0,Yes,Sign of burning on the boundary and nresidue of plot,1121,11/13/19
+117400571,11740057,1,p1,Bathinda,Kotli Khurd,PES + 50% UCT 800/acres,29.97806358,75.26733398,212,4.099999905,Yes,Yes,Stubble not managed,,,,,,,,,,,,,Paddy stubble on the field,1121,11/13/19
+117400691,11740069,1,p1,Bathinda,Kotli Khurd,PES + 50% UCT 800/acres,29.98890877,75.27142334,201.1000061,4.900000095,Yes,Yes,Stubble managed,Burnt,,1,1,1,0,0,0,0,0,0,No,Burned,1121,11/13/19
+117400721,11740072,2,p2,Bathinda,Kotli Khurd,PES + 50% UCT 800/acres,29.98256302,75.26283264,212.3000031,4,Yes,Yes,Stubble not managed,,,,,,,,,,,,,No plz,1121,11/13/19
+117400831,11740083,1,p1,Bathinda,Kotli Khurd,PES + 50% UCT 800/acres,30.00566864,75.27209473,232,4.599999905,Yes,Yes,Stubble managed,Burnt,,1,5,0,0,0,0,1,0,0,Yes,Rtt,1121,11/13/19
+117401001,11740100,1,p1,Bathinda,Kotli Khurd,PES + 50% UCT 800/acres,29.99633408,75.265625,206.8999939,0.899999976,Yes,Yes,Stubble managed,Burnt,,1,1,1,0,0,0,0,0,0,No,Respondent self stated that he has to burnt  stubbleit some reasons,1121,11/10/19
+117401181,11740118,1,p1,Bathinda,Kotli Khurd,PES + 50% UCT 800/acres,30.00556755,75.27224731,229,4.599999905,Yes,Yes,Stubble managed,Burnt,,1,1 5,1,0,0,0,1,0,0,Yes,Sowed,1121,11/13/19
+117401271,11740127,1,p1,Bathinda,Kotli Khurd,PES + 50% UCT 800/acres,29.99802971,75.27131653,207,4.800000191,No,,,,,,,,,,,,,,,Charri lgayi hai plot mei,1121,11/13/19
+117600051,11760005,2,p2,Bathinda,Kutiwal Kalan,PES + 50% UCT 800/acres,30.11634254,75.24412537,194.1000061,4.199999809,Yes,Yes,Stubble managed,Burnt,,1,3,0,0,1,0,0,0,0,Yes,Burnt n sowed,1123,11/19/19
+117600141,11760014,1,p1,Bathinda,Kutiwal Kalan,PES + 50% UCT 800/acres,30.13003349,75.26535034,199.3000031,3.400000095,Yes,Yes,Stubble managed,Burnt,,1,1,1,0,0,0,0,0,0,No,Burnt paddy stuble due to lack of  manage rolled stubble bundles,1123,11/10/19
+117600151,11760015,1,p1,Bathinda,Kutiwal Kalan,PES + 50% UCT 800/acres,30.11702919,75.24124146,191.6000061,4.300000191,No,,,,,,,,,,,,,,,It's found cotton plot,1123,11/19/19
+117600331,11760033,1,p1,Bathinda,Kutiwal Kalan,PES + 50% UCT 800/acres,30.12535095,75.22988129,200.8999939,4.800000191,Yes,Yes,Stubble managed,Burnt,,1,5,0,0,0,0,1,0,0,No,It's visible Paddy stubble is burnt. I met the farmer and self mentioned about it,1123,11/10/19
+117600341,11760034,1,p1,Bathinda,Kutiwal Kalan,PES + 50% UCT 800/acres,30.13028717,75.23310852,212.6999969,4.900000095,Yes,Yes,Stubble managed,Burnt,,1,3,0,0,1,0,0,0,0,Yes,B S,1123,11/19/19
+117600601,11760060,1,p1,Bathinda,Kutiwal Kalan,PES + 50% UCT 800/acres,30.13154984,75.25524902,202,0.800000012,Yes,Yes,Stubble managed,Burnt,,1,5,0,0,0,0,1,0,0,No,Burnt paddy stuble there are signs of burning paddy stubble on the corners of plot,1123,11/10/19
+117600621,11760062,1,p1,Bathinda,Kutiwal Kalan,PES + 50% UCT 800/acres,30.13024521,75.23306274,200.3999939,1.399999976,Yes,Yes,Stubble not managed,,,,,,,,,,,,,Paddy stubble is spread all over the field,1123,11/10/19
+117600691,11760069,1,p1,Bathinda,Kutiwal Kalan,PES + 50% UCT 800/acres,30.1388092,75.25371552,200.1999969,4.5,Yes,Yes,Stubble managed,Burnt,,1,2,0,1,0,0,0,0,0,Yes,,1123,11/19/19
+117600701,11760070,2,p2,Bathinda,Kutiwal Kalan,PES + 50% UCT 800/acres,30.13036728,75.23229218,212.3999939,4.900000095,Yes,Yes,Stubble managed,Burnt,,1,3,0,0,1,0,0,0,0,Yes,Burnt sowed,1123,11/19/19
+117900031,11790003,2,p2,Bathinda,Laleana,Control,29.99831581,75.02394104,185.1000061,4.400000095,Yes,Yes,Stubble managed,Burnt,,1,6,0,0,0,0,0,1,0,Yes,,1126,11/17/19
+117900251,11790025,1,p1,Bathinda,Laleana,Control,29.98114586,75.01061249,203.3000031,4.599999905,Yes,Yes,Stubble managed,Burnt,,1,2 3 5,0,1,1,0,1,0,0,No,Burning hoi hai,1126,11/12/19
+117900291,11790029,1,p1,Bathinda,Laleana,Control,30.00202751,75.02637482,194.8999939,4,Yes,Yes,Stubble managed,Burnt,,1,6,0,0,0,0,0,1,0,Yes,,1126,11/17/19
+117900361,11790036,1,p1,Bathinda,Laleana,Control,29.98908806,75.04013062,185.8000031,4.900000095,Yes,Yes,Stubble managed,Used CRM machine,,0,,,,,,,,,No,,1126,11/10/19
+117900501,11790050,2,p2,Bathinda,Laleana,Control,29.99630737,75.03207397,184.6999969,4.5,Yes,Yes,Stubble managed,Burnt,,1,5,0,0,0,0,1,0,0,No,,1126,11/10/19
+117900561,11790056,1,p1,Bathinda,Laleana,Control,29.98676109,75.01287842,190,3.900000095,Yes,Yes,Stubble managed,Burnt,,1,3 5 6,0,0,1,0,1,1,0,Yes,,1126,11/17/19
+117900621,11790062,1,p1,Bathinda,Laleana,Control,30.00072098,75.02975464,186.8999939,4.900000095,Yes,Yes,Stubble managed,Burnt,,1,5,0,0,0,0,1,0,0,No,,1126,11/10/19
+117900741,11790074,2,p2,Bathinda,Laleana,Control,29.99370766,75.04244232,188.3999939,4,Yes,Yes,Stubble managed,Burnt,,1,5,0,0,0,0,1,0,0,No,,1126,11/10/19
+117900871,11790087,1,p1,Bathinda,Laleana,Control,29.98638153,75.02629852,199.3000031,4.5,Yes,Yes,Stubble managed,Burnt,,1,6,0,0,0,0,0,1,0,Yes,,1126,11/17/19
+117900931,11790093,1,p1,Bathinda,Laleana,Control,29.98207664,75.00985718,197.3000031,4.5,Yes,Yes,Stubble managed,Burnt,,1,3 5,0,0,1,0,1,0,0,No,Burning hoi hai,1126,11/12/19
+117900941,11790094,3,p3,Bathinda,Laleana,Control,29.99022102,75.02931213,194.3000031,4.099999905,Yes,Yes,Stubble managed,Used CRM machine,,0,,,,,,,,,Yes,,1126,11/17/19
+117901751,11790175,1,p1,Bathinda,Laleana,Control,29.99036026,75.03056335,200.6999969,4.900000095,Yes,Yes,Stubble management ongoing,,Using CRM machine,0,,,,,,,,,,,1126,11/10/19
+117901881,11790188,1,p1,Bathinda,Laleana,Control,29.98321915,75.00725555,205,4.800000191,Yes,Yes,Stubble managed,Burnt,,1,6,0,0,0,0,0,1,0,Yes,,1126,11/17/19
+118200081,11820008,2,p2,Bathinda,Lehra Mohabbat,PES + 50% UCT 800/acres,30.19559669,75.18228149,198.1000061,4.900000095,Yes,Yes,Stubble managed,Burnt,,1,1 3,1,0,1,0,0,0,0,Yes,,1129,11/14/19
+118200131,11820013,1,p1,Bathinda,Lehra Mohabbat,PES + 50% UCT 800/acres,30.22938728,75.16503143,201.1000061,4.099999905,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 5,1,1,1,0,1,0,0,Yes,,1129,11/10/19
+118200361,11820036,1,p1,Bathinda,Lehra Mohabbat,PES + 50% UCT 800/acres,30.24209213,75.15421295,207.6000061,4.800000191,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 5 6,1,1,1,0,1,1,0,Yes,,1129,11/14/19
+118200421,11820042,1,p1,Bathinda,Lehra Mohabbat,PES + 50% UCT 800/acres,30.26110077,75.12641144,193.8000031,4.5,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 4 5 6,1,1,1,1,1,1,0,Yes,,1129,11/14/19
+118200501,11820050,1,p1,Bathinda,Lehra Mohabbat,PES + 50% UCT 800/acres,30.22134399,75.1571579,195.1000061,4.5,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 5,1,1,1,0,1,0,0,Yes,,1129,11/14/19
+118200511,11820051,2,p2,Bathinda,Lehra Mohabbat,PES + 50% UCT 800/acres,30.21713829,75.14976501,200.5,4.599999905,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 5 6,1,1,1,0,1,1,0,Yes,,1129,11/14/19
+118200761,11820076,2,p2,Bathinda,Lehra Mohabbat,PES + 50% UCT 800/acres,30.23614502,75.16917419,184.8999939,4.699999809,Yes,Yes,Stubble not managed,,,,,,,,,,,,,,1129,11/12/19
+118200941,11820094,2,p2,Bathinda,Lehra Mohabbat,PES + 50% UCT 800/acres,30.22816658,75.17594147,200.6999969,4,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,No,,1129,11/10/19
+118201141,11820114,3,p3,Bathinda,Lehra Mohabbat,PES + 50% UCT 800/acres,30.22692108,75.17617798,213.3000031,4.5,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 5,1,1,1,0,1,0,0,Yes,,1129,11/14/19
+118201361,11820136,1,p1,Bathinda,Lehra Mohabbat,PES + 50% UCT 800/acres,30.26046944,75.12852478,202.6999969,4.5,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 5 6,1,1,1,0,1,1,0,Yes,,1129,11/10/19
+118201421,11820142,1,p1,Bathinda,Lehra Mohabbat,PES + 50% UCT 800/acres,30.2743206,75.14871216,206.3000031,4.300000191,Yes,Yes,Stubble managed,Burnt,,1,2 3 5 6,0,1,1,0,1,1,0,No,,1129,11/10/19
+118201511,11820151,1,p1,Bathinda,Lehra Mohabbat,PES + 50% UCT 800/acres,30.25693703,75.14028931,204.5,4.699999809,Yes,Yes,Stubble managed,Burnt,,1,3 6,0,0,1,0,0,1,0,Yes,,1129,11/10/19
+118201741,11820174,1,p1,Bathinda,Lehra Mohabbat,PES + 50% UCT 800/acres,30.25346756,75.13101959,250.1000061,4.699999809,Yes,Yes,Stubble not managed,,,,,,,,,,,,,,1129,11/12/19
+118201991,11820199,1,p1,Bathinda,Lehra Mohabbat,PES + 50% UCT 800/acres,30.25818634,75.12149811,229.1999969,5,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 4 5,1,1,1,1,1,0,0,No,,1129,11/14/19
+118900091,11890009,1,p1,Bathinda,Maiser Khana,PES 1600 /acres,30.09751701,75.1605835,208.3999939,5,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,Yes,Burning nhi hoi,1134,11/11/19
+118900141,11890014,1,p1,Bathinda,Maiser Khana,PES 1600 /acres,30.10618591,75.16773224,191.6999969,4.400000095,Yes,Yes,Stubble managed,Can't determine,,0,,,,,,,,,Yes,Burning nhi hoi,1134,11/16/19
+118900241,11890024,2,p2,Bathinda,Maiser Khana,PES 1600 /acres,30.1027317,75.18345642,216.3000031,4.400000095,Yes,Yes,Stubble managed,Burnt,,1,3,0,0,1,0,0,0,0,Yes,Burning hoi hai,1134,11/16/19
+118900451,11890045,1,p1,Bathinda,Maiser Khana,PES 1600 /acres,30.10682106,75.1635437,207.6999969,4.699999809,Yes,Yes,Stubble not managed,,,,,,,,,,,,,Only Harvesting hoi hai,1134,11/12/19
+118901001,11890100,1,p1,Bathinda,Maiser Khana,PES 1600 /acres,30.09287453,75.18659973,197.1000061,4.900000095,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,Burning nhi hoi,1134,11/11/19
+118901031,11890103,1,p1,Bathinda,Maiser Khana,PES 1600 /acres,30.1131897,75.17789459,218.6000061,4.699999809,Yes,Yes,Stubble managed,Burnt,,1,3 5,0,0,1,0,1,0,0,Yes,Burning hoi hai,1134,11/11/19
+118901471,11890147,2,p2,Bathinda,Maiser Khana,PES 1600 /acres,30.09499359,75.19226837,198.5,4.300000191,Yes,Yes,Stubble managed,Burnt,,1,1 3 5,1,0,1,0,1,0,0,No,Burning hoi hai,1134,11/11/19
+118901511,11890151,1,p1,Bathinda,Maiser Khana,PES 1600 /acres,30.08421898,75.16519165,194.6000061,4.900000095,Yes,Yes,Stubble managed,Burnt,,1,3,0,0,1,0,0,0,0,Yes,Burning hoi hai,1134,11/16/19
+118901551,11890155,1,p1,Bathinda,Maiser Khana,PES 1600 /acres,30.10936928,75.20137024,209.3000031,4.599999905,Yes,Yes,Stubble managed,Burnt,,1,3 5,0,0,1,0,1,0,0,Yes,Burning hoi hai,1134,11/11/19
+118901671,11890167,1,p1,Bathinda,Maiser Khana,PES 1600 /acres,30.0976181,75.18836212,208.3999939,4.900000095,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,Burning nhi hoi,1134,11/16/19
+118901691,11890169,1,p1,Bathinda,Maiser Khana,PES 1600 /acres,30.10662651,75.20169067,209.3999939,4.400000095,Yes,Yes,Stubble managed,Burnt,,1,3 5,0,0,1,0,1,0,0,Yes,Burning hoi hai,1134,11/11/19
+118902161,11890216,1,p1,Bathinda,Maiser Khana,PES 1600 /acres,30.1004734,75.18460083,216.8000031,4.699999809,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,No,Burning nhi hoi,1134,11/16/19
+119000221,11900022,1,p1,Bathinda,Malkana,PES + 50% UCT 800/acres,29.95176697,75.0480423,184.3000031,4.599999905,Yes,Yes,Stubble managed,Burnt,,1,1 2 5,1,1,0,0,1,0,0,Yes,Ok,1135,11/12/19
+119000291,11900029,1,p1,Bathinda,Malkana,PES + 50% UCT 800/acres,29.95160294,75.05066681,201.1000061,5,Yes,Yes,Stubble managed,Burnt,,1,3 5,0,0,1,0,1,0,0,Yes,Burning hoi hai,1135,11/16/19
+119000491,11900049,2,p2,Bathinda,Malkana,PES + 50% UCT 800/acres,29.91235542,75.02910614,193.3000031,4,Yes,Yes,Stubble managed,Burnt,,1,1 5,1,0,0,0,1,0,0,Yes,Ok,1135,11/12/19
+119000571,11900057,1,p1,Bathinda,Malkana,PES + 50% UCT 800/acres,29.92794228,75.03094482,207.5,4.900000095,Yes,Yes,Stubble managed,Burnt,,1,3,0,0,1,0,0,0,0,Yes,Burning hoi hai,1135,11/16/19
+119000591,11900059,1,p1,Bathinda,Malkana,PES + 50% UCT 800/acres,29.94715118,75.03325653,203.3000031,5,Yes,Yes,Stubble managed,Burnt,,1,1 5 7,1,0,0,0,1,0,1,No,Ok,1135,11/11/19
+119000601,11900060,2,p2,Bathinda,Malkana,PES + 50% UCT 800/acres,29.94189644,75.05042267,185.6999969,4.5,Yes,Yes,Stubble managed,Burnt,,1,1 6,1,0,0,0,0,1,0,Yes,Ok,1135,11/12/19
+119000791,11900079,1,p1,Bathinda,Malkana,PES + 50% UCT 800/acres,29.93279266,75.0484314,198.3999939,4.300000191,No,,,,,,,,,,,,,,,Cotton hai,1135,11/16/19
+119000851,11900085,1,p1,Bathinda,Malkana,PES + 50% UCT 800/acres,29.92395401,75.02409363,196.6000061,4.5,Yes,Yes,Stubble managed,Burnt,,1,1 5 6,1,0,0,0,1,1,0,No,Ok,1135,11/12/19
+119000981,11900098,1,p1,Bathinda,Malkana,PES + 50% UCT 800/acres,29.9484787,75.02368927,207.3999939,4.300000191,Yes,Yes,Stubble managed,Can't determine,,0,,,,,,,,,Yes,Burning nhi hoi,1135,11/16/19
+119001231,11900123,2,p2,Bathinda,Malkana,PES + 50% UCT 800/acres,29.95454407,75.04711914,192.6999969,4.400000095,Yes,Yes,Stubble managed,Burnt,,1,3 5,0,0,1,0,1,0,0,Yes,Burning hoi hai,1135,11/16/19
+119001241,11900124,1,p1,Bathinda,Malkana,PES + 50% UCT 800/acres,29.94805145,75.04969788,199.6000061,4.599999905,Yes,Yes,Stubble managed,Burnt,,1,1 6,1,0,0,0,0,1,0,No,Ok,1135,11/11/19
+119001521,11900152,1,p1,Bathinda,Malkana,PES + 50% UCT 800/acres,29.94293594,75.04056549,206.3999939,4.699999809,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 5 6,1,1,1,0,1,1,0,No,Ok,1135,11/11/19
+119100361,11910036,1,p1,Bathinda,Maluka,PES + 50% UCT 800/acres,30.44717216,75.04550934,210.3000031,2,Yes,Yes,Stubble management ongoing,,Burning,0,4,0,0,0,1,0,0,0,,Done,1136,11/13/19
+119101001,11910100,2,p2,Bathinda,Maluka,PES + 50% UCT 800/acres,30.43430519,75.07552338,219.6000061,4.099999905,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,Done,1136,11/13/19
+119101441,11910144,2,p2,Bathinda,Maluka,PES + 50% UCT 800/acres,30.42208862,75.06841278,208.1999969,4.900000095,Yes,Yes,Stubble not managed,,,,,,,,,,,,,Good,1136,11/10/19
+119101701,11910170,1,p1,Bathinda,Maluka,PES + 50% UCT 800/acres,30.43752098,75.07807159,219,2.400000095,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,Yes,Good,1136,11/13/19
+119101851,11910185,2,p2,Bathinda,Maluka,PES + 50% UCT 800/acres,30.44471169,75.04430389,195.8999939,4.900000095,Yes,Yes,Stubble managed,Burnt,,1,1,1,0,0,0,0,0,0,Yes,Good,1136,11/10/19
+119102321,11910232,1,p1,Bathinda,Maluka,PES + 50% UCT 800/acres,30.42145538,75.04748535,198.3999939,3.900000095,Yes,Yes,Stubble managed,Burnt,,1,2,0,1,0,0,0,0,0,No,Good,1136,11/10/19
+119102831,11910283,1,p1,Bathinda,Maluka,PES + 50% UCT 800/acres,30.43125916,75.07250214,201,1.5,Yes,Yes,Stubble managed,Burnt,,1,6,0,0,0,0,0,1,0,Yes,Good,1136,11/10/19
+119102891,11910289,1,p1,Bathinda,Maluka,PES + 50% UCT 800/acres,30.40535927,75.07655334,210.3000031,3,Yes,Yes,Stubble managed,Burnt,,1,5,0,0,0,0,1,0,0,Yes,Done,1136,11/13/19
+119103051,11910305,2,p2,Bathinda,Maluka,PES + 50% UCT 800/acres,30.44444275,75.04404449,209.6999969,2.5,Yes,Yes,Stubble managed,Burnt,,1,5,0,0,0,0,1,0,0,Yes,Good,1136,11/13/19
+119103141,11910314,2,p2,Bathinda,Maluka,PES + 50% UCT 800/acres,30.44061852,75.04405212,211,4.5,Yes,Yes,Stubble not managed,,,,,,,,,,,,,Good,1136,11/10/19
+119103221,11910322,1,p1,Bathinda,Maluka,PES + 50% UCT 800/acres,30.42356491,75.04364777,206.3000031,2,Yes,Yes,Stubble managed,Burnt,,1,5,0,0,0,0,1,0,0,Yes,Good,1136,11/13/19
+119800031,11980003,2,p2,Bathinda,Mansa Khurd,PES 800/acres,30.15750504,75.11363983,209.5,4.800000191,Yes,Yes,Stubble managed,Burnt,,1,3,0,0,1,0,0,0,0,Yes,,1141,11/18/19
+119800161,11980016,2,p2,Bathinda,Mansa Khurd,PES 800/acres,30.15561295,75.12315369,199,4.900000095,Yes,Yes,Stubble managed,Burnt,,1,3,0,0,1,0,0,0,0,No,Plot is burnt  sign of burning visible,1141,11/11/19
+119800171,11980017,1,p1,Bathinda,Mansa Khurd,PES 800/acres,30.15248871,75.11128235,210.1000061,4.099999905,Yes,Yes,Stubble not managed,,,,,,,,,,,,,During second visit paddy stubble is still spread all over the plot,1141,11/12/19
+119800191,11980019,1,p1,Bathinda,Mansa Khurd,PES 800/acres,30.14873505,75.115448,200.6000061,4.900000095,Yes,Yes,Stubble managed,Burnt,,1,3,0,0,1,0,0,0,0,Yes,No,1141,11/11/19
+119800291,11980029,2,p2,Bathinda,Mansa Khurd,PES 800/acres,30.15402794,75.12476349,212.1999969,4.900000095,Yes,Yes,Stubble managed,Burnt,,1,5,0,0,0,0,1,0,0,Yes,,1141,11/18/19
+119800301,11980030,1,p1,Bathinda,Mansa Khurd,PES 800/acres,30.14723206,75.11984253,202.3000031,4.300000191,Yes,Yes,Stubble managed,Burnt,,1,1,1,0,0,0,0,0,0,No,Litteraly plot is burnt,1141,11/11/19
+119800331,11980033,2,p2,Bathinda,Mansa Khurd,PES 800/acres,30.15037346,75.12210846,199.6000061,4,Yes,Yes,Stubble managed,Burnt,,1,5,0,0,0,0,1,0,0,No,Looks like burnt this plot ash n doors visible,1141,11/11/19
+119800351,11980035,2,p2,Bathinda,Mansa Khurd,PES 800/acres,30.14242363,75.11191559,199.3999939,4,Yes,Yes,Stubble managed,Burnt,,1,3,0,0,1,0,0,0,0,Yes,,1141,11/18/19
+119800451,11980045,2,p2,Bathinda,Mansa Khurd,PES 800/acres,30.14958954,75.11446381,191.3999939,4.699999809,Yes,Yes,Stubble managed,Burnt,,1,1,1,0,0,0,0,0,0,No,Burnt plot,1141,11/11/19
+119800641,11980064,1,p1,Bathinda,Mansa Khurd,PES 800/acres,30.14741516,75.12001801,207.6000061,4.400000095,Yes,Yes,Stubble managed,Burnt,,1,5,0,0,0,0,1,0,0,No,Burnt farmer mentioned bcz no proper arrangements for bundles,1141,11/11/19
+119800681,11980068,1,p1,Bathinda,Mansa Khurd,PES 800/acres,30.15108681,75.1284256,201.8000031,4.900000095,Yes,Yes,Stubble managed,Burnt,,1,3,0,0,1,0,0,0,0,Yes,Burnt sowed,1141,11/18/19
+119800691,11980069,1,p1,Bathinda,Mansa Khurd,PES 800/acres,30.13324356,75.11608124,203.8999939,4.099999905,Yes,Yes,Stubble managed,Burnt,,1,3,0,0,1,0,0,0,0,Yes,Burnt n sowed,1141,11/18/19
+119801051,11980105,2,p2,Bathinda,Mansa Khurd,PES 800/acres,30.14458084,75.11250305,204,4,Yes,Yes,Stubble managed,Burnt,,1,3,0,0,1,0,0,0,0,Yes,Burnt n sowed,1141,11/18/19
+121100071,12110007,1,p1,Bathinda,Mehta,PES + 50% UCT 800/acres,30.09341621,74.93158722,202.8999939,4.900000095,Yes,Yes,Stubble managed,Burnt,,1,1 3 5 6,1,0,1,0,1,1,0,Yes,,1150,11/14/19
+121100141,12110014,1,p1,Bathinda,Mehta,PES + 50% UCT 800/acres,30.09721184,74.91288757,209.5,5,Yes,Yes,Stubble managed,Burnt,,1,1 3 5 6,1,0,1,0,1,1,0,Yes,,1150,11/14/19
+121100171,12110017,1,p1,Bathinda,Mehta,PES + 50% UCT 800/acres,30.12148476,74.91287231,192.1000061,4.099999905,Yes,Yes,Stubble managed,Burnt,,1,1 3 6,1,0,1,0,0,1,0,Yes,,1150,11/10/19
+121100481,12110048,1,p1,Bathinda,Mehta,PES + 50% UCT 800/acres,30.09603882,74.92578888,202.6000061,4.300000191,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 5 6,1,1,1,0,1,1,0,Yes,,1150,11/10/19
+121100581,12110058,1,p1,Bathinda,Mehta,PES + 50% UCT 800/acres,30.11836815,74.90753174,192.8000031,4.400000095,Yes,Yes,Stubble managed,Burnt,,1,2 5 6,0,1,0,0,1,1,0,No,,1150,11/10/19
+121100611,12110061,1,p1,Bathinda,Mehta,PES + 50% UCT 800/acres,30.11606979,74.91693115,206.3000031,4.599999905,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 5 6,1,1,1,0,1,1,0,Yes,,1150,11/14/19
+121100711,12110071,1,p1,Bathinda,Mehta,PES + 50% UCT 800/acres,30.11001205,74.91705322,205.8999939,4.800000191,Yes,Yes,Stubble managed,Burnt,,1,1 3 5,1,0,1,0,1,0,0,Yes,,1150,11/14/19
+121100911,12110091,2,p2,Bathinda,Mehta,PES + 50% UCT 800/acres,30.1004467,74.93003082,187.6999969,4.900000095,Yes,Yes,Stubble managed,Burnt,,1,3 6,0,0,1,0,0,1,0,Yes,,1150,11/14/19
+121101661,12110166,1,p1,Bathinda,Mehta,PES + 50% UCT 800/acres,30.11192322,74.92671204,174.8999939,4.199999809,Yes,Yes,Stubble managed,Burnt,,1,1 2 5 6,1,1,0,0,1,1,0,Yes,,1150,11/10/19
+121101711,12110171,2,p2,Bathinda,Mehta,PES + 50% UCT 800/acres,30.09990692,74.93244934,194.3999939,3.900000095,Yes,Yes,Stubble managed,Burnt,,1,1 3 5 6,1,0,1,0,1,1,0,Yes,,1150,11/10/19
+121101901,12110190,1,p1,Bathinda,Mehta,PES + 50% UCT 800/acres,30.11419487,74.92250061,194.6999969,4.900000095,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 5 6,1,1,1,0,1,1,0,Yes,,1150,11/10/19
+121101981,12110198,1,p1,Bathinda,Mehta,PES + 50% UCT 800/acres,30.09452438,74.93190765,199.8000031,4.599999905,Yes,Yes,Stubble managed,Burnt,,1,1 3 5 6,1,0,1,0,1,1,0,Yes,,1150,11/14/19
+121200021,12120002,1,p1,Bathinda,Mian,Control,30.15997887,74.85161591,196.6000061,4.300000191,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,Ok,1151,11/12/19
+121200221,12120022,1,p1,Bathinda,Mian,Control,30.16579819,74.84239197,189,5.800000191,Yes,Yes,Stubble managed,Burnt,,1,1 3,1,0,1,0,0,0,0,Yes,Ok,1151,11/12/19
+121200261,12120026,2,p2,Bathinda,Mian,Control,30.15818024,74.86186218,201.5,4.5,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,Ok,1151,11/15/19
+121200421,12120042,1,p1,Bathinda,Mian,Control,30.15888977,74.86230469,188.3999939,4.199999809,Yes,Yes,Stubble not managed,,,,,,,,,,,,,Ok g,1151,11/12/19
+121200471,12120047,2,p2,Bathinda,Mian,Control,30.16913223,74.84729004,201.3999939,4.800000191,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,Ok,1151,11/15/19
+121200521,12120052,2,p2,Bathinda,Mian,Control,30.15737915,74.85891724,198.1000061,4.300000191,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,No,Ok,1151,11/12/19
+121200661,12120066,2,p2,Bathinda,Mian,Control,30.16597748,74.86148071,187.3000031,4.5,Yes,Yes,Stubble managed,Burnt,,1,1 3 5 7,1,0,1,0,1,0,1,Yes,Ok,1151,11/15/19
+121600081,12160008,1,p1,Bathinda,Nandgarh Kotra,PES 800/acres,30.15987587,75.18864441,202.8000031,408.7000122,Yes,Yes,Stubble managed,Burnt,,1,5,0,0,0,0,1,0,0,No,Burned farmer meet me and self mentioned about the reason behind burning paddy,1155,11/11/19
+121600121,12160012,1,p1,Bathinda,Nandgarh Kotra,PES 800/acres,30.15342331,75.1780014,205.8999939,4,Yes,Yes,Stubble managed,Burnt,,1,1,1,0,0,0,0,0,0,Yes,Paddy is burnt,1155,11/11/19
+121600231,12160023,1,p1,Bathinda,Nandgarh Kotra,PES 800/acres,30.15855789,75.18494415,205.8999939,3.900000095,Yes,Yes,Stubble managed,Burnt,,1,7,0,0,0,0,0,0,1,No,Burned paddy,1155,11/11/19
+121600241,12160024,1,p1,Bathinda,Nandgarh Kotra,PES 800/acres,30.15507889,75.16708374,212.3000031,3.900000095,Yes,Yes,Stubble managed,Burnt,,1,2 5,0,1,0,0,1,0,0,Yes,No comment,1155,11/11/19
+121600371,12160037,1,p1,Bathinda,Nandgarh Kotra,PES 800/acres,30.15102005,75.17228699,192.6000061,1.5,Yes,Yes,Stubble managed,Burnt,,1,3,0,0,1,0,0,0,0,Yes,Burnt,1155,11/18/19
+121600421,12160042,1,p1,Bathinda,Nandgarh Kotra,PES 800/acres,30.15487671,75.17675018,206.3000031,3.900000095,Yes,Yes,Stubble managed,Burnt,,1,1,1,0,0,0,0,0,0,Yes,,1155,11/18/19
+121600451,12160045,1,p1,Bathinda,Nandgarh Kotra,PES 800/acres,30.15758324,75.186203,206.3000031,4.5,Yes,Yes,Stubble managed,Burnt,,1,7,0,0,0,0,0,0,1,No,Burned paddy,1155,11/11/19
+121600491,12160049,3,p3,Bathinda,Nandgarh Kotra,PES 800/acres,30.16739655,75.16597748,197.1000061,1.600000024,Yes,Yes,Stubble managed,Burnt,,1,3,0,0,1,0,0,0,0,Yes,Burnt sowed,1155,11/18/19
+121600531,12160053,1,p1,Bathinda,Nandgarh Kotra,PES 800/acres,30.1577549,75.18560791,209.5,3,Yes,Yes,Stubble managed,Burnt,,1,3,0,0,1,0,0,0,0,Yes,B s,1155,11/18/19
+121600761,12160076,1,p1,Bathinda,Nandgarh Kotra,PES 800/acres,30.15868759,75.18504333,207.3999939,1.899999976,Yes,Yes,Stubble managed,Burnt,,1,3,0,0,1,0,0,0,0,Yes,,1155,11/18/19
+122401481,12240148,3,p3,Bathinda,Nehian Wala,PES + 25% UCT 800/acres,30.28383827,74.89553833,195.6999969,4.300000191,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,Yes,,1161,11/13/19
+122401491,12240149,2,p2,Bathinda,Nehian Wala,PES + 25% UCT 800/acres,30.28866196,74.91235352,195,4.099999905,Yes,Yes,Stubble managed,Can't determine,,0,,,,,,,,,Yes,,1161,11/10/19
+122401811,12240181,4,p4,Bathinda,Nehian Wala,PES + 25% UCT 800/acres,30.28829956,74.89516449,190.1999969,4.400000095,Yes,Yes,Stubble managed,Burnt,,1,3,0,0,1,0,0,0,0,No,,1161,11/10/19
+122401971,12240197,2,p2,Bathinda,Nehian Wala,PES + 25% UCT 800/acres,30.30221176,74.92609406,215.1000061,4.699999809,Yes,Yes,Stubble managed,Burnt,,1,2 6,0,1,0,0,0,1,0,No,,1161,11/13/19
+122402141,12240214,5,p5,Bathinda,Nehian Wala,PES + 25% UCT 800/acres,30.29226112,74.92022705,203.3000031,4.300000191,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,Yes,,1161,11/13/19
+122402221,12240222,1,p1,Bathinda,Nehian Wala,PES + 25% UCT 800/acres,30.27730942,74.90342712,196.6000061,4.099999905,Yes,Yes,Stubble managed,Burnt,,1,2 6,0,1,0,0,0,1,0,Yes,,1161,11/13/19
+122402271,12240227,3,p3,Bathinda,Nehian Wala,PES + 25% UCT 800/acres,30.29227829,74.92098999,204.6999969,4.199999809,Yes,Yes,Stubble managed,Burnt,,1,6,0,0,0,0,0,1,0,Yes,,1161,11/13/19
+122500071,12250007,1,p1,Bathinda,Neor,Control,30.39246941,75.05606842,193.1000061,5,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,Yes,,1162,11/13/19
+122500211,12250021,1,p1,Bathinda,Neor,Control,30.39229584,75.05179596,189.6999969,2.599999905,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,No,,1162,11/12/19
+122500291,12250029,1,p1,Bathinda,Neor,Control,30.4001236,75.05684662,195.8000031,4.800000191,Yes,Yes,Stubble managed,Used CRM machine,,0,,,,,,,,,No,,1162,11/10/19
+122500511,12250051,2,p2,Bathinda,Neor,Control,30.41177559,75.05649567,210,5,Yes,Yes,Stubble not managed,,,,,,,,,,,,,,1162,11/13/19
+122500551,12250055,1,p1,Bathinda,Neor,Control,30.40645981,75.06461334,187.3000031,4.900000095,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,Yes,,1162,11/13/19
+122500601,12250060,2,p2,Bathinda,Neor,Control,30.4072361,75.11956787,190.6000061,4.300000191,Yes,Yes,Stubble management ongoing,,Burning,0,2,0,1,0,0,0,0,0,,,1162,11/12/19
+125000261,12500026,1,p1,Bathinda,Rajgarh Kubbe,PES + 25% UCT 800/acres,30.02615356,75.23556519,208.1000061,4.900000095,Yes,Yes,Stubble managed,Burnt,,1,1 3 4 6 7,1,0,1,1,0,1,1,Yes,,1178,11/12/19
+125000351,12500035,2,p2,Bathinda,Rajgarh Kubbe,PES + 25% UCT 800/acres,30.01104736,75.22611237,202.8999939,3.900000095,Yes,Yes,Stubble managed,Burnt,,1,1 3 6,1,0,1,0,0,1,0,Yes,,1178,11/16/19
+125000411,12500041,1,p1,Bathinda,Rajgarh Kubbe,PES + 25% UCT 800/acres,30.0297966,75.22711945,203,4.699999809,Yes,Yes,Stubble managed,Burnt,,1,1 2 5,1,1,0,0,1,0,0,No,,1178,11/16/19
+125000691,12500069,2,p2,Bathinda,Rajgarh Kubbe,PES + 25% UCT 800/acres,30.01455498,75.2432251,200,4.400000095,Yes,Yes,Stubble not managed,,,,,,,,,,,,,,1178,11/12/19
+125000741,12500074,2,p2,Bathinda,Rajgarh Kubbe,PES + 25% UCT 800/acres,30.01796913,75.23429108,199.5,4.5,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,Yes,,1178,11/12/19
+125000781,12500078,1,p1,Bathinda,Rajgarh Kubbe,PES + 25% UCT 800/acres,30.01973343,75.25511932,199.5,4.900000095,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 4 5 6 7,1,1,1,1,1,1,1,Yes,,1178,11/12/19
+125000801,12500080,1,p1,Bathinda,Rajgarh Kubbe,PES + 25% UCT 800/acres,30.00390434,75.23648071,199.5,3.900000095,Yes,Yes,Stubble managed,Burnt,,1,1 6,1,0,0,0,0,1,0,Yes,,1178,11/16/19
+125001011,12500101,2,p2,Bathinda,Rajgarh Kubbe,PES + 25% UCT 800/acres,30.01662254,75.25508881,198.6999969,4.199999809,Yes,Yes,Stubble not managed,,,,,,,,,,,,,,1178,11/12/19
+125300121,12530012,1,p1,Bathinda,Ram Tirath Jaga,PES + 25% UCT 800/acres,29.93817329,75.17191315,199.1999969,1.399999976,Yes,Yes,Stubble managed,Burnt,,1,2,0,1,0,0,0,0,0,Yes,,1180,11/10/19
+125300311,12530031,2,p2,Bathinda,Ram Tirath Jaga,PES + 25% UCT 800/acres,29.95643044,75.13247681,195.1000061,4,Yes,Yes,Stubble management ongoing,,Creating bales,0,,,,,,,,,,,1180,11/10/19
+125300331,12530033,1,p1,Bathinda,Ram Tirath Jaga,PES + 25% UCT 800/acres,29.95543861,75.13406372,198.6000061,4.599999905,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,,1180,11/10/19
+125300671,12530067,3,p3,Bathinda,Ram Tirath Jaga,PES + 25% UCT 800/acres,29.95377922,75.17153168,202.8000031,1.799999952,Yes,Yes,Stubble managed,Burnt,,1,2 5,0,1,0,0,1,0,0,No,,1180,11/13/19
+125300801,12530080,1,p1,Bathinda,Ram Tirath Jaga,PES + 25% UCT 800/acres,29.93679619,75.13253784,197.1000061,4.599999905,Yes,Yes,Stubble managed,Burnt,,1,1 2 3,1,1,1,0,0,0,0,No,,1180,11/13/19
+125300971,12530097,1,p1,Bathinda,Ram Tirath Jaga,PES + 25% UCT 800/acres,29.93619537,75.17935181,210.3999939,4.699999809,Yes,Yes,Stubble managed,Burnt,,1,2 3 6,0,1,1,0,0,1,0,No,,1180,11/13/19
+125301041,12530104,1,p1,Bathinda,Ram Tirath Jaga,PES + 25% UCT 800/acres,29.95092773,75.16763306,207.3999939,4.699999809,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,Good,1180,11/10/19
+125301151,12530115,1,p1,Bathinda,Ram Tirath Jaga,PES + 25% UCT 800/acres,29.96718788,75.16246796,201.6000061,4.300000191,Yes,Yes,Stubble managed,Burnt,,1,1 2 5 6,1,1,0,0,1,1,0,No,,1180,11/13/19
+125301711,12530171,1,p1,Bathinda,Ram Tirath Jaga,PES + 25% UCT 800/acres,29.95120811,75.11327362,189.8999939,4.400000095,No,,,,,,,,,,,,,,,Plat.cotten da hai,1180,11/10/19
+125301931,12530193,1,p1,Bathinda,Ram Tirath Jaga,PES + 25% UCT 800/acres,29.96495438,75.16170502,187.6000061,4,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,,1180,11/10/19
+125302171,12530217,1,p1,Bathinda,Ram Tirath Jaga,PES + 25% UCT 800/acres,29.95888901,75.13961792,199.1999969,4.5,Yes,Yes,Stubble managed,Burnt,,1,1 3,1,0,1,0,0,0,0,Yes,,1180,11/13/19
+125302301,12530230,1,p1,Bathinda,Ram Tirath Jaga,PES + 25% UCT 800/acres,29.95109558,75.13835907,193.1999969,4.699999809,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,No,,1180,11/10/19
+125400581,12540058,1,p1,Bathinda,Raman,PES + 50% UCT 800/acres,29.95824242,75.00789642,194.8000031,4.699999809,Yes,Yes,Stubble managed,Burnt,,1,1 3,1,0,1,0,0,0,0,Yes,Ok,1181,11/14/19
+125400661,12540066,1,p1,Bathinda,Raman,PES + 50% UCT 800/acres,29.97187614,74.95592499,180.8000031,4.5,Yes,Yes,Stubble managed,Burnt,,1,1 3 5,1,0,1,0,1,0,0,Yes,Ok,1181,11/14/19
+125401401,12540140,1,p1,Bathinda,Raman,PES + 50% UCT 800/acres,29.96545219,74.98297882,192.8999939,4.199999809,Yes,Yes,Stubble managed,Burnt,,1,1 3 6,1,0,1,0,0,1,0,No,Ok,1181,11/10/19
+125401621,12540162,1,p1,Bathinda,Raman,PES + 50% UCT 800/acres,29.94779205,74.96386719,213.3000031,4.900000095,Yes,Yes,Stubble managed,Used CRM machine,,0,,,,,,,,,No,Ok,1181,11/10/19
+125401631,12540163,3,p3,Bathinda,Raman,PES + 50% UCT 800/acres,29.95497704,74.99897003,194.1999969,4.199999809,Yes,Yes,Stubble managed,Burnt,,1,1 2 3,1,1,1,0,0,0,0,No,Ok,1181,11/14/19
+125401651,12540165,2,p2,Bathinda,Raman,PES + 50% UCT 800/acres,29.9571991,74.99855042,195.3000031,4.699999809,Yes,Yes,Stubble managed,Burnt,,1,2 5 6,0,1,0,0,1,1,0,No,Ok,1181,11/10/19
+125401691,12540169,1,p1,Bathinda,Raman,PES + 50% UCT 800/acres,29.94672966,74.99482727,216.6999969,4.900000095,Yes,Yes,Stubble managed,Burnt,,1,1 2 6,1,1,0,0,0,1,0,Yes,Ok,1181,11/10/19
+126100601,12610060,1,p1,Bathinda,Rayia,Control,30.34925079,75.31243896,213.1000061,4.5,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,No,Burning nhi hoi,1186,11/13/19
+126100641,12610064,2,p2,Bathinda,Rayia,Control,30.36817741,75.32576752,217.3000031,4.900000095,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,Ok,1186,11/11/19
+126101171,12610117,1,p1,Bathinda,Rayia,Control,30.35776329,75.29362488,212,4.5,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,Ok,1186,11/11/19
+126101261,12610126,1,p1,Bathinda,Rayia,Control,30.36269188,75.29158783,223.6000061,4.300000191,Yes,No,,,,,,,,,,,,,,Harvesting nhi hoi,1186,11/13/19
+126101441,12610144,3,p3,Bathinda,Rayia,Control,30.35667801,75.30382538,201.1999969,4.900000095,Yes,Yes,Stubble managed,Burnt,,1,3 5,0,0,1,0,1,0,0,Yes,Burning hoi hai,1186,11/13/19
+126101461,12610146,1,p1,Bathinda,Rayia,Control,30.36964035,75.32971954,198.8999939,4.099999905,Yes,Yes,Stubble managed,Burnt,,1,2 3 5,0,1,1,0,1,0,0,No,Burning hoi hai,1186,11/13/19
+126101911,12610191,2,p2,Bathinda,Rayia,Control,30.36406708,75.31315613,202.3000031,4.699999809,Yes,Yes,Stubble managed,Burnt,,1,1 3 5,1,0,1,0,1,0,0,Yes,Ok,1186,11/11/19
+126102701,12610270,2,p2,Bathinda,Rayia,Control,30.36047363,75.29652405,222.3000031,5,Yes,Yes,Stubble management ongoing,,Incorporating stubble into the soil,0,,,,,,,,,,Ok,1186,11/11/19
+126200061,12620006,1,p1,Bathinda,Riya,PES 800/acres,29.82048225,75.11377716,207.1999969,5,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,Ok,1187,11/16/19
+126200081,12620008,1,p1,Bathinda,Riya,PES 800/acres,29.82495308,75.120224,198.8000031,4.400000095,Yes,Yes,Stubble managed,Burnt,,1,2 3 5,0,1,1,0,1,0,0,No,Burning hoi hai,1187,11/11/19
+126200271,12620027,1,p1,Bathinda,Riya,PES 800/acres,29.82484818,75.12019348,198.6999969,4,Yes,Yes,Stubble managed,Burnt,,1,1 3 5,1,0,1,0,1,0,0,Yes,Ok,1187,11/16/19
+126200611,12620061,1,p1,Bathinda,Riya,PES 800/acres,30.36224937,75.31374359,215.3000031,6.5,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,Ok,1187,11/11/19
+126200651,12620065,1,p1,Bathinda,Riya,PES 800/acres,29.81467438,75.11029816,205.8999939,4.699999809,No,,,,,,,,,,,,,,,Cotton plot,1187,11/16/19
+126200781,12620078,1,p1,Bathinda,Riya,PES 800/acres,29.81028366,75.11801147,203.1999969,4.5,No,,,,,,,,,,,,,,,Cotton lgi hoei hai,1187,11/11/19
+127100151,12710015,2,p2,Bathinda,Sainewala Gurusar,PES 1600 /acres,30.14413834,74.89216614,194.1000061,4.699999809,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 5 6,1,1,1,0,1,1,0,Yes,,1189,11/13/19
+127100531,12710053,1,p1,Bathinda,Sainewala Gurusar,PES 1600 /acres,30.13812828,74.88098907,193.6000061,4.800000191,Yes,Yes,Stubble managed,Burnt,,1,2 3 5 6,0,1,1,0,1,1,0,Yes,,1189,11/13/19
+127100601,12710060,1,p1,Bathinda,Sainewala Gurusar,PES 1600 /acres,30.13442039,74.89472961,196.5,4.900000095,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 5 6,1,1,1,0,1,1,0,Yes,,1189,11/13/19
+127100621,12710062,1,p1,Bathinda,Sainewala Gurusar,PES 1600 /acres,30.13098907,74.91220856,185.5,4.599999905,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 5,1,1,1,0,1,0,0,Yes,,1189,11/9/19
+127100831,12710083,1,p1,Bathinda,Sainewala Gurusar,PES 1600 /acres,30.14066315,74.87657166,196.3000031,4.900000095,Yes,Yes,Stubble managed,Burnt,,1,2 3 5 6 7,0,1,1,0,1,1,1,Yes,,1189,11/13/19
+127100851,12710085,1,p1,Bathinda,Sainewala Gurusar,PES 1600 /acres,30.14847755,74.89221954,194.1999969,4.800000191,Yes,Yes,Stubble managed,Burnt,,1,1 3 5 6,1,0,1,0,1,1,0,Yes,,1189,11/13/19
+127100991,12710099,2,p2,Bathinda,Sainewala Gurusar,PES 1600 /acres,30.13890839,74.89713287,186.5,4.300000191,Yes,Yes,Stubble managed,Burnt,,1,2 3 5 6,0,1,1,0,1,1,0,Yes,,1189,11/9/19
+127101001,12710100,2,p2,Bathinda,Sainewala Gurusar,PES 1600 /acres,30.13269615,74.9199295,193.6999969,4.900000095,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 5 6,1,1,1,0,1,1,0,Yes,,1189,11/9/19
+127101021,12710102,2,p2,Bathinda,Sainewala Gurusar,PES 1600 /acres,30.14621162,74.89188385,193.1999969,5,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 5 6,1,1,1,0,1,1,0,No,,1189,11/9/19
+127101111,12710111,1,p1,Bathinda,Sainewala Gurusar,PES 1600 /acres,30.13412857,74.90874481,177.6000061,4.599999905,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,,1189,11/9/19
+127101221,12710122,1,p1,Bathinda,Sainewala Gurusar,PES 1600 /acres,30.12867165,74.88024902,187.8999939,4.800000191,Yes,Yes,Stubble managed,Burnt,,1,2 3 5 6 7,0,1,1,0,1,1,1,No,,1189,11/9/19
+127200031,12720003,1,p1,Bathinda,Salabatpura,PES 1600 /acres,30.48981857,75.24526215,216.8999939,5,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,Ok,1190,11/14/19
+127200151,12720015,2,p2,Bathinda,Salabatpura,PES 1600 /acres,30.48840332,75.23875427,217.8000031,4.699999809,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,No,Ok,1190,11/11/19
+127200441,12720044,1,p1,Bathinda,Salabatpura,PES 1600 /acres,30.49662971,75.253685,218.3000031,4.5,Yes,Yes,Stubble managed,Burnt,,1,1 3 5,1,0,1,0,1,0,0,Yes,Ok,1190,11/14/19
+127200501,12720050,1,p1,Bathinda,Salabatpura,PES 1600 /acres,30.49664688,75.2537384,218.1999969,4.199999809,Yes,Yes,Stubble not managed,,,,,,,,,,,,,Ok,1190,11/14/19
+127200511,12720051,1,p1,Bathinda,Salabatpura,PES 1600 /acres,30.48055267,75.24495697,224.1999969,4.5,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,Ok,1190,11/11/19
+127200851,12720085,1,p1,Bathinda,Salabatpura,PES 1600 /acres,30.48916245,75.25105286,213.6000061,4.400000095,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,Ok,1190,11/14/19
+127201221,12720122,1,p1,Bathinda,Salabatpura,PES 1600 /acres,30.49390221,75.24336243,214.1000061,4.5,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,Ok,1190,11/11/19
+127201231,12720123,1,p1,Bathinda,Salabatpura,PES 1600 /acres,30.49681854,75.24769592,212.5,4.5,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,Ok,1190,11/11/19
+127500091,12750009,1,p1,Bathinda,Sangat Khurd,Control,29.94852257,75.05850983,207.8999939,4,Yes,Yes,Stubble managed,Burnt,,1,6,0,0,0,0,0,1,0,Yes,,1193,11/17/19
+127500161,12750016,1,p1,Bathinda,Sangat Khurd,Control,29.95175934,75.08229065,199.1999969,4,Yes,Yes,Stubble managed,Burnt,,1,1 5 6,1,0,0,0,1,1,0,No,,1193,11/11/19
+127500391,12750039,1,p1,Bathinda,Sangat Khurd,Control,29.94077301,75.08052826,202,4.099999905,Yes,Yes,Stubble managed,Burnt,,1,6,0,0,0,0,0,1,0,Yes,,1193,11/17/19
+127500571,12750057,1,p1,Bathinda,Sangat Khurd,Control,29.94561386,75.08250427,202.1999969,4.699999809,Yes,Yes,Stubble managed,Burnt,,1,6,0,0,0,0,0,1,0,Yes,,1193,11/17/19
+127500631,12750063,2,p2,Bathinda,Sangat Khurd,Control,29.92819595,75.07953644,193.6999969,4.800000191,Yes,Yes,Stubble managed,Burnt,,1,5 6,0,0,0,0,1,1,0,No,,1193,11/17/19
+127500701,12750070,1,p1,Bathinda,Sangat Khurd,Control,29.94889259,75.08430481,202.6000061,4.300000191,Yes,Yes,Stubble managed,Burnt,,1,5 6,0,0,0,0,1,1,0,No,,1193,11/11/19
+127501141,12750114,1,p1,Bathinda,Sangat Khurd,Control,29.94976044,75.08465576,194.5,4.599999905,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 5,1,1,1,0,1,0,0,No,,1193,11/11/19
+128100021,12810002,1,p1,Bathinda,Shekhpura,PES 800/acres,30.01096535,75.15461731,198.8000031,2.200000048,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,Good,1196,11/11/19
+128100151,12810015,2,p2,Bathinda,Shekhpura,PES 800/acres,29.99835014,75.16280365,199.8000031,3.900000095,Yes,Yes,Stubble managed,Burnt,,1,1 2 3,1,1,1,0,0,0,0,Yes,,1196,11/14/19
+128100261,12810026,1,p1,Bathinda,Shekhpura,PES 800/acres,30.00365067,75.17520905,196.3000031,4.900000095,Yes,Yes,Stubble managed,Burnt,,1,1 2 3,1,1,1,0,0,0,0,Yes,,1196,11/14/19
+128100341,12810034,4,p4,Bathinda,Shekhpura,PES 800/acres,29.99138451,75.13977814,199.8000031,4.599999905,Yes,Yes,Stubble managed,Burnt,,1,2 5 6,0,1,0,0,1,1,0,No,,1196,11/11/19
+128100381,12810038,2,p2,Bathinda,Shekhpura,PES 800/acres,30.00021362,75.15275574,199.3000031,4.5,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,,1196,11/11/19
+128100501,12810050,1,p1,Bathinda,Shekhpura,PES 800/acres,29.99057198,75.14668274,196.6000061,4.699999809,Yes,Yes,Stubble managed,Burnt,,1,1 2,1,1,0,0,0,0,0,No,,1196,11/11/19
+128100551,12810055,1,p1,Bathinda,Shekhpura,PES 800/acres,29.99931908,75.15692139,195.6000061,3,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 6,1,1,1,0,0,1,0,Yes,,1196,11/14/19
+128100601,12810060,1,p1,Bathinda,Shekhpura,PES 800/acres,29.99998856,75.16635895,196.8000031,4.400000095,Yes,Yes,Stubble managed,Burnt,,1,1 2 5,1,1,0,0,1,0,0,Yes,,1196,11/14/19
+128100661,12810066,6,p6,Bathinda,Shekhpura,PES 800/acres,30.0007534,75.1725769,201.6999969,3.900000095,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 5,1,1,1,0,1,0,0,No,,1196,11/11/19
+128100701,12810070,1,p1,Bathinda,Shekhpura,PES 800/acres,30.00281143,75.17321014,198.1000061,4.5,Yes,Yes,Stubble managed,Burnt,,1,1 2,1,1,0,0,0,0,0,Yes,,1196,11/14/19
+128600321,12860032,1,p1,Bathinda,Singo,Control,29.91327286,75.14530182,192.6999969,3.900000095,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,No,,1198,11/12/19
+128600501,12860050,1,p1,Bathinda,Singo,Control,29.89647484,75.16648102,194.8999939,4.699999809,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 4 6 7,1,1,1,1,0,1,1,No,,1198,11/12/19
+128601821,12860182,1,p1,Bathinda,Singo,Control,29.90330124,75.16014862,159.8000031,4.699999809,No,,,,,,,,,,,,,,,Narme ka hae,1198,11/12/19
+128601921,12860192,1,p1,Bathinda,Singo,Control,29.91986084,75.16008759,202.3999939,4.800000191,Yes,No,,,,,,,,,,,,,,,1198,11/12/19
+128602041,12860204,1,p1,Bathinda,Singo,Control,29.91464806,75.16567993,190.8999939,3.900000095,Yes,Yes,Stubble managed,Burnt,,1,1 3 6,1,0,1,0,0,1,0,No,,1198,11/16/19
+128602151,12860215,1,p1,Bathinda,Singo,Control,29.92327309,75.16588593,199.6999969,3.900000095,Yes,Yes,Stubble not managed,,,,,,,,,,,,,,1198,11/12/19
+128602451,12860245,1,p1,Bathinda,Singo,Control,29.89275169,75.17978668,190,3.900000095,Yes,Yes,Stubble managed,Burnt,,1,1 3,1,0,1,0,0,0,0,No,,1198,11/16/19
+128602661,12860266,1,p1,Bathinda,Singo,Control,29.92551994,75.15138245,195.3000031,2.099999905,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,Yes,,1198,11/16/19
+128602891,12860289,1,p1,Bathinda,Singo,Control,29.90533066,75.18499756,202.5,4.699999809,Yes,Yes,Stubble managed,Burnt,,1,1 3 5 6,1,0,1,0,1,1,0,No,,1198,11/16/19
+128603071,12860307,1,p1,Bathinda,Singo,Control,29.90968704,75.153862,193.3000031,4,Yes,Yes,Stubble managed,Burnt,,1,1 3 6,1,0,1,0,0,1,0,Yes,,1198,11/16/19
+128603201,12860320,1,p1,Bathinda,Singo,Control,29.9005394,75.17881012,195.3999939,3.900000095,No,,,,,,,,,,,,,,,Eh narme ka plant,1198,11/12/19
+128800031,12880003,1,p1,Bathinda,Sivian,PES 800/acres,30.25563431,74.89221954,206.6000061,4.900000095,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,,1199,11/10/19
+128800281,12880028,1,p1,Bathinda,Sivian,PES 800/acres,30.25119209,74.88832855,218.5,5,No,,,,,,,,,,,,,,,Polot cottan,1199,11/14/19
+128800391,12880039,1,p1,Bathinda,Sivian,PES 800/acres,30.25496483,74.91242218,194.3000031,4.800000191,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,,1199,11/10/19
+128800441,12880044,2,p2,Bathinda,Sivian,PES 800/acres,30.25984764,74.87612152,193.3999939,3.900000095,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,,1199,11/10/19
+128801091,12880109,1,p1,Bathinda,Sivian,PES 800/acres,30.25978661,74.92259216,193.8000031,4.699999809,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,Yes,,1199,11/14/19
+128801111,12880111,1,p1,Bathinda,Sivian,PES 800/acres,30.26480103,74.87819672,193.5,4.900000095,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,Yes,,1199,11/14/19
+128801261,12880126,1,p1,Bathinda,Sivian,PES 800/acres,30.25819206,74.91371918,212,4.400000095,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 4,1,1,1,1,0,0,0,No,,1199,11/10/19
+128801351,12880135,1,p1,Bathinda,Sivian,PES 800/acres,30.26753235,74.91790009,193.1000061,4.199999809,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,Yes,,1199,11/14/19
+128801381,12880138,2,p2,Bathinda,Sivian,PES 800/acres,30.26576805,74.91825104,183.6999969,4.800000191,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 4,1,1,1,1,0,0,0,No,,1199,11/14/19
+128801431,12880143,1,p1,Bathinda,Sivian,PES 800/acres,30.25952339,74.87717438,189.8000031,4.900000095,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,,1199,11/14/19
+128801991,12880199,1,p1,Bathinda,Sivian,PES 800/acres,30.25543594,74.89570618,195.3999939,4.900000095,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,Yes,,1199,11/14/19
+128802091,12880209,1,p1,Bathinda,Sivian,PES 800/acres,30.26575089,74.88365173,199.1000061,4.599999905,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,,1199,11/10/19
+129000151,12900015,1,p1,Bathinda,Sukhladhi,Control,30.0148468,74.89944458,208.5,4,Yes,Yes,Stubble managed,Burnt,,1,1 3 5,1,0,1,0,1,0,0,Yes,Ok,1201,11/12/19
+129000321,12900032,1,p1,Bathinda,Sukhladhi,Control,30.00551987,74.90052032,197.6000061,4.900000095,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,Ok,1201,11/15/19
+129000661,12900066,1,p1,Bathinda,Sukhladhi,Control,29.98206711,74.89547729,178.8999939,3.900000095,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,Ok,1201,11/15/19
+129001051,12900105,1,p1,Bathinda,Sukhladhi,Control,30.00369835,74.89201355,195.6000061,5,Yes,Yes,Stubble management ongoing,,Incorporating stubble into the soil,0,,,,,,,,,,Ok,1201,11/12/19
+129001121,12900112,1,p1,Bathinda,Sukhladhi,Control,30.01202583,74.90744781,201.6999969,5,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,Ok,1201,11/12/19
+129001351,12900135,2,p2,Bathinda,Sukhladhi,Control,29.99728012,74.92133331,200.6999969,4.300000191,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,Yes,Ok,1201,11/15/19
+129100331,12910033,2,p2,Bathinda,Surewala,PES + 25% UCT 800/acres,30.49341393,75.06215668,209.6000061,4.800000191,Yes,Yes,Stubble managed,Burnt,,1,4,0,0,0,1,0,0,0,No,Good,1202,11/13/19
+129100631,12910063,1,p1,Bathinda,Surewala,PES + 25% UCT 800/acres,30.48077202,75.068573,217.8999939,4.599999905,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,No,Done,1202,11/13/19
+129100831,12910083,1,p1,Bathinda,Surewala,PES + 25% UCT 800/acres,30.48165894,75.02977753,213.6999969,4.599999905,Yes,Yes,Stubble management ongoing,,Creating bales,0,,,,,,,,,,Good,1202,11/10/19
+129100861,12910086,1,p1,Bathinda,Surewala,PES + 25% UCT 800/acres,30.49331093,75.06049347,213.8000031,4.199999809,Yes,Yes,Stubble managed,Burnt,,1,5,0,0,0,0,1,0,0,No,Good,1202,11/13/19
+129101071,12910107,1,p1,Bathinda,Surewala,PES + 25% UCT 800/acres,30.50146484,75.04653931,202.1000061,1.299999952,Yes,Yes,Stubble managed,Burnt,,1,2,0,1,0,0,0,0,0,No,Good,1202,11/10/19
+129101101,12910110,1,p1,Bathinda,Surewala,PES + 25% UCT 800/acres,30.49316788,75.05286407,213.6000061,4.300000191,Yes,Yes,Stubble managed,Burnt,,1,3,0,0,1,0,0,0,0,No,Good,1202,11/10/19
+129101551,12910155,1,p1,Bathinda,Surewala,PES + 25% UCT 800/acres,30.49264336,75.04376221,195.1000061,4.199999809,Yes,Yes,Stubble managed,Burnt,,1,5,0,0,0,0,1,0,0,Yes,Done,1202,11/13/19
+129101631,12910163,2,p2,Bathinda,Surewala,PES + 25% UCT 800/acres,30.48246384,75.03160095,214.8999939,4.199999809,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,Good,1202,11/10/19
+129102911,12910291,1,p1,Bathinda,Surewala,PES + 25% UCT 800/acres,30.49417686,75.04356384,208.1999969,4.5,Yes,Yes,Stubble managed,Burnt,,1,6,0,0,0,0,0,1,0,No,Good,1202,11/10/19
+129103071,12910307,1,p1,Bathinda,Surewala,PES + 25% UCT 800/acres,30.48004913,75.0524826,204.8000031,4.5,Yes,Yes,Stubble managed,Used CRM machine,,0,,,,,,,,,Yes,Good,1202,11/13/19
+129300011,12930001,1,p1,Bathinda,Talwandi Sabo,Control,29.99521446,75.10254669,187.8000031,4.599999905,Yes,Yes,Stubble managed,Burnt,,1,2 3 5,0,1,1,0,1,0,0,No,Burning hoi hai,1203,11/12/19
+129300251,12930025,2,p2,Bathinda,Talwandi Sabo,Control,29.97830009,75.0692749,218.5,4.599999905,No,,,,,,,,,,,,,,,Cotton lgi hoei aw,1203,11/11/19
+129300521,12930052,1,p1,Bathinda,Talwandi Sabo,Control,29.98648262,75.05809021,201.1999969,4.400000095,Yes,Yes,Stubble managed,Burnt,,1,2 3 5,0,1,1,0,1,0,0,Yes,Burning hoi hai,1203,11/11/19
+129300821,12930082,1,p1,Bathinda,Talwandi Sabo,Control,29.96876717,75.05851746,204.1999969,4.800000191,Yes,Yes,Stubble managed,Burnt,,1,1 3 5,1,0,1,0,1,0,0,No,Burning hoi hai,1203,11/11/19
+129301991,12930199,1,p1,Bathinda,Talwandi Sabo,Control,29.99507904,75.0663681,196.3999939,4.800000191,Yes,Yes,Stubble managed,Burnt,,1,3 5,0,0,1,0,1,0,0,Yes,Burning hoi hai,1203,11/14/19
+129302231,12930223,1,p1,Bathinda,Talwandi Sabo,Control,29.96897125,75.06020355,194.6000061,4.800000191,Yes,Yes,Stubble not managed,,,,,,,,,,,,,Only harvesting hoi hai,1203,11/14/19
+129302841,12930284,1,p1,Bathinda,Talwandi Sabo,Control,29.9805088,75.10366058,185,4.900000095,Yes,Yes,Stubble managed,Burnt,,1,1 3 6,1,0,1,0,0,1,0,Yes,Burning hoi hai,1203,11/11/19
+129302901,12930290,1,p1,Bathinda,Talwandi Sabo,Control,29.95623398,75.08277893,207.8000031,5,Yes,Yes,Stubble managed,Burnt,,1,2 5 7,0,1,0,0,1,0,1,No,Burning hoi hai,1203,11/14/19
+129303351,12930335,1,p1,Bathinda,Talwandi Sabo,Control,29.97919083,75.06137848,209,4.400000095,Yes,Yes,Stubble managed,Burnt,,1,3 5,0,0,1,0,1,0,0,Yes,Burning hoi  Hai,1203,11/11/19
+129303471,12930347,1,p1,Bathinda,Talwandi Sabo,Control,29.98941422,75.08935547,203.3000031,4.300000191,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,Burning nhi hoi,1203,11/14/19
+201500791,20150079,1,p1,Faridkot,Arayanwala Kalan,Control,30.73386955,74.69577026,197.3999939,4.300000191,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 5 6,1,1,1,0,1,1,0,No,,2008,11/13/19
+201501081,20150108,1,p1,Faridkot,Arayanwala Kalan,Control,30.70940781,74.68904877,201.3999939,4.5,Yes,Yes,Stubble managed,Burnt,,1,5,0,0,0,0,1,0,0,No,,2008,11/11/19
+201501301,20150130,1,p1,Faridkot,Arayanwala Kalan,Control,30.73828697,74.68986511,198.5,4.800000191,Yes,Yes,Stubble managed,Can't determine,,0,,,,,,,,,Yes,,2008,11/13/19
+201502161,20150216,2,p2,Faridkot,Arayanwala Kalan,Control,30.72981644,74.68742371,191.8999939,3.900000095,Yes,Yes,Stubble managed,Burnt,,1,1 5,1,0,0,0,1,0,0,No,"Risk tha ,,Kisan v piche aa rha c,and polt bi near tha Kisan ka,,or 10/11/19 Ko bi mere comment mai bta Diya tha ki Kisan ne burn kya hai, location is laye nhi lai c kyu ki plot main road se door tha,,",2008,11/13/19
+201502171,20150217,1,p1,Faridkot,Arayanwala Kalan,Control,30.72215652,74.71219635,185.3999939,4,Yes,Yes,Stubble managed,Burnt,,1,1,1,0,0,0,0,0,0,No,,2008,11/11/19
+201502921,20150292,1,p1,Faridkot,Arayanwala Kalan,Control,30.71518707,74.68631744,187.1999969,3.900000095,Yes,Yes,Stubble managed,Can't determine,,0,,,,,,,,,No,,2008,11/13/19
+203600161,20360016,1,p1,Faridkot,Behbal Kalan,Control,30.53796005,74.90394592,182,4.300000191,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 4 5 6 7,1,1,1,1,1,1,1,No,,2010,11/10/19
+203600301,20360030,2,p2,Faridkot,Behbal Kalan,Control,30.53787613,74.91879272,200.1000061,3.900000095,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,No,,2010,11/14/19
+203600651,20360065,1,p1,Faridkot,Behbal Kalan,Control,30.53361511,74.90507507,195.6000061,4.900000095,Yes,Yes,Stubble not managed,,,,,,,,,,,,,,2010,11/10/19
+203600771,20360077,1,p1,Faridkot,Behbal Kalan,Control,30.53793526,74.90628052,195.5,4.5,Yes,Yes,Stubble not managed,,,,,,,,,,,,,,2010,11/10/19
+203600901,20360090,1,p1,Faridkot,Behbal Kalan,Control,30.5336647,74.90496063,204.8999939,4.699999809,Yes,Yes,Stubble managed,Burnt,,1,1 4 5 6,1,0,0,1,1,1,0,Yes,,2010,11/14/19
+203600911,20360091,1,p1,Faridkot,Behbal Kalan,Control,30.54758453,74.90833282,202,3.900000095,Yes,Yes,Stubble managed,Burnt,,1,1 3 5 6,1,0,1,0,1,1,0,Yes,,2010,11/14/19
+203601151,20360115,1,p1,Faridkot,Behbal Kalan,Control,30.51870918,74.91316986,192.8000031,3.900000095,Yes,Yes,Stubble managed,Burnt,,1,2 3 5 6,0,1,1,0,1,1,0,No,,2010,11/14/19
+203601211,20360121,1,p1,Faridkot,Behbal Kalan,Control,30.52705574,74.91641998,201.3000031,4.900000095,Yes,Yes,Stubble managed,Burnt,,1,1 3 5 6,1,0,1,0,1,1,0,Yes,,2010,11/14/19
+203700041,20370004,1,p1,Faridkot,Behbal Khurd,PES 800/acres,30.4935894,74.9072876,198.8999939,4.400000095,Yes,Yes,Stubble managed,Burnt,,1,1 3 5 6,1,0,1,0,1,1,0,Yes,,2011,11/20/19
+203700201,20370020,3,p3,Faridkot,Behbal Khurd,PES 800/acres,30.51122856,74.91168213,200.1999969,5,Yes,Yes,Stubble managed,Burnt,,1,1 3 5 6,1,0,1,0,1,1,0,Yes,,2011,11/20/19
+203700321,20370032,1,p1,Faridkot,Behbal Khurd,PES 800/acres,30.50423622,74.90520477,187.8999939,4.699999809,Yes,Yes,Stubble managed,Burnt,,1,1 3 4 5 6,1,0,1,1,1,1,0,Yes,,2011,11/10/19
+203700491,20370049,1,p1,Faridkot,Behbal Khurd,PES 800/acres,30.5050106,74.89880371,191.1999969,4.5,Yes,Yes,Stubble managed,Burnt,,1,2 3,0,1,1,0,0,0,0,Yes,,2011,11/10/19
+203700551,20370055,1,p1,Faridkot,Behbal Khurd,PES 800/acres,30.49002838,74.90283203,189.8999939,4.800000191,Yes,Yes,Stubble managed,Burnt,,1,1,1,0,0,0,0,0,0,Yes,,2011,11/10/19
+203700561,20370056,2,p2,Faridkot,Behbal Khurd,PES 800/acres,30.50542641,74.89942169,187.3999939,4.599999905,Yes,Yes,Stubble managed,Burnt,,1,3 5 6,0,0,1,0,1,1,0,Yes,,2011,11/10/19
+203700651,20370065,2,p2,Faridkot,Behbal Khurd,PES 800/acres,30.51096344,74.91170502,199.1000061,2,Yes,Yes,Stubble managed,Burnt,,1,3,0,0,1,0,0,0,0,No,,2011,11/10/19
+203700811,20370081,2,p2,Faridkot,Behbal Khurd,PES 800/acres,30.49375343,74.9030838,173.8999939,4.900000095,Yes,Yes,Stubble managed,Used CRM machine,,0,,,,,,,,,Yes,,2011,11/14/19
+203700901,20370090,1,p1,Faridkot,Behbal Khurd,PES 800/acres,30.51671982,74.91259766,197.8999939,4.800000191,Yes,Yes,Stubble managed,Burnt,,1,1 5 6,1,0,0,0,1,1,0,Yes,,2011,11/20/19
+203700961,20370096,2,p2,Faridkot,Behbal Khurd,PES 800/acres,30.50837135,74.90692139,197.8999939,4.800000191,Yes,Yes,Stubble managed,Burnt,,1,1 3 5 6,1,0,1,0,1,1,0,Yes,,2011,11/20/19
+203701271,20370127,1,p1,Faridkot,Behbal Khurd,PES 800/acres,30.50096321,74.90335846,105.5999985,4.099999905,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,Yes,,2011,11/10/19
+205500131,20550013,1,p1,Faridkot,Bihle Wala,PES 1600 /acres,30.68132591,74.61013794,186.6999969,4.699999809,Yes,Yes,Stubble managed,Burnt,,1,1 2 5,1,1,0,0,1,0,0,No,,2017,11/11/19
+205500171,20550017,1,p1,Faridkot,Bihle Wala,PES 1600 /acres,30.67306709,74.59260559,180.1999969,4,Yes,Yes,Stubble not managed,,,,,,,,,,,,,,2017,11/18/19
+205500251,20550025,1,p1,Faridkot,Bihle Wala,PES 1600 /acres,30.67195892,74.60936737,177.3999939,3.900000095,Yes,Yes,Stubble managed,Can't determine,,0,,,,,,,,,No,,2017,11/18/19
+205500461,20550046,2,p2,Faridkot,Bihle Wala,PES 1600 /acres,30.66377831,74.59693909,187,4,Yes,Yes,Stubble managed,Burnt,,1,1 3 5,1,0,1,0,1,0,0,No,,2017,11/18/19
+205500591,20550059,1,p1,Faridkot,Bihle Wala,PES 1600 /acres,30.67883682,74.59868622,187.1000061,4,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,No,Haf plot peddy and haf coten,2017,11/11/19
+205500611,20550061,2,p2,Faridkot,Bihle Wala,PES 1600 /acres,30.68548965,74.59654236,186.8000031,4.5,Yes,Yes,Stubble not managed,,,,,,,,,,,,,,2017,11/11/19
+205500801,20550080,2,p2,Faridkot,Bihle Wala,PES 1600 /acres,30.68206978,74.60359192,185.8999939,3.900000095,Yes,Yes,Stubble managed,Burnt,,1,1,1,0,0,0,0,0,0,No,,2017,11/11/19
+205500911,20550091,1,p1,Faridkot,Bihle Wala,PES 1600 /acres,30.66555023,74.58664703,183.6999969,3.900000095,Yes,Yes,Stubble not managed,,,,,,,,,,,,,,2017,11/18/19
+206900061,20690006,1,p1,Faridkot,Chahal,PES + 25% UCT 800/acres,30.65842819,74.79429626,191.8000031,3.900000095,Yes,Yes,Stubble managed,Can't determine,,0,,,,,,,,,Yes,Kisan keth mai tha,2023,11/14/19
+206900281,20690028,1,p1,Faridkot,Chahal,PES + 25% UCT 800/acres,30.64826393,74.80854797,199.6999969,3.900000095,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,No,,2023,11/10/19
+206900371,20690037,1,p1,Faridkot,Chahal,PES + 25% UCT 800/acres,30.66414261,74.80643463,199.3999939,4.5,Yes,Yes,Stubble managed,Can't determine,,0,,,,,,,,,Yes,,2023,11/10/19
+206900831,20690083,1,p1,Faridkot,Chahal,PES + 25% UCT 800/acres,30.6456871,74.80097961,210.3000031,4.300000191,Yes,Yes,Stubble managed,Can't determine,,0,,,,,,,,,No,,2023,11/10/19
+206900971,20690097,2,p2,Faridkot,Chahal,PES + 25% UCT 800/acres,30.64904976,74.7985611,215.3000031,4.099999905,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,,2023,11/14/19
+206901001,20690100,1,p1,Faridkot,Chahal,PES + 25% UCT 800/acres,30.6768856,74.79153442,214.3999939,4.5,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,"Kyu  ki peddy da nad polt vich dikh reha hai,,Brun da kol Nisan Nhi hai.shid ghutha v bnaiya hon",2023,11/14/19
+206901881,20690188,2,p2,Faridkot,Chahal,PES + 25% UCT 800/acres,30.65845871,74.79367828,197.1000061,3.900000095,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,,2023,11/10/19
+209100191,20910019,3,p3,Faridkot,Dhudhi,PES + 25% UCT 800/acres,30.68703079,74.86412048,198.6000061,4.099999905,Yes,Yes,Stubble managed,Can't determine,,0,,,,,,,,,No,,2030,11/10/19
+209100681,20910068,1,p1,Faridkot,Dhudhi,PES + 25% UCT 800/acres,30.68687248,74.85786438,202,4.599999905,Yes,Yes,Stubble managed,Can't determine,,0,,,,,,,,,Yes,,2030,11/10/19
+209100851,20910085,1,p1,Faridkot,Dhudhi,PES + 25% UCT 800/acres,30.7159729,74.85466003,196,4.300000191,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,Yes,,2030,11/10/19
+209101011,20910101,1,p1,Faridkot,Dhudhi,PES + 25% UCT 800/acres,30.6939888,74.86565399,201.1999969,4.300000191,Yes,Yes,Stubble managed,Can't determine,,0,,,,,,,,,Yes,,2030,11/14/19
+209101311,20910131,1,p1,Faridkot,Dhudhi,PES + 25% UCT 800/acres,30.69378471,74.84481049,199.8999939,3.900000095,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 5,1,1,1,0,1,0,0,No,"Haf plot te burn hai and haf te burn nhi hai plot,,haf te bijai hoi hai Jo burn nhi hoya",2030,11/14/19
+209101361,20910136,1,p1,Faridkot,Dhudhi,PES + 25% UCT 800/acres,30.72041702,74.8456192,194.1999969,4.400000095,Yes,Yes,Stubble managed,Can't determine,,0,,,,,,,,,Yes,,2030,11/14/19
+209101851,20910185,2,p2,Faridkot,Dhudhi,PES + 25% UCT 800/acres,30.70430374,74.86310577,194.3000031,4,Yes,Yes,Stubble managed,Burnt,,1,3,0,0,1,0,0,0,0,No,,2030,11/10/19
+209300291,20930029,1,p1,Faridkot,Dob,Control,30.47646332,75.01372528,198.1999969,4.300000191,Yes,Yes,Stubble managed,Burnt,,1,5 6,0,0,0,0,1,1,0,No,,2032,11/14/19
+209300451,20930045,1,p1,Faridkot,Dob,Control,30.46318626,75.02424622,206.5,4.800000191,Yes,Yes,Stubble not managed,,,,,,,,,,,,,,2032,11/10/19
+209300591,20930059,3,p3,Faridkot,Dob,Control,30.46563148,75.02907562,199.1999969,4.5,Yes,Yes,Stubble not managed,,,,,,,,,,,,,,2032,11/19/19
+209300821,20930082,1,p1,Faridkot,Dob,Control,30.46008873,75.01706696,204.3999939,4.800000191,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 5 6 7,1,1,1,0,1,1,1,No,,2032,11/10/19
+209300901,20930090,1,p1,Faridkot,Dob,Control,30.4763298,75.01377869,204.5,3.900000095,Yes,Yes,Stubble not managed,,,,,,,,,,,,,,2032,11/10/19
+209300921,20930092,1,p1,Faridkot,Dob,Control,30.47476768,75.00366974,199.1999969,4,Yes,Yes,Stubble managed,Burnt,,1,1 3 4 5 7,1,0,1,1,1,0,1,Yes,,2032,11/19/19
+209301321,20930132,1,p1,Faridkot,Dob,Control,30.46559715,75.0315094,200.6999969,4.699999809,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 4 5 7,1,1,1,1,1,0,1,No,,2032,11/19/19
+209301331,20930133,2,p2,Faridkot,Dob,Control,30.47534943,75.02810669,197.5,4.400000095,Yes,Yes,Stubble managed,Burnt,,1,1 3 5 7,1,0,1,0,1,0,1,No,,2032,11/19/19
+209301341,20930134,1,p1,Faridkot,Dob,Control,30.47542,75.02503204,204.8999939,4.699999809,Yes,Yes,Stubble not managed,,,,,,,,,,,,,,2032,11/14/19
+209301771,20930177,2,p2,Faridkot,Dob,Control,30.48178673,75.00965118,202.1000061,4.800000191,Yes,Yes,Stubble managed,Used CRM machine,,0,,,,,,,,,Yes,Use CRM machine after burnt on his plot.,2032,11/14/19
+212300241,21230024,1,p1,Faridkot,Gurusar,Control,30.49682808,74.88696289,200.8000031,4.5,Yes,Yes,Stubble managed,Burnt,,1,3 5 6,0,0,1,0,1,1,0,Yes,,2038,11/14/19
+212300901,21230090,1,p1,Faridkot,Gurusar,Control,30.49961281,74.89095306,200.6999969,4.900000095,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 5 6,1,1,1,0,1,1,0,No,,2038,11/14/19
+212301021,21230102,1,p1,Faridkot,Gurusar,Control,30.52151871,74.89414978,199.1000061,4.900000095,Yes,Yes,Stubble managed,Burnt,,1,3 5 6,0,0,1,0,1,1,0,Yes,,2038,11/14/19
+212301661,21230166,2,p2,Faridkot,Gurusar,Control,30.50811005,74.8935318,212.1000061,4.800000191,Yes,Yes,Stubble managed,Burnt,,1,1 3 5 6,1,0,1,0,1,1,0,No,,2038,11/14/19
+212302611,21230261,1,p1,Faridkot,Gurusar,Control,30.5262928,74.90007782,236.8000031,4.800000191,Yes,Yes,Stubble not managed,,,,,,,,,,,,,,2038,11/14/19
+213100161,21310016,1,p1,Faridkot,Jaito,PES 1600 /acres,30.47835732,74.88090515,189.8000031,3.900000095,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 4 5 6 7,1,1,1,1,1,1,1,No,,2041,11/10/19
+213100221,21310022,1,p1,Faridkot,Jaito,PES 1600 /acres,30.4650383,74.90119934,200.1000061,4.599999905,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 4 7,1,1,1,1,0,0,1,No,,2041,11/14/19
+213100711,21310071,2,p2,Faridkot,Jaito,PES 1600 /acres,30.43632698,74.90734863,196.6999969,4.699999809,Yes,Yes,Stubble managed,Burnt,,1,1 2 4 6 7,1,1,0,1,0,1,1,No,,2041,11/10/19
+213101181,21310118,1,p1,Faridkot,Jaito,PES 1600 /acres,30.4746685,74.90799713,209,4.599999905,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 4 5 6 7,1,1,1,1,1,1,1,No,,2041,11/10/19
+213101741,21310174,2,p2,Faridkot,Jaito,PES 1600 /acres,30.445158,74.86016083,191.1999969,3.900000095,Yes,Yes,Stubble managed,Burnt,,1,1 3 4 5 6 7,1,0,1,1,1,1,1,No,,2041,11/14/19
+213101931,21310193,1,p1,Faridkot,Jaito,PES 1600 /acres,30.42723465,74.88514709,196.6999969,4.5,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 4 7,1,1,1,1,0,0,1,Yes,,2041,11/14/19
+213103011,21310301,1,p1,Faridkot,Jaito,PES 1600 /acres,30.4431057,74.90428162,198.6000061,4.300000191,Yes,Yes,Stubble managed,Burnt,,1,5,0,0,0,0,1,0,0,No,,2041,11/14/19
+216100221,21610022,1,p1,Faridkot,Khara,PES + 25% UCT 800/acres,30.52106094,74.70977783,190.1999969,4.599999905,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,No,,2051,11/10/19
+216100301,21610030,1,p1,Faridkot,Khara,PES + 25% UCT 800/acres,30.53858376,74.7024765,189.3000031,4.599999905,Yes,Yes,Stubble not managed,,,,,,,,,,,,,,2051,11/14/19
+216101071,21610107,1,p1,Faridkot,Khara,PES + 25% UCT 800/acres,30.5238018,74.72264862,193.3999939,4.400000095,Yes,Yes,Stubble managed,Burnt,,1,1,1,0,0,0,0,0,0,Yes,,2051,11/10/19
+216101771,21610177,2,p2,Faridkot,Khara,PES + 25% UCT 800/acres,30.55145264,74.72319031,199.3000031,4,Yes,Yes,Stubble not managed,,,,,,,,,,,,,,2051,11/10/19
+216101781,21610178,1,p1,Faridkot,Khara,PES + 25% UCT 800/acres,30.54143715,74.71922302,193.1000061,4,Yes,Yes,Stubble managed,Burnt,,1,3 5 6,0,0,1,0,1,1,0,Yes,,2051,11/14/19
+216101951,21610195,2,p2,Faridkot,Khara,PES + 25% UCT 800/acres,30.53963661,74.73178101,192.1999969,4.400000095,Yes,Yes,Stubble managed,Can't determine,,0,,,,,,,,,No,,2051,11/10/19
+216102631,21610263,1,p1,Faridkot,Khara,PES + 25% UCT 800/acres,30.51699257,74.70210266,202.8999939,4.099999905,Yes,Yes,Stubble managed,Burnt,,1,2 3 5 6,0,1,1,0,1,1,0,Yes,,2051,11/14/19
+216103221,21610322,3,p3,Faridkot,Khara,PES + 25% UCT 800/acres,30.53142357,74.72499084,187,4,Yes,Yes,Stubble managed,Burnt,,1,1 6,1,0,0,0,0,1,0,No,,2051,11/10/19
+217100511,21710051,1,p1,Faridkot,Kot Sukhia,Control,30.67634201,74.87523651,200.3999939,3.900000095,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,No,,2054,11/10/19
+217100661,21710066,2,p2,Faridkot,Kot Sukhia,Control,30.70284843,74.90339661,200,5,Yes,Yes,Stubble managed,Burnt,,1,5 6,0,0,0,0,1,1,0,No,,2054,11/10/19
+217101061,21710106,2,p2,Faridkot,Kot Sukhia,Control,30.67526436,74.8669281,206.8000031,4.900000095,Yes,Yes,Stubble managed,Can't determine,,0,,,,,,,,,Yes,,2054,11/14/19
+217101091,21710109,1,p1,Faridkot,Kot Sukhia,Control,30.67730522,74.87531281,198,3.900000095,Yes,Yes,Stubble managed,Can't determine,,0,,,,,,,,,Yes,,2054,11/14/19
+217101671,21710167,1,p1,Faridkot,Kot Sukhia,Control,30.68112183,74.89229584,196.1999969,4.900000095,Yes,Yes,Stubble managed,Burnt,,1,1 3 5,1,0,1,0,1,0,0,No,,2054,11/14/19
+217102201,21710220,2,p2,Faridkot,Kot Sukhia,Control,30.65838242,74.87783051,197.1000061,4.599999905,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 5,1,1,1,0,1,0,0,No,,2054,11/14/19
+217102621,21710262,1,p1,Faridkot,Kot Sukhia,Control,30.65769577,74.87782288,187.6999969,5,Yes,Yes,Stubble management ongoing,,Creating bales,0,,,,,,,,,,"Kisan door c ta kteh de near nhi gya,,and Kisan haath se parbandh kr reha c",2054,11/14/19
+217102741,21710274,1,p1,Faridkot,Kot Sukhia,Control,30.70732307,74.8950882,200.1000061,4.400000095,Yes,Yes,Stubble managed,Can't determine,,0,,,,,,,,,Yes,,2054,11/14/19
+217102961,21710296,2,p2,Faridkot,Kot Sukhia,Control,30.70482826,74.89172363,197.6000061,3.900000095,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,,2054,11/10/19
+220000591,22000059,1,p1,Faridkot,Marak,Control,30.44603539,74.74399567,191.1999969,4.900000095,Yes,Yes,Stubble managed,Burnt,,1,2 3 5 6,0,1,1,0,1,1,0,Yes,,2059,11/14/19
+220000741,22000074,1,p1,Faridkot,Marak,Control,30.46976089,74.74427795,195.5,4.800000191,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 5 6,1,1,1,0,1,1,0,Yes,,2059,11/14/19
+220001021,22000102,2,p2,Faridkot,Marak,Control,30.45119286,74.75148773,193.3000031,4.199999809,Yes,Yes,Stubble managed,Burnt,,1,3 5 6,0,0,1,0,1,1,0,Yes,,2059,11/14/19
+220001171,22000117,1,p1,Faridkot,Marak,Control,30.44885826,74.76148224,204.8999939,4.900000095,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,No,,2059,11/11/19
+220001281,22000128,2,p2,Faridkot,Marak,Control,30.45535278,74.74780273,196.8999939,3.900000095,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 4 5 6,1,1,1,1,1,1,0,No,,2059,11/11/19
+220001471,22000147,1,p1,Faridkot,Marak,Control,30.45189857,74.75474548,194.8000031,4.400000095,Yes,Yes,Stubble not managed,,,,,,,,,,,,,,2059,11/14/19
+220001611,22000161,1,p1,Faridkot,Marak,Control,30.45256042,74.73447418,215.8999939,4.599999905,Yes,Yes,Stubble managed,Burnt,,1,3 5 6,0,0,1,0,1,1,0,Yes,,2059,11/14/19
+220300141,22030014,1,p1,Faridkot,Matta,PES 800/acres,30.47784424,74.82231903,195,4.699999809,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 4 5 6 7,1,1,1,1,1,1,1,Yes,,2061,11/10/19
+220300191,22030019,1,p1,Faridkot,Matta,PES 800/acres,30.48450279,74.8116684,196.6000061,4.199999809,Yes,Yes,Stubble not managed,,,,,,,,,,,,,,2061,11/14/19
+220301321,22030132,1,p1,Faridkot,Matta,PES 800/acres,30.47469139,74.84623718,202.1999969,4.800000191,Yes,Yes,Stubble managed,Burnt,,1,1 2,1,1,0,0,0,0,0,Yes,,2061,11/14/19
+220301531,22030153,1,p1,Faridkot,Matta,PES 800/acres,30.48340797,74.84983063,193.3000031,4.699999809,Yes,Yes,Stubble managed,Burnt,,1,1 3 6,1,0,1,0,0,1,0,Yes,,2061,11/10/19
+220301961,22030196,1,p1,Faridkot,Matta,PES 800/acres,30.47656441,74.8243866,176.5,4.800000191,Yes,Yes,Stubble managed,Burnt,,1,1 3 4 6,1,0,1,1,0,1,0,No,,2061,11/10/19
+220302201,22030220,1,p1,Faridkot,Matta,PES 800/acres,30.4763813,74.82227325,195.6999969,4.699999809,Yes,Yes,Stubble managed,Burnt,,1,1 3 4 5 7,1,0,1,1,1,0,1,Yes,,2061,11/14/19
+220302461,22030246,2,p2,Faridkot,Matta,PES 800/acres,30.48121643,74.82073212,193.8999939,4.699999809,Yes,Yes,Stubble not managed,,,,,,,,,,,,,,2061,11/14/19
+220302561,22030256,1,p1,Faridkot,Matta,PES 800/acres,30.48279572,74.83216858,200.6999969,4.599999905,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 4 6 7,1,1,1,1,0,1,1,No,,2061,11/14/19
+220302741,22030274,1,p1,Faridkot,Matta,PES 800/acres,30.46853256,74.85365295,194.8999939,4.199999809,Yes,Yes,Stubble managed,Burnt,,1,1 2 3 5 6,1,1,1,0,1,1,0,No,,2061,11/14/19
+222600551,22260055,1,p1,Faridkot,Pakhi Kalan,PES 800/acres,30.74941254,74.76206207,196.6000061,4.800000191,Yes,Yes,Stubble managed,Burnt,,1,1,1,0,0,0,0,0,0,Yes,,2065,11/14/19
+222600591,22260059,1,p1,Faridkot,Pakhi Kalan,PES 800/acres,30.77631187,74.76304626,192.1000061,4.800000191,Yes,Yes,Stubble managed,Burnt,,1,1 6,1,0,0,0,0,1,0,No,,2065,11/14/19
+222601681,22260168,2,p2,Faridkot,Pakhi Kalan,PES 800/acres,30.74269104,74.76712799,195.8999939,3.900000095,Yes,Yes,Stubble managed,Burnt,,1,1 5 6,1,0,0,0,1,1,0,No,,2065,11/14/19
+222601951,22260195,1,p1,Faridkot,Pakhi Kalan,PES 800/acres,30.76695442,74.76268005,196.1999969,5,Yes,Yes,Stubble managed,Burnt,,1,2 5 6,0,1,0,0,1,1,0,Yes,,2065,11/14/19
+222601961,22260196,1,p1,Faridkot,Pakhi Kalan,PES 800/acres,30.75823593,74.75659943,188.6999969,4.699999809,Yes,Yes,Stubble managed,Burnt,,1,1 3,1,0,1,0,0,0,0,Yes,,2065,11/14/19
+226000291,22600029,2,p2,Faridkot,Ran Singh Wala,Control,30.48465729,74.9154892,187.6000061,4.900000095,Yes,Yes,Stubble managed,Burnt,,1,1 3 5 6,1,0,1,0,1,1,0,Yes,,2076,11/19/19
+226000841,22600084,2,p2,Faridkot,Ran Singh Wala,Control,30.49678802,74.94428253,191.8999939,4.900000095,Yes,Yes,Stubble managed,Used CRM machine,,0,,,,,,,,,Yes,,2076,11/11/19
+226001051,22600105,1,p1,Faridkot,Ran Singh Wala,Control,30.50236893,74.93583679,196.6000061,4.699999809,Yes,Yes,Stubble managed,Burnt,,1,1 3 5 6,1,0,1,0,1,1,0,Yes,,2076,11/19/19
+226001161,22600116,1,p1,Faridkot,Ran Singh Wala,Control,30.49458122,74.92630005,179.6000061,4.599999905,Yes,Yes,Stubble managed,Burnt,,1,1 3 5 6,1,0,1,0,1,1,0,Yes,,2076,11/19/19
+226300021,22630002,1,p1,Faridkot,Romana Ajit Singh,Control,30.39769554,75.01699066,198,4.5,Yes,Yes,Stubble managed,Burnt,,1,1 3 5 6,1,0,1,0,1,1,0,Yes,,2077,11/15/19
+226301181,22630118,1,p1,Faridkot,Romana Ajit Singh,Control,30.38156509,75.04329681,206.3999939,4.400000095,Yes,Yes,Stubble managed,Burnt,,1,1 3 4 6,1,0,1,1,0,1,0,Yes,,2077,11/15/19
+226301391,22630139,2,p2,Faridkot,Romana Ajit Singh,Control,30.38638496,75.04457092,205.1000061,4.599999905,Yes,Yes,Stubble managed,Burnt,,1,1 3 5 6,1,0,1,0,1,1,0,Yes,,2077,11/15/19
+226302221,22630222,2,p2,Faridkot,Romana Ajit Singh,Control,30.4025135,75.03029633,198.8000031,4.800000191,Yes,Yes,Stubble managed,Burnt,,1,1 3 5 6,1,0,1,0,1,1,0,Yes,,2077,11/15/19
+226302571,22630257,1,p1,Faridkot,Romana Ajit Singh,Control,30.38247681,75.04351807,206.1000061,4.800000191,Yes,Yes,Stubble managed,Burnt,,1,1 3 5 6,1,0,1,0,1,1,0,Yes,,2077,11/15/19
+226302741,22630274,1,p1,Faridkot,Romana Ajit Singh,Control,30.40885735,75.01009369,209.5,4.400000095,Yes,Yes,Stubble managed,Created bales,,0,,,,,,,,,No,,2077,11/15/19
+226900401,22690040,2,p2,Faridkot,Sadiq,PES 800/acres,30.72493362,74.58049774,183.8000031,4.900000095,Yes,Yes,Stubble managed,Burnt,,1,1,1,0,0,0,0,0,0,No,,2083,11/10/19
+226900821,22690082,1,p1,Faridkot,Sadiq,PES 800/acres,30.70644569,74.55640411,184.3999939,4.900000095,Yes,Yes,Stubble managed,Burnt,,1,1 3,1,0,1,0,0,0,0,Yes,,2083,11/15/19
+226900841,22690084,2,p2,Faridkot,Sadiq,PES 800/acres,30.7161293,74.57601929,192.8999939,4.800000191,Yes,Yes,Stubble management ongoing,,Can't determine,0,,,,,,,,,,,2083,11/10/19
+226901091,22690109,1,p1,Faridkot,Sadiq,PES 800/acres,30.70100594,74.57333374,184.6999969,3.900000095,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,,2083,11/10/19
+226901271,22690127,1,p1,Faridkot,Sadiq,PES 800/acres,30.70899773,74.5721283,191.6999969,5.300000191,Yes,Yes,Stubble managed,Burnt,,1,1 3,1,0,1,0,0,0,0,No,,2083,11/15/19
+226901291,22690129,1,p1,Faridkot,Sadiq,PES 800/acres,30.71625137,74.56545258,186.3999939,5.199999809,Yes,Yes,Stubble managed,Burnt,,1,1 3,1,0,1,0,0,0,0,Yes,,2083,11/15/19
+226901331,22690133,3,p3,Faridkot,Sadiq,PES 800/acres,30.71052551,74.57221222,185.8999939,3.900000095,Yes,Yes,Stubble managed,Incorporated stubble into the soil,,0,,,,,,,,,Yes,,2083,11/10/19

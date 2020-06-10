@@ -1,0 +1,460 @@
+resp_id,plot_id,district,village,startdate,pv_nonpaddy,pv_only_straw,pv_straw_stubble,pv_stand_stubble,pv_straw_collect,pv_burnt_roots2,pv_burnt_roots1,pv_wet_ash,pv_float_ash,pv_ash_visible,pv_burnt_grass,pv_trees_burnt,pv_visit_date,pv_burnt_alt,pv_burnt,pv_burnt_any,pv_paddy,p_burnt,p_burnt_alt,p_burnt_visit,plot_gpslatitude,plot_gpslongitude,plot_gpsaltitude,plot_gpsaccuracy,sowed,stubble_present,manage_stubble,if_tilled
+100100131,p1,Bathinda,Ablu,6-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,No,21859,0,0,0,1,0,0,,30.305494,74.746445,186.39999,4.9000001,No,Rolled bales are visible,,No
+100100131,p1,Bathinda,Ablu,13-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21866,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+100100331,p1,Bathinda,Ablu,30-Oct-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,No,21852,0,0,0,1,0,0,,30.309189,74.737602,186.2,4.8000002,,No,,No
+100100331,p1,Bathinda,Ablu,14-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21867,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+100100331,p2,Bathinda,Ablu,30-Oct-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,No,21852,0,0,0,1,0,0,,30.308517,74.73735,189,4.8000002,,Rolled bales are visible,,No
+100100331,p2,Bathinda,Ablu,14-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21867,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+100100331,p3,Bathinda,Ablu,30-Oct-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,.s,21852,0,0,0,1,0,0,,30.308184,74.745735,180.5,4.8000002,,Rolled bales are visible,,No
+100100331,p3,Bathinda,Ablu,14-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,.s,21867,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+100100681,p1,Bathinda,Ablu,15-Nov-19,No,.s,.s,.s,.s,.s,"Yes, burnt roots and stems are mixed in the soil.",.s,.s,Yes,Yes,Yes,21868,1,1,1,0,1,1,1,30.301115,74.74514,193.3,2,No,No,,Yes
+100100681,p2,Bathinda,Ablu,15-Nov-19,No,.s,.s,.s,.s,.s,"Yes, burnt roots and stems are mixed in the soil.",No,.s,.s,Yes,.s,21868,1,1,1,1,1,1,1,30.319626,74.769531,189.3,3.3,Yes,No,,Yes
+100101161,p1,Bathinda,Ablu,25-Nov-19,No,.s,.s,No,,.s,.s,.s,.s,No,No,No,21878,0,0,0,1,0,0,,30.347597,74.749298,189.89999,4.3000002,No,Only standing stubble is visible,Incorporate into the soil,
+100101161,p1,Bathinda,Ablu,29-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21882,0,0,0,1,0,0,,,,,,No,No,,Yes
+100101641,p1,Bathinda,Ablu,24-Oct-19,No,.s,.s,.s,.s,No,.s,,,,No,.s,21846,0,0,0,1,0,0,,30.323103,74.807747,191.39999,4.5,,No,,No
+100101641,p1,Bathinda,Ablu,12-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,.s,21865,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+100101641,p2,Bathinda,Ablu,24-Oct-19,No,.s,.s,.s,.s,No,.s,,,,No,.s,21846,0,0,0,1,0,0,,30.320147,74.773567,188.2,5,,No,,No
+100101641,p2,Bathinda,Ablu,12-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,.s,21865,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+100200391,p1,Bathinda,Adampura,4-Nov-19,No,.s,No,.s,.s,.s,.s,.s,.s,No,No,No,21857,0,0,0,1,0,0,,30.501806,75.273628,202.89999,4.5999999,,"Yes, loose straw spread over standing stubble is visible",Use happy seeder,
+100200391,p2,Bathinda,Adampura,4-Nov-19,No,.s,No,.s,.s,.s,.s,.s,.s,No,No,No,21857,0,0,0,1,0,0,,30.518183,75.262314,207.7,4,,"Yes, loose straw spread over standing stubble is visible",Use happy seeder,
+100201341,p1,Bathinda,Adampura,29-Oct-19,No,.s,.s,No,,.s,.s,.s,.s,No,No,No,21851,0,0,0,1,0,0,,30.507923,75.2575,206,4.4000001,,Only standing stubble is visible,Sell/give away the stubble,
+100201341,p1,Bathinda,Adampura,14-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,.s,21867,0,0,0,1,0,0,,30.508816,75.24308,208,4.0999999,Yes,No,,Yes
+100201341,p2,Bathinda,Adampura,29-Oct-19,No,.s,.s,No,,.s,.s,.s,.s,No,No,.s,21851,0,0,0,1,0,0,,30.513161,75.270317,208.8,4.3000002,,Only standing stubble is visible,Sell/give away the stubble,
+100201341,p3,Bathinda,Adampura,29-Oct-19,No,.s,No,.s,.s,.s,.s,No,.s,.s,No,.s,21851,0,0,0,1,0,0,,30.508955,75.243042,205.3,3.9000001,,"Yes, loose straw spread over standing stubble is visible",Sell/give away the stubble,
+101000091,p1,Bathinda,Akalia Kalan,4-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,.s,21857,0,0,0,1,0,0,,30.361895,74.895622,193.10001,5,,No,,Yes
+101202141,p1,Bathinda,Aklia Jalal,14-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,No,21867,0,0,0,1,0,0,,30.519934,75.155273,196.3,4.6999998,Yes,No,,No
+101202141,p2,Bathinda,Aklia Jalal,14-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,.s,21867,0,0,0,1,0,0,,30.519873,75.15535,199.2,3.9000001,Yes,No,,No
+101400031,p1,Bathinda,Amarpura Urf Gurthuri,10-Nov-19,No,.s,.s,.s,.s,No,.s,No,.s,.s,No,No,21863,0,0,0,1,0,0,,30.053694,74.83416,197.39999,4.5999999,No,No,,No
+101400031,p3,Bathinda,Amarpura Urf Gurthuri,10-Nov-19,No,.s,.s,.s,.s,.s,"Yes, burnt roots and stems are mixed in the soil.",.s,.s,Yes,Yes,.s,21863,1,1,1,1,1,1,1,30.047445,74.826523,192.8,4.9000001,Yes,No,,Yes
+101400031,p4,Bathinda,Amarpura Urf Gurthuri,10-Nov-19,No,.s,.s,.s,.s,.s,"Yes, burnt roots and stems are mixed in the soil.",.s,.s,Yes,Yes,Yes,21863,1,1,1,1,1,1,1,30.047857,74.825745,198.2,4.4000001,Yes,No,,Yes
+101400471,p1,Bathinda,Amarpura Urf Gurthuri,11-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21864,0,0,0,1,0,0,,30.040569,74.829468,195.3,4.0999999,No,No,,Yes
+101600961,p1,Bathinda,Badiala,19-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,.s,21872,0,0,0,1,0,0,,30.221552,75.315559,206.10001,4.0999999,Yes,No,,Yes
+101600961,p2,Bathinda,Badiala,19-Nov-19,No,.s,.s,.s,.s,.s,.s,.s,.s,No,No,No,21872,0,0,0,1,0,0,,30.21776,75.312134,205.89999,4.5,Yes,The straw is loose but has been collected in one part of the plot.,.o,
+102100511,p1,Bathinda,Balahar Mehma,12-Nov-19,No,No,.s,.s,.s,.s,.s,.s,.s,No,No,No,21865,0,0,0,1,0,0,,30.332954,74.843437,191,4.6999998,No,"Yes, only loose straw is visible",Roll into bales,
+102100511,p1,Bathinda,Balahar Mehma,20-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21873,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+102100531,p1,Bathinda,Balahar Mehma,19-Nov-19,No,.s,.s,No,,.s,.s,.s,.s,No,No,No,21872,0,0,0,1,0,0,,30.34038,74.849442,188.89999,3.9000001,Yes,Only standing stubble is visible,Incorporate into the soil,
+102100531,p1,Bathinda,Balahar Mehma,29-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21882,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+102100541,p1,Bathinda,Balahar Mehma,13-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21866,0,0,0,1,0,0,,30.344423,74.847885,187,4.5999999,No,No,,Yes
+102100541,p1,Bathinda,Balahar Mehma,26-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21879,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+102301881,p1,Bathinda,Balianwali,17-Nov-19,No,No,.s,.s,.s,.s,.s,.s,.s,No,No,No,21870,0,0,0,1,0,0,,30.200695,75.184921,204.89999,4,No,"Yes, only loose straw is visible",Roll into bales,
+102301881,p1,Bathinda,Balianwali,28-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21881,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+102301881,p2,Bathinda,Balianwali,17-Nov-19,No,.s,.s,.s,.s,.s,.s,.s,.s,No,No,No,21870,0,0,0,1,0,0,,30.201498,75.169655,199.89999,4.5999999,No,The straw is loose but has been collected in one part of the plot.,.o,
+102301881,p2,Bathinda,Balianwali,28-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21881,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+102302421,p1,Bathinda,Balianwali,15-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,.s,21868,0,0,0,1,0,0,,30.208023,75.194038,205.39999,4.5,Yes,No,,Yes
+102302421,p2,Bathinda,Balianwali,15-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,.s,21868,0,0,0,1,0,0,,30.208572,75.194107,201.3,4.0999999,Yes,No,,Yes
+102700701,p1,Bathinda,Bandi,18-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,.s,21871,0,0,0,1,0,0,,30.059326,74.760902,183.7,4.1999998,No,No,,Yes
+102700701,p2,Bathinda,Bandi,18-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21871,0,0,0,1,0,0,,30.05924,74.760963,184.2,5,Yes,No,,Yes
+102700701,p3,Bathinda,Bandi,18-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21871,0,0,0,1,0,0,,30.062138,74.761177,176.8,4.3000002,No,No,,Yes
+102800461,p1,Bathinda,Bangher Charat Singh,26-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,.s,21879,0,0,0,1,0,0,,30.056772,75.093086,189.8,3.9000001,Yes,No,,Yes
+103400151,p1,Bathinda,Bath,7-Nov-19,No,.s,.s,Yes,,.s,.s,,,,Yes,.s,21860,1,1,1,1,1,1,1,,,,,No,Only standing stubble is visible,,
+103400151,p4,Bathinda,Bath,7-Nov-19,No,.s,.s,.s,.s,Yes,.s,,,,Yes,Yes,21860,1,1,1,1,1,1,1,,,,,No,No,,No
+103801251,p1,Bathinda,Behman Diwana,19-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21872,0,0,0,1,0,0,,,,,,No,No,,Yes
+104201241,p1,Bathinda,Bhagi Bandar,11-Nov-19,No,.s,.s,.s,.s,.s,.s,.s,.s,No,No,.s,21864,0,0,0,1,0,0,,30.035994,75.082108,197.3,5,No,The straw is loose but has been collected in one part of the plot.,Incorporate into the soil,
+104201241,p1,Bathinda,Bhagi Bandar,16-Nov-19,No,.s,.s,.s,.s,.s,.s,,,,No,.s,21869,0,0,0,1,0,0,,,,,,Yes,The straw is loose but has been collected in one part of the plot.,,
+104300051,p1,Bathinda,Bhagta Bhai Ka,6-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,No,21859,0,0,0,1,0,0,,30.488874,75.10717,200.5,3.9000001,No,Rolled bales are visible,,No
+104300051,p1,Bathinda,Bhagta Bhai Ka,20-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21873,0,0,0,1,0,0,,,,,,No,No,,Yes
+104300051,p2,Bathinda,Bhagta Bhai Ka,6-Nov-19,Yes,.s,.s,.s,.s,No,.s,.s,.s,No,No,No,21859,0,0,0,0,0,0,,30.488888,75.107224,204.2,4.8000002,No,Rolled bales are visible,,No
+104300051,p2,Bathinda,Bhagta Bhai Ka,20-Nov-19,Yes,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,.s,21873,0,0,0,0,0,0,,,,,,Yes,No,,Yes
+104300511,p1,Bathinda,Bhagta Bhai Ka,6-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,No,21859,0,0,0,1,0,0,,30.462416,75.106285,203.2,5,Yes,No,,No
+104300511,p2,Bathinda,Bhagta Bhai Ka,6-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,No,21859,0,0,0,1,0,0,,30.468172,75.107834,208.10001,4.9000001,Yes,No,,No
+104600081,p1,Bathinda,Bhai Bakhtaur,26-Oct-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,.s,21848,0,0,0,1,0,0,,30.099392,75.126465,196,3.9000001,,Rolled bales are visible,,No
+104600081,p1,Bathinda,Bhai Bakhtaur,13-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21866,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+104600081,p2,Bathinda,Bhai Bakhtaur,13-Nov-19,No,No,.s,.s,.s,.s,.s,,,,No,No,21866,0,0,0,1,0,0,,,,,,No,"Yes, only loose straw is visible",,
+104600081,p2,Bathinda,Bhai Bakhtaur,2-Dec-19,No,.s,.s,.s,.s,No,.s,,,,No,No,21885,0,0,0,1,0,0,,,,,,No,No,,No
+104601921,p2,Bathinda,Bhai Bakhtaur,2-Nov-19,No,No,.s,.s,.s,.s,.s,.s,.s,No,No,No,21855,0,0,0,1,0,0,,30.101139,75.140587,186.3,4.5,,"Yes, only loose straw is visible",Use happy seeder,
+104601921,p2,Bathinda,Bhai Bakhtaur,16-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21869,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+105400861,p1,Bathinda,Bhunder,2-Nov-19,No,No,.s,.s,.s,.s,.s,.s,.s,No,No,.s,21855,0,0,0,1,0,0,,30.21879,75.232323,201.60001,4.0999999,,"Yes, only loose straw is visible",.o,
+105400861,p1,Bathinda,Bhunder,7-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,.s,21860,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+105400861,p2,Bathinda,Bhunder,2-Nov-19,No,No,.s,.s,.s,.s,.s,.s,.s,No,No,.s,21855,0,0,0,1,0,0,,30.218267,75.232574,208,4.5999999,,"Yes, only loose straw is visible",.o,
+105400861,p2,Bathinda,Bhunder,7-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,.s,21860,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+105400921,p1,Bathinda,Bhunder,31-Oct-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,.s,21853,0,0,0,1,1,1,2,30.215736,75.227371,200.7,4.8000002,,No,,Yes
+105400921,p1,Bathinda,Bhunder,14-Nov-19,No,.s,.s,.s,.s,.s,"Yes, burnt roots and stems are mixed in the soil.",,,,Yes,.s,21867,1,1,1,1,1,1,2,,,,,Yes,No,,Yes
+105400921,p2,Bathinda,Bhunder,14-Nov-19,No,.s,.s,.s,.s,.s,"Yes, burnt roots and stems are mixed in the soil.",,,,Yes,Yes,21867,1,1,1,1,1,1,1,,,,,Yes,No,,Yes
+105401091,p1,Bathinda,Bhunder,12-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,.s,21865,0,0,0,1,0,0,,30.223522,75.214874,193.7,4.8000002,Yes,No,,Yes
+105401211,p1,Bathinda,Bhunder,5-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21858,0,0,0,1,0,0,,30.187149,75.212173,216.39999,4.8000002,,No,,Yes
+105401211,p2,Bathinda,Bhunder,5-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21858,0,0,0,1,0,0,,30.186945,75.211807,210.89999,4.0999999,,No,,Yes
+105401631,p1,Bathinda,Bhunder,10-Nov-19,No,No,.s,.s,.s,.s,.s,.s,.s,No,No,No,21863,0,0,0,1,1,1,2,30.201809,75.23278,195.5,3.9000001,No,"Yes, only loose straw is visible",.o,
+105401631,p1,Bathinda,Bhunder,15-Nov-19,No,.s,.s,.s,.s,.s,"Yes, burnt roots and stems are mixed in the soil.",,,,Yes,Yes,21868,1,1,1,1,1,1,2,,,,,No,No,,Yes
+105402101,p1,Bathinda,Bhunder,13-Nov-19,No,.s,.s,.s,.s,.s,"Yes, burnt roots and stems are mixed in the soil.",.s,.s,No,Yes,.s,21866,1,1,1,0,1,1,1,30.195744,75.210327,209.8,4.9000001,No,No,,Yes
+105402101,p2,Bathinda,Bhunder,13-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",No,.s,.s,No,No,21866,0,0,0,1,0,0,,30.195248,75.211128,199.60001,4.3000002,Yes,No,,Yes
+105800051,p1,Bathinda,Bugra,2-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,No,21855,0,0,0,1,0,0,,30.322685,75.31395,208.10001,3.9000001,,No,,No
+105800051,p2,Bathinda,Bugra,2-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,.s,21855,0,0,0,1,0,0,,30.322733,75.313995,202.5,4,,No,,No
+105800331,p1,Bathinda,Bugra,4-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21857,0,0,0,0,0,0,,30.308193,75.305588,201.39999,4.5,,Rolled bales are visible,,Yes
+105800331,p1,Bathinda,Bugra,14-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21867,0,0,0,0,0,0,,,,,,Yes,No,,Yes
+105801131,p1,Bathinda,Bugra,10-Nov-19,No,No,.s,.s,.s,.s,.s,.s,.s,No,No,No,21863,0,0,0,1,0,0,,30.317533,75.309494,209.89999,5,Yes,"Yes, only loose straw is visible",Use happy seeder,
+105801131,p2,Bathinda,Bugra,10-Nov-19,No,No,.s,.s,.s,.s,.s,.s,.s,No,No,No,21863,0,0,0,1,0,0,,30.321089,75.311836,213.10001,5,Yes,"Yes, only loose straw is visible",Use happy seeder,
+105801181,p1,Bathinda,Bugra,3-Nov-19,No,No,.s,.s,.s,.s,.s,No,.s,.s,No,.s,21856,0,0,0,1,0,0,,30.31414,75.311943,198.3,5,,"Yes, only loose straw is visible",Incorporate into the soil,
+105801181,p1,Bathinda,Bugra,11-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21864,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+105801181,p2,Bathinda,Bugra,3-Nov-19,No,.s,No,.s,.s,.s,.s,No,.s,.s,No,No,21856,0,0,0,0,0,0,,30.314001,75.311661,206.3,4,,"Yes, loose straw spread over standing stubble is visible",Use happy seeder,
+105801181,p2,Bathinda,Bugra,11-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21864,0,0,0,0,0,0,,,,,,Yes,No,,Yes
+105801181,p3,Bathinda,Bugra,3-Nov-19,No,.s,No,.s,.s,.s,.s,No,.s,.s,No,No,21856,0,0,0,1,0,0,,30.31167,75.317444,192.89999,3.9000001,,"Yes, loose straw spread over standing stubble is visible",Use happy seeder,
+105801181,p3,Bathinda,Bugra,11-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21864,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+106000071,p1,Bathinda,Burj,24-Oct-19,No,.s,.s,.s,.s,No,.s,,,,No,.s,21846,0,0,0,1,0,0,,30.02943,75.179405,212.2,3.9000001,,No,,No
+106000071,p2,Bathinda,Burj,24-Oct-19,No,.s,.s,.s,.s,No,.s,,,,No,No,21846,0,0,0,1,0,0,,30.01659,75.178238,199.3,4.5999999,,No,,No
+106000071,p3,Bathinda,Burj,13-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21866,0,0,0,1,0,0,,,,,,No,No,,Yes
+106000311,p1,Bathinda,Burj,8-Nov-19,No,.s,.s,.s,.s,No,.s,No,.s,.s,No,No,21861,0,0,0,1,0,0,,30.01326,75.181282,209.39999,4.5,No,No,,No
+106000311,p1,Bathinda,Burj,16-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21869,0,0,0,1,0,0,,,,,,No,No,,Yes
+106000441,p1,Bathinda,Burj,19-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,No,21872,0,0,0,1,0,0,,30.020327,75.18364,186.89999,4.6999998,No,Rolled bales are visible,,No
+106000441,p1,Bathinda,Burj,23-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21876,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+106000441,p2,Bathinda,Burj,19-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,No,21872,0,0,0,1,0,0,,30.020134,75.183464,200.7,4.9000001,No,No,,No
+106000441,p2,Bathinda,Burj,23-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21876,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+106000441,p3,Bathinda,Burj,19-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,.s,21872,0,0,0,1,0,0,,30.034479,75.198143,200.2,4.8000002,No,No,,No
+106000441,p3,Bathinda,Burj,23-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21876,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+106000441,p4,Bathinda,Burj,19-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,No,21872,0,0,0,1,0,0,,30.034536,75.198112,206.89999,4.8000002,No,No,,No
+106000441,p4,Bathinda,Burj,23-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21876,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+106000551,p1,Bathinda,Burj,11-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,.s,21864,0,0,0,1,0,0,,30.02203,75.183113,193.39999,4.3000002,No,No,,Yes
+106000551,p2,Bathinda,Burj,11-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21864,0,0,0,1,0,0,,30.021872,75.182076,194.60001,4,No,No,,Yes
+106101181,p1,Bathinda,Burj Gill,8-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,No,21861,0,0,0,1,0,0,,30.404922,75.216835,203.8,4.6999998,No,Rolled bales are visible,,No
+106101181,p1,Bathinda,Burj Gill,12-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,.s,21865,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+106101291,p1,Bathinda,Burj Gill,22-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21875,0,0,0,1,0,0,,30.39016,75.226662,216.60001,4.3000002,Yes,No,,Yes
+106101291,p2,Bathinda,Burj Gill,22-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,.s,21875,0,0,0,1,0,0,,30.389784,75.22541,203.3,4.8000002,Yes,No,,Yes
+106500021,p1,Bathinda,Burj Ladha Singh Wala,11-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,No,21864,0,0,0,1,0,0,,30.521015,75.101326,224.10001,4.3000002,No,Rolled bales are visible,,No
+106500021,p1,Bathinda,Burj Ladha Singh Wala,15-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21868,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+106500021,p2,Bathinda,Burj Ladha Singh Wala,11-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,No,21864,0,0,0,1,0,0,,30.521774,75.10144,203.2,4,No,Rolled bales are visible,,No
+106500021,p2,Bathinda,Burj Ladha Singh Wala,15-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21868,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+106500991,p1,Bathinda,Burj Ladha Singh Wala,30-Oct-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,No,21852,0,0,0,1,0,0,,30.522564,75.081299,208.89999,4.1999998,,Rolled bales are visible,,No
+106500991,p2,Bathinda,Burj Ladha Singh Wala,30-Oct-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,No,21852,0,0,0,1,0,0,,30.522797,75.08065,192.60001,5,,Rolled bales are visible,,No
+107000611,p1,Bathinda,Chak Attar Singhwala,21-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,No,21874,0,0,0,1,0,0,,30.102106,74.741333,182.60001,3.9000001,No,Rolled bales are visible,,No
+107000611,p1,Bathinda,Chak Attar Singhwala,29-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21882,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+107000831,p1,Bathinda,Chak Attar Singhwala,10-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,No,21863,0,0,0,1,0,0,,30.079494,74.728157,193,5,No,Rolled bales are visible,,No
+107000831,p1,Bathinda,Chak Attar Singhwala,15-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21868,0,0,0,1,0,0,,,,,,No,No,,Yes
+107000831,p2,Bathinda,Chak Attar Singhwala,10-Nov-19,Yes,No,.s,.s,.s,.s,.s,.s,.s,No,No,No,21863,0,0,0,0,0,0,,30.079708,74.727989,189.5,4.8000002,No,"Yes, only loose straw is visible",Roll into bales,
+107000831,p3,Bathinda,Chak Attar Singhwala,10-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,No,21863,0,0,0,1,0,0,,30.078827,74.727257,194.3,4.9000001,No,Rolled bales are visible,,No
+107000831,p3,Bathinda,Chak Attar Singhwala,15-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21868,0,0,0,1,0,0,,,,,,No,No,,Yes
+107100971,p1,Bathinda,Chak Fateh Singh Wala,29-Nov-19,No,.s,.s,Yes,,.s,.s,No,.s,.s,Yes,Yes,21882,1,1,1,1,1,1,1,30.192299,75.091148,201.7,4.3000002,Yes,Only standing stubble is visible,,
+107401321,p1,Bathinda,Chanarthal,24-Oct-19,No,.s,.s,.s,.s,No,.s,,,,No,No,21846,0,0,0,1,0,0,,30.133829,75.149925,217,5,,No,,No
+107401321,p1,Bathinda,Chanarthal,14-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21867,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+107401321,p2,Bathinda,Chanarthal,24-Oct-19,No,.s,.s,.s,.s,No,.s,,,,No,No,21846,0,0,0,1,0,0,,30.135916,75.154198,197.10001,4.5,,No,,No
+107401321,p2,Bathinda,Chanarthal,14-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21867,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+107900661,p1,Bathinda,Dan Singh Wala,10-Nov-19,No,.s,.s,.s,.s,.s,"Yes, burnt roots and stems are mixed in the soil.",.s,.s,Yes,No,No,21863,1,1,1,1,1,1,1,30.346823,74.827019,179.3,5,Yes,No,,Yes
+107902081,p1,Bathinda,Dan Singh Wala,8-Nov-19,No,.s,.s,.s,.s,.s,"Yes, burnt roots and stems are mixed in the soil.",.s,.s,Yes,Yes,Yes,21861,1,1,1,1,1,1,1,30.366749,74.854134,192.10001,4.8000002,Yes,No,,Yes
+107902081,p3,Bathinda,Dan Singh Wala,8-Nov-19,No,.s,.s,.s,.s,.s,"Yes, burnt roots and stems are mixed in the soil.",.s,.s,No,Yes,.s,21861,1,1,1,1,1,1,1,,,,,Yes,No,,Yes
+107902081,p4,Bathinda,Dan Singh Wala,8-Nov-19,No,.s,.s,.s,.s,.s,"Yes, burnt roots and stems are mixed in the soil.",.s,.s,No,Yes,.s,21861,1,1,1,1,1,1,1,30.366711,74.851166,184.8,4.9000001,Yes,No,,Yes
+107902151,p1,Bathinda,Dan Singh Wala,4-Nov-19,No,.s,.s,.s,.s,.s,"Yes, burnt roots and stems are mixed in the soil.",Yes,.s,.s,No,Yes,21857,1,1,1,1,1,1,1,30.370199,74.852432,186.3,4.1999998,,No,,Yes
+107902151,p2,Bathinda,Dan Singh Wala,4-Nov-19,No,.s,.s,.s,.s,.s,"Yes, burnt roots and stems are mixed in the soil.",No,.s,.s,Yes,.s,21857,1,1,1,1,1,1,1,30.370207,74.853897,183.3,4,,No,,Yes
+108000921,p1,Bathinda,Daulatpura,18-Nov-19,No,No,.s,.s,.s,.s,.s,.s,.s,No,No,No,21871,0,0,0,1,0,0,,30.197731,75.157761,197.89999,4,No,"Yes, only loose straw is visible",Incorporate into the soil,
+108000921,p1,Bathinda,Daulatpura,23-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21876,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+108201851,p1,Bathinda,Deon,24-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21877,0,0,0,1,0,0,,30.24966,74.818512,182.8,4.0999999,Yes,No,,Yes
+108202271,p1,Bathinda,Deon,13-Nov-19,No,.s,.s,.s,.s,.s,"Yes, burnt roots and stems are mixed in the soil.",.s,.s,Yes,Yes,Yes,21866,1,1,1,1,1,1,1,30.276705,74.859245,212.7,7.3000002,No,No,,Yes
+108202271,p2,Bathinda,Deon,13-Nov-19,No,.s,.s,.s,.s,.s,"Yes, burnt roots and stems are mixed in the soil.",.s,.s,Yes,Yes,.s,21866,1,1,1,1,1,1,1,30.277916,74.858582,205.10001,3.9000001,Yes,No,,Yes
+109702951,p1,Bathinda,Dyalpura Mirza,8-Nov-19,No,.s,.s,.s,.s,Yes,.s,.s,.s,Yes,No,No,21861,1,1,1,1,1,1,1,30.411394,75.154266,208.39999,3.9000001,No,No,,No
+109800561,p1,Bathinda,Faridkot,6-Nov-19,No,.s,.s,.s,.s,Yes,.s,.s,.s,Yes,Yes,Yes,21859,1,1,1,1,1,1,1,30.048538,74.710777,185.5,4.1999998,No,No,,No
+109800561,p1,Bathinda,Faridkot,20-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21873,0,0,0,1,1,1,1,,,,,Yes,No,,Yes
+109800561,p2,Bathinda,Faridkot,6-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,No,21859,0,0,0,1,0,1,,30.048384,74.710533,182.7,5,No,Rolled bales are visible,,No
+109800561,p2,Bathinda,Faridkot,20-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,Yes,Yes,21873,1,0,1,1,0,1,,,,,,Yes,No,,Yes
+110100101,p1,Bathinda,Ganga,2-Nov-19,No,.s,No,.s,.s,.s,.s,.s,.s,No,No,No,21855,0,0,0,1,1,1,2,30.329185,75.087143,202.8,4.8000002,,"Yes, loose straw spread over standing stubble is visible",Use happy seeder,
+110100101,p1,Bathinda,Ganga,14-Nov-19,No,.s,.s,Yes,,.s,.s,,,,Yes,Yes,21867,1,1,1,1,1,1,2,,,,,Yes,Only standing stubble is visible,,
+110100211,p1,Bathinda,Ganga,26-Oct-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21848,0,0,0,1,0,0,,30.333153,75.071121,208,1.4,,No,,Yes
+110300781,p1,Bathinda,Gehri Bara Singh,10-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21863,0,0,0,1,0,0,,30.119869,75.178879,195.39999,3.9000001,No,No,,Yes
+111000871,p1,Bathinda,Ghdheli,19-Nov-19,No,.s,.s,.s,.s,Yes,.s,.s,.s,Yes,Yes,Yes,21872,1,1,1,1,1,1,1,30.272886,75.353256,218,4.4000001,Yes,No,,No
+111000971,p1,Bathinda,Ghdheli,7-Nov-19,No,.s,No,.s,.s,.s,.s,.s,.s,No,No,No,21860,0,0,0,1,0,0,,30.283216,75.353363,202.10001,4.6999998,No,"Yes, loose straw spread over standing stubble is visible",Incorporate into the soil,
+111000971,p1,Bathinda,Ghdheli,10-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,.s,21863,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+111101581,p1,Bathinda,Ghudda,24-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21877,0,0,0,1,0,0,,30.123034,74.806694,178.89999,3.9000001,No,No,,Yes
+111101581,p2,Bathinda,Ghudda,24-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21877,0,0,0,1,0,0,,30.12299,74.806732,182.7,5,No,No,,Yes
+111102231,p1,Bathinda,Ghudda,6-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,.s,21859,0,0,0,1,0,0,,30.113169,74.801346,192.5,4.8000002,No,No,,Yes
+111102231,p1,Bathinda,Ghudda,28-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,.s,21881,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+111102231,p2,Bathinda,Ghudda,6-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21859,0,0,0,1,0,0,,30.112949,74.801796,193.3,4.0999999,No,No,,Yes
+111102231,p2,Bathinda,Ghudda,28-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21881,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+111102231,p3,Bathinda,Ghudda,28-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21881,0,0,0,1,0,0,,,,,,No,No,,Yes
+111102611,p1,Bathinda,Ghudda,14-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,.s,21867,0,0,0,1,0,0,,30.105034,74.802551,295.70001,4.9000001,No,No,,No
+111102611,p1,Bathinda,Ghudda,26-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21879,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+111102611,p2,Bathinda,Ghudda,14-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",No,.s,.s,No,.s,21867,0,0,0,1,0,0,,30.103748,74.802551,187.60001,3.7,No,No,,Yes
+111102611,p2,Bathinda,Ghudda,26-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21879,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+111102911,p1,Bathinda,Ghudda,27-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21880,0,0,0,1,0,0,,30.122444,74.806137,177.8,6.6999998,No,No,,Yes
+111801741,p1,Bathinda,Golewala,24-Nov-19,No,.s,.s,No,,.s,.s,.s,.s,No,No,.s,21877,0,0,0,1,0,0,,29.826157,75.149132,198.60001,4.0999999,No,Only standing stubble is visible,Incorporate into the soil,
+111801741,p1,Bathinda,Golewala,29-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21882,0,0,0,1,0,0,,,,,,No,No,,Yes
+112300271,p1,Bathinda,Gurusar,18-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,No,21871,0,0,0,1,0,0,,30.504772,75.126884,200.39999,4,No,Rolled bales are visible,,No
+112300271,p1,Bathinda,Gurusar,22-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21875,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+112300271,p2,Bathinda,Gurusar,18-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,.s,21871,0,0,0,1,1,1,2,30.504642,75.126823,204,4.4000001,No,Rolled bales are visible,,No
+112300271,p2,Bathinda,Gurusar,22-Nov-19,No,.s,.s,.s,.s,.s,"Yes, burnt roots and stems are mixed in the soil.",,,,Yes,Yes,21875,1,1,1,1,1,1,2,,,,,Yes,No,,Yes
+112300271,p3,Bathinda,Gurusar,18-Nov-19,No,No,.s,.s,.s,.s,.s,.s,.s,No,No,No,21871,0,0,0,1,1,1,2,30.502174,75.140198,203.2,4.6999998,No,"Yes, only loose straw is visible",.o,
+112300271,p3,Bathinda,Gurusar,22-Nov-19,No,.s,.s,.s,.s,.s,"Yes, burnt roots and stems are mixed in the soil.",,,,Yes,.s,21875,1,1,1,1,1,1,2,,,,,Yes,No,,Yes
+112300351,p1,Bathinda,Gurusar,22-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,No,21875,0,0,0,1,0,0,,30.496803,75.131104,201.7,3.9000001,No,No,,No
+112300351,p1,Bathinda,Gurusar,28-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21881,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+112300661,p1,Bathinda,Gurusar,17-Nov-19,No,.s,.s,.s,.s,.s,"Yes, burnt roots and stems are mixed in the soil.",.s,.s,No,No,No,21870,0,1,1,1,1,0,1,30.497889,75.146172,197.2,3.9000001,Yes,No,,Yes
+112302591,p1,Bathinda,Gurusar,13-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,No,21866,0,0,0,1,0,0,,30.501772,75.126999,203.89999,4,No,Rolled bales are visible,,No
+112302591,p1,Bathinda,Gurusar,23-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21876,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+112302591,p2,Bathinda,Gurusar,13-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,No,21866,0,0,0,1,0,0,,30.50145,75.127174,211,4.8000002,No,Rolled bales are visible,,No
+112302591,p2,Bathinda,Gurusar,23-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21876,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+112500171,p1,Bathinda,Hakam Singh Wala,25-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21878,0,0,0,1,0,0,,30.573059,75.163704,210.5,4,Yes,No,,Yes
+112500181,p1,Bathinda,Hakam Singh Wala,14-Nov-19,No,.s,.s,.s,.s,.s,.s,.s,.s,No,No,No,21867,0,0,0,1,0,0,,30.564554,75.158173,190.2,5,No,The straw is loose but has been collected in one part of the plot.,Incorporate into the soil,
+112500181,p1,Bathinda,Hakam Singh Wala,18-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21871,0,0,0,1,0,0,,30.565142,75.15789,206.5,5,Yes,No,,Yes
+112500671,p1,Bathinda,Hakam Singh Wala,4-Nov-19,No,.s,.s,.s,.s,.s,.s,.s,.s,No,No,No,21857,0,0,0,1,0,0,,30.566181,75.15313,207.2,4.3000002,,The straw is loose but has been collected in one part of the plot.,Sell/give away the stubble,
+112500671,p1,Bathinda,Hakam Singh Wala,13-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21866,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+112500671,p2,Bathinda,Hakam Singh Wala,4-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,No,21857,0,0,0,1,0,0,,30.573912,75.135918,204.10001,4.0999999,,Rolled bales are visible,,No
+112500671,p2,Bathinda,Hakam Singh Wala,13-Nov-19,No,.s,.s,.s,.s,No,.s,,,,No,.s,21866,0,0,0,1,0,0,,,,,,Yes,No,,No
+112500671,p3,Bathinda,Hakam Singh Wala,4-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,No,21857,0,0,0,1,0,0,,30.573978,75.13517,202.60001,3.9000001,,No,,No
+112500671,p3,Bathinda,Hakam Singh Wala,13-Nov-19,No,.s,.s,.s,.s,No,.s,,,,No,.s,21866,0,0,0,1,0,0,,,,,,Yes,No,,No
+113000251,p1,Bathinda,Jaid,3-Nov-19,No,No,.s,.s,.s,.s,.s,.s,.s,No,No,.s,21856,0,0,0,1,0,0,,,,,,,"Yes, only loose straw is visible",.o,
+113000251,p2,Bathinda,Jaid,3-Nov-19,No,No,.s,.s,.s,.s,.s,.s,.s,No,No,No,21856,0,0,0,1,0,0,,30.242752,75.317123,195.3,4.8000002,,"Yes, only loose straw is visible",.o,
+113000261,p1,Bathinda,Jaid,16-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,.s,21869,0,0,0,1,0,0,,30.265299,75.307701,208.7,4.3000002,Yes,No,,Yes
+113000261,p2,Bathinda,Jaid,16-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,.s,21869,0,0,0,1,0,0,,30.265127,75.308464,204.10001,4.4000001,Yes,No,,Yes
+113000261,p3,Bathinda,Jaid,16-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21869,0,0,0,1,0,0,,30.265125,75.307686,205.8,5,Yes,No,,Yes
+113000421,p1,Bathinda,Jaid,3-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,.s,21856,0,0,0,1,0,0,,30.251198,75.313385,203.2,4.5999999,,No,,No
+113000421,p1,Bathinda,Jaid,12-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,.s,21865,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+113000421,p2,Bathinda,Jaid,3-Nov-19,No,No,.s,.s,.s,.s,.s,.s,.s,No,No,.s,21856,0,0,0,1,0,0,,30.25148,75.312073,206.5,4.6999998,,"Yes, only loose straw is visible",.o,
+113000421,p2,Bathinda,Jaid,12-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,.s,21865,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+113000831,p1,Bathinda,Jaid,12-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21865,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+113000831,p2,Bathinda,Jaid,12-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21865,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+114401881,p1,Bathinda,Jhumba,17-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21870,0,0,0,1,0,0,,30.16135,74.773727,183.2,4.5999999,No,No,,Yes
+114401881,p2,Bathinda,Jhumba,17-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21870,0,0,0,1,0,0,,30.161217,74.773308,185.39999,3.9000001,No,No,,Yes
+114700751,p1,Bathinda,Joga Nand,14-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21867,0,0,0,1,0,0,,30.266409,74.982918,196.10001,4.1999998,Yes,No,,Yes
+114700811,p1,Bathinda,Joga Nand,22-Nov-19,No,.s,.s,.s,.s,.s,"Yes, burnt roots and stems are mixed in the soil.",,,,Yes,.s,21875,1,1,1,1,1,1,1,,,,,Yes,No,,Yes
+114901161,p1,Bathinda,Kalal Wala,14-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21867,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+115400471,p1,Bathinda,Kangar,23-Nov-19,No,.s,.s,No,,.s,.s,.s,.s,No,No,No,21876,0,0,0,1,0,0,,30.500914,75.225716,203.8,4.4000001,Yes,Only standing stubble is visible,Sell/give away the stubble,
+115501551,p1,Bathinda,Karar Wala,5-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21858,0,0,0,1,0,0,,30.275816,75.293915,202.2,4,,No,,Yes
+116000391,p1,Bathinda,Keshar Singh Wala,1-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21854,0,0,0,1,0,0,,30.51668,75.120834,197.60001,4,,No,,Yes
+116000391,p2,Bathinda,Keshar Singh Wala,1-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21854,0,0,0,1,0,0,,30.514994,75.116661,209.10001,4.4000001,,No,,Yes
+116800121,p1,Bathinda,Kot Bhara,24-Oct-19,No,.s,.s,No,,.s,.s,,,,No,No,21846,0,0,0,1,0,0,,30.094831,75.050705,193.7,3.9000001,,Only standing stubble is visible,Use happy seeder,
+116800121,p1,Bathinda,Kot Bhara,13-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,.s,21866,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+117002031,p1,Bathinda,Kot Shamir,24-Oct-19,No,.s,.s,.s,.s,No,.s,,,,No,No,21846,0,0,0,1,0,0,,30.093407,75.0215,187.7,4.1999998,,No,,No
+117002531,p1,Bathinda,Kot Shamir,12-Nov-19,No,.s,.s,No,,.s,.s,No,.s,.s,No,No,21865,0,0,0,1,0,0,,30.105421,74.981316,187.8,3.9000001,No,Only standing stubble is visible,.o,
+117002531,p1,Bathinda,Kot Shamir,18-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,.s,21871,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+117002531,p2,Bathinda,Kot Shamir,12-Nov-19,No,.s,.s,No,,.s,.s,No,.s,.s,No,.s,21865,0,0,0,1,0,0,,30.105099,74.981117,190.10001,4.3000002,No,Only standing stubble is visible,.o,
+117002531,p2,Bathinda,Kot Shamir,18-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21871,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+117302481,p1,Bathinda,Kotha Guru,23-Oct-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21845,0,0,0,0,0,0,,30.418976,75.096664,202.39999,4.3000002,,No,,Yes
+117600601,p1,Bathinda,Kutiwal Kalan,12-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21865,0,0,0,1,0,0,,,,,,No,No,,Yes
+117700351,p1,Bathinda,Kutiwal Khurd,10-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,.s,21863,0,0,0,1,0,0,,30.119648,75.27845,196.39999,4.6999998,No,No,,No
+117700351,p1,Bathinda,Kutiwal Khurd,12-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,.s,21865,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+117700391,p1,Bathinda,Kutiwal Khurd,6-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21859,0,0,0,0,0,0,,30.111015,75.283218,200.8,4.8000002,Yes,No,,Yes
+117700391,p2,Bathinda,Kutiwal Khurd,6-Nov-19,No,.s,.s,.s,.s,.s,"Yes, burnt roots and stems are mixed in the soil.",.s,.s,No,No,No,21859,0,1,1,1,1,0,1,30.110125,75.282562,197.10001,5,No,No,,Yes
+117700771,p1,Bathinda,Kutiwal Khurd,30-Oct-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,No,21852,0,0,0,1,0,0,,30.11825,75.262337,195.5,6.1999998,,Rolled bales are visible,,No
+117700771,p1,Bathinda,Kutiwal Khurd,12-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,.s,21865,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+117700811,p1,Bathinda,Kutiwal Khurd,10-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,.s,21863,0,0,0,1,0,0,,30.126829,75.271652,203.10001,4.6999998,No,No,,No
+118200361,p1,Bathinda,Lehra Mohabbat,21-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21874,0,0,0,1,0,0,,,,,,No,No,,Yes
+118200361,p2,Bathinda,Lehra Mohabbat,1-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,No,.s,No,No,21854,0,0,0,1,0,0,,30.213583,75.149788,202.39999,3.9000001,,No,,Yes
+118200361,p2,Bathinda,Lehra Mohabbat,21-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21874,0,0,0,1,0,0,,,,,,No,No,,Yes
+118200761,p1,Bathinda,Lehra Mohabbat,19-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21872,0,0,0,1,0,0,,30.235592,75.168365,198.3,4.3000002,No,No,,Yes
+118200761,p2,Bathinda,Lehra Mohabbat,19-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,.s,21872,0,0,0,1,0,0,,30.235744,75.169266,192.10001,5,No,No,,Yes
+118900091,p1,Bathinda,Maiser Khana,7-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21860,0,0,0,1,0,0,,30.097406,75.160583,201.10001,4.8000002,No,No,,Yes
+118900091,p2,Bathinda,Maiser Khana,7-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21860,0,0,0,1,0,0,,30.097569,75.15947,201.60001,4.0999999,No,No,,Yes
+118900091,p2,Bathinda,Maiser Khana,12-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21865,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+118900091,p3,Bathinda,Maiser Khana,7-Nov-19,No,.s,.s,No,,.s,.s,.s,.s,No,No,No,21860,0,0,0,1,0,0,,30.099226,75.161575,197.60001,4.9000001,No,Only standing stubble is visible,Use happy seeder,
+118900241,p1,Bathinda,Maiser Khana,26-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,.s,21879,0,0,0,0,0,0,,,,,,Yes,No,,Yes
+118900241,p2,Bathinda,Maiser Khana,8-Nov-19,No,No,.s,.s,.s,.s,.s,.s,.s,No,No,.s,21861,0,0,0,1,0,0,,30.100924,75.182198,195.7,4.5999999,No,"Yes, only loose straw is visible",.o,
+118900241,p2,Bathinda,Maiser Khana,26-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21879,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+118901001,p1,Bathinda,Maiser Khana,10-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21863,0,0,0,1,0,0,,30.092571,75.187271,201,4.9000001,Yes,No,,Yes
+118901001,p2,Bathinda,Maiser Khana,10-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21863,0,0,0,1,0,0,,30.092999,75.186401,200.3,4.0999999,Yes,No,,Yes
+118902161,p1,Bathinda,Maiser Khana,14-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,No,21867,0,0,0,1,0,0,,30.10051,75.18457,193.2,4.5999999,No,No,,No
+118902161,p1,Bathinda,Maiser Khana,21-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21874,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+119000571,p1,Bathinda,Malkana,3-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21856,0,0,0,1,0,0,,29.927,75.030617,204.7,4.5,,No,,Yes
+119000591,p1,Bathinda,Malkana,25-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21878,0,0,0,1,0,0,,29.947472,75.033104,190.8,4.8000002,Yes,No,,Yes
+119000591,p2,Bathinda,Malkana,25-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21878,0,0,0,1,0,0,,29.946775,75.027718,197.39999,4.8000002,Yes,No,,Yes
+119000591,p3,Bathinda,Malkana,25-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21878,0,0,0,1,0,0,,29.952414,75.02272,192.8,4.5999999,Yes,No,,Yes
+119000771,p1,Bathinda,Malkana,11-Nov-19,No,.s,.s,.s,.s,Yes,.s,.s,.s,Yes,Yes,No,21864,1,1,1,1,1,1,1,29.953671,75.040291,217.89999,4.5,No,No,,No
+119000771,p2,Bathinda,Malkana,11-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21864,0,0,0,1,0,0,,29.953625,75.040382,197,4.9000001,No,No,,Yes
+119001231,p1,Bathinda,Malkana,13-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",No,.s,.s,No,No,21866,0,0,0,1,0,0,,29.930071,75.040726,189.7,5,No,No,,Yes
+119101701,p1,Bathinda,Maluka,3-Dec-19,No,.s,.s,.s,.s,.s,"Yes, burnt roots and stems are mixed in the soil.",.s,.s,No,Yes,No,21886,1,1,1,1,1,1,1,30.436861,75.076523,200.60001,4.5999999,Yes,No,,Yes
+120800311,p1,Bathinda,Mehma Sawai,6-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,.s,21859,0,0,0,1,0,0,,30.331022,74.848587,197.10001,4.4000001,No,No,,No
+120800311,p1,Bathinda,Mehma Sawai,13-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,.s,21866,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+120801351,p1,Bathinda,Mehma Sawai,14-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21867,0,0,0,1,0,0,,30.329861,74.831131,184.89999,4.6999998,Yes,No,,Yes
+120801551,p1,Bathinda,Mehma Sawai,15-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,No,21868,0,0,0,1,0,0,,30.329264,74.854424,188.3,2.2,No,Rolled bales are visible,,No
+120801551,p1,Bathinda,Mehma Sawai,21-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21874,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+120801551,p2,Bathinda,Mehma Sawai,15-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21868,0,0,0,1,0,0,,30.338268,74.883812,202.5,2.5,Yes,No,,Yes
+120801711,p1,Bathinda,Mehma Sawai,29-Oct-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,No,21851,0,0,0,1,0,0,,30.323477,74.832367,196.60001,4,,Rolled bales are visible,,No
+120801711,p1,Bathinda,Mehma Sawai,20-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21873,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+120801931,p1,Bathinda,Mehma Sawai,25-Oct-19,No,.s,.s,.s,.s,,,,,,No,No,21847,0,0,0,1,0,0,,30.326342,74.852661,194.7,4.8000002,,Rolled bales are visible,,
+120801931,p1,Bathinda,Mehma Sawai,14-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21867,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+120801931,p2,Bathinda,Mehma Sawai,25-Oct-19,No,No,.s,.s,.s,.s,.s,,,,No,No,21847,0,0,0,1,0,0,,30.323906,74.842155,195.89999,4.8000002,,"Yes, only loose straw is visible",Roll into bales,
+120801931,p2,Bathinda,Mehma Sawai,8-Nov-19,No,.s,.s,.s,.s,,,,,,No,No,21861,0,0,0,1,0,0,,,,,,No,Rolled bales are visible,,
+120801931,p2,Bathinda,Mehma Sawai,14-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21867,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+120801931,p3,Bathinda,Mehma Sawai,8-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,No,21861,0,0,0,0,0,0,,30.323915,74.842026,192.7,4.8000002,No,Rolled bales are visible,,No
+120801931,p3,Bathinda,Mehma Sawai,14-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21867,0,0,0,0,0,0,,,,,,Yes,No,,Yes
+120801991,p1,Bathinda,Mehma Sawai,25-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,No,21878,0,0,0,1,0,0,,30.331219,74.849487,207.8,4.8000002,No,Rolled bales are visible,,No
+120801991,p1,Bathinda,Mehma Sawai,29-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21882,0,0,0,1,0,0,,,,,,No,No,,Yes
+120802251,p1,Bathinda,Mehma Sawai,1-Nov-19,No,.s,.s,.s,.s,.s,"Yes, burnt roots and stems are mixed in the soil.",.s,.s,Yes,No,No,21854,1,1,1,1,1,1,1,30.341084,74.874245,195.39999,4.5,,No,,Yes
+120802251,p2,Bathinda,Mehma Sawai,1-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21854,0,0,0,1,0,0,,30.342735,74.877663,198.7,4.5,,No,,Yes
+121300921,p1,Bathinda,Mirjeana,29-Oct-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21851,0,0,0,1,0,0,,29.867409,75.11927,195.60001,4.8000002,,No,,Yes
+121301411,p1,Bathinda,Mirjeana,24-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21877,0,0,0,1,0,0,,29.874445,75.132553,187,4.6999998,Yes,No,,Yes
+122401481,p1,Bathinda,Nehian Wala,31-Oct-19,No,.s,.s,.s,.s,Yes,.s,.s,.s,Yes,Yes,Yes,21853,1,1,1,1,1,1,1,30.299044,74.898758,266.89999,4.8000002,,No,,No
+122401481,p2,Bathinda,Nehian Wala,31-Oct-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",No,.s,.s,Yes,No,21853,1,0,1,1,0,1,,30.284033,74.89547,187.10001,3.9000001,,No,,Yes
+122401481,p3,Bathinda,Nehian Wala,31-Oct-19,No,.s,.s,.s,.s,.s,"Yes, burnt roots and stems are mixed in the soil.",Yes,.s,.s,Yes,Yes,21853,1,1,1,1,1,1,1,30.283895,74.895851,194.2,4,,No,,Yes
+122401491,p1,Bathinda,Nehian Wala,26-Oct-19,No,.s,.s,.s,.s,No,.s,.s,No,.s,No,.s,21848,0,0,0,1,0,0,,30.278574,74.894241,188,4.8000002,,No,,No
+122401491,p1,Bathinda,Nehian Wala,7-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21860,0,0,0,1,0,0,,30.288658,74.9114,195.3,5,No,No,,Yes
+122401971,p1,Bathinda,Nehian Wala,13-Nov-19,No,.s,.s,.s,.s,No,.s,No,.s,.s,No,.s,21866,0,0,0,1,0,0,,30.312305,74.917885,191.5,4,No,No,,No
+122401971,p1,Bathinda,Nehian Wala,16-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21869,0,0,0,1,0,0,,,,,,No,No,,Yes
+122401971,p2,Bathinda,Nehian Wala,30-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,.s,21883,0,0,0,1,0,0,,,,,,No,No,,Yes
+122402141,p1,Bathinda,Nehian Wala,26-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21879,0,0,0,1,0,0,,,,,,No,No,,Yes
+122402141,p2,Bathinda,Nehian Wala,18-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21871,0,0,0,1,0,0,,30.29269,74.921097,236.5,4.3000002,Yes,No,,Yes
+122402141,p2,Bathinda,Nehian Wala,26-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21879,0,0,0,1,0,0,,,,,,No,No,,Yes
+122402141,p3,Bathinda,Nehian Wala,18-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,No,.s,No,No,21871,0,0,0,1,0,0,,30.292166,74.921326,201.8,4.0999999,No,No,,Yes
+122402141,p3,Bathinda,Nehian Wala,26-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,.s,21879,0,0,0,1,0,0,,,,,,No,No,,Yes
+122402141,p4,Bathinda,Nehian Wala,18-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,No,.s,No,No,21871,0,0,0,1,0,0,,30.291372,74.921387,194.5,4.9000001,No,No,,Yes
+122402141,p4,Bathinda,Nehian Wala,26-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21879,0,0,0,1,0,0,,,,,,No,No,,Yes
+122402141,p5,Bathinda,Nehian Wala,18-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,No,.s,No,No,21871,0,0,0,1,0,0,,30.292225,74.920624,188.60001,4,No,No,,Yes
+122402141,p5,Bathinda,Nehian Wala,26-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,.s,21879,0,0,0,1,0,0,,,,,,No,No,,Yes
+122402271,p1,Bathinda,Nehian Wala,16-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",No,.s,.s,No,No,21869,0,0,0,1,0,0,,30.293657,74.923058,195.3,3.9000001,No,No,,Yes
+122402271,p2,Bathinda,Nehian Wala,16-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",No,.s,.s,No,No,21869,0,0,0,1,0,0,,30.29287,74.920891,197.3,4.3000002,No,No,,Yes
+122402271,p3,Bathinda,Nehian Wala,16-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,No,.s,No,No,21869,0,0,0,1,0,0,,30.291376,74.920929,195.8,4.5,No,No,,Yes
+122900091,p1,Bathinda,Pakka Kalan,5-Nov-19,No,No,.s,.s,.s,.s,.s,.s,.s,No,No,No,21858,0,0,0,1,0,0,,30.033844,74.86837,173.89999,4.6999998,,"Yes, only loose straw is visible",Roll into bales,
+122900091,p1,Bathinda,Pakka Kalan,22-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21875,0,0,0,1,0,0,,,,,,No,No,,Yes
+122900091,p2,Bathinda,Pakka Kalan,22-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21875,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+122900371,p1,Bathinda,Pakka Kalan,18-Oct-19,No,.s,No,.s,.s,.s,.s,,,,No,No,21840,0,0,0,0,0,0,,30.038645,74.875198,191.8,3.9000001,,"Yes, loose straw spread over standing stubble is visible",.o,
+122900371,p1,Bathinda,Pakka Kalan,7-Nov-19,No,No,.s,.s,.s,.s,.s,,,,No,No,21860,0,0,0,0,0,0,,,,,,No,"Yes, only loose straw is visible",,
+122900371,p2,Bathinda,Pakka Kalan,7-Nov-19,No,.s,.s,Yes,,.s,.s,,,,Yes,No,21860,1,1,1,1,1,1,1,,,,,Yes,Only standing stubble is visible,,
+122900591,p1,,Pakka kalan,24-Nov-19,No,.s,.s,.s,.s,.s,"Yes, burnt roots and stems are mixed in the soil.",.s,.s,No,Yes,.s,21877,1,1,1,1,1,1,1,30.011621,74.818161,195.8,5.0999999,Yes,No,,Yes
+122900591,p2,,Pakka kalan,24-Nov-19,No,.s,.s,.s,.s,.s,"Yes, burnt roots and stems are mixed in the soil.",.s,.s,Yes,Yes,.s,21877,1,1,1,1,1,1,1,30.01071,74.817444,186.10001,5.6999998,Yes,No,,Yes
+123101311,p1,Bathinda,Pathrala,11-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,.s,21864,0,0,0,1,0,0,,29.994596,74.77462,209.10001,4.9000001,Yes,No,,Yes
+123101311,p2,Bathinda,Pathrala,11-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",No,.s,.s,No,No,21864,0,0,0,1,0,0,,29.98414,74.79155,205.3,4.3000002,No,No,,Yes
+123200471,p1,Bathinda,Patti Kala Mehraj,10-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,.s,21863,0,0,0,1,0,0,,30.303673,75.195663,194.89999,4.1999998,No,Rolled bales are visible,,No
+123200471,p1,Bathinda,Patti Kala Mehraj,13-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,.s,21866,0,0,0,1,0,0,,,,,,No,No,,Yes
+123201051,p1,Bathinda,Patti Kala Mehraj,11-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,No,21864,0,0,0,1,0,0,,30.303358,75.197617,196.8,4.5,No,No,,No
+123201051,p1,Bathinda,Patti Kala Mehraj,16-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21869,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+123901371,p1,Bathinda,Phullo Khari,12-Nov-19,No,Yes,.s,.s,.s,.s,.s,.s,.s,Yes,Yes,.s,21865,1,1,1,1,1,1,1,29.946161,74.992188,193.39999,3.9000001,No,"Yes, only loose straw is visible",,
+124000141,p1,Bathinda,Phullo Mithi,30-Oct-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,No,21852,0,0,0,1,0,0,,30.102669,74.851448,214,3.9000001,,Rolled bales are visible,,No
+124000141,p1,Bathinda,Phullo Mithi,16-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21869,0,0,0,1,0,0,,,,,,No,No,,Yes
+124000141,p2,Bathinda,Phullo Mithi,30-Oct-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,No,21852,0,0,0,1,0,0,,30.10251,74.850731,181.5,4.1999998,,No,,No
+124000141,p2,Bathinda,Phullo Mithi,16-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,.s,21869,0,0,0,1,0,0,,,,,,No,No,,Yes
+124000141,p3,Bathinda,Phullo Mithi,30-Oct-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,No,21852,0,0,0,1,0,0,,30.102942,74.850609,190.5,4.3000002,,No,,No
+124000141,p3,Bathinda,Phullo Mithi,16-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,.s,21869,0,0,0,1,0,0,,,,,,No,No,,Yes
+124000141,p4,Bathinda,Phullo Mithi,30-Oct-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,No,21852,0,0,0,1,0,0,,30.103247,74.850822,192.7,4.9000001,,No,,No
+124000141,p4,Bathinda,Phullo Mithi,16-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21869,0,0,0,1,0,0,,,,,,No,No,,Yes
+124000141,p5,Bathinda,Phullo Mithi,30-Oct-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,.s,21852,0,0,0,1,0,0,,30.104389,74.850975,203.39999,4.6999998,,No,,No
+124000141,p5,Bathinda,Phullo Mithi,16-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21869,0,0,0,1,0,0,,,,,,No,No,,Yes
+124001141,p1,Bathinda,Phullo Mithi,20-Nov-19,No,.s,.s,No,,.s,.s,.s,.s,No,No,No,21873,0,0,0,1,0,0,,30.101894,74.845184,190.2,3.9000001,No,Only standing stubble is visible,Sell/give away the stubble,
+124001141,p1,Bathinda,Phullo Mithi,28-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21881,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+125000351,p1,Bathinda,Rajgarh Kubbe,14-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,.s,21867,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+125000351,p2,Bathinda,Rajgarh Kubbe,3-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21856,0,0,0,0,0,0,,30.022776,75.235085,198.2,4.6999998,,No,,Yes
+125300331,p1,Bathinda,Ram Tirath Jaga,15-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21868,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+125300331,p1,Bathinda,Ram Tirath Jaga,30-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21883,0,0,0,1,0,0,,,,,,No,No,,Yes
+125300331,p2,Bathinda,Ram Tirath Jaga,15-Nov-19,No,No,.s,.s,.s,.s,.s,,,,No,No,21868,0,0,0,1,0,0,,,,,,No,"Yes, only loose straw is visible",,
+125401621,p1,Bathinda,Raman,13-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",No,.s,.s,No,No,21866,0,0,0,1,0,0,,29.947531,74.964973,192.3,3.9000001,No,No,,Yes
+125900161,p1,Bathinda,Ramu Wala,14-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,.s,21867,0,0,0,1,0,0,,30.55254,75.127342,208.60001,5,No,No,,Yes
+125900161,p1,Bathinda,Ramu Wala,26-Nov-19,No,.s,.s,.s,.s,.s,.s,,,,No,.s,21879,0,0,0,1,0,0,,,,,,Yes,The straw is loose but has been collected in one part of the plot.,,
+125900161,p2,Bathinda,Ramu Wala,14-Nov-19,No,No,.s,.s,.s,.s,.s,.s,.s,No,No,.s,21867,0,0,0,1,0,0,,30.552752,75.127373,206,3.9000001,No,"Yes, only loose straw is visible",Roll into bales,
+125900161,p2,Bathinda,Ramu Wala,26-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,.s,21879,0,0,0,1,0,0,,,,,,No,No,,Yes
+125900971,p1,Bathinda,Ramu Wala,4-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",No,.s,.s,No,.s,21857,0,0,0,1,0,0,,30.565125,75.134026,345.60001,4.5,,No,,Yes
+125900971,p1,Bathinda,Ramu Wala,16-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21869,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+125900971,p2,Bathinda,Ramu Wala,16-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21869,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+126200081,p1,Bathinda,Riya,14-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21867,0,0,0,1,0,0,,29.807993,75.116974,195.39999,4.9000001,Yes,No,,Yes
+127101111,p1,Bathinda,Sainewala Gurusar,21-Oct-19,No,.s,.s,No,,.s,.s,,,,No,No,21843,0,0,0,1,0,0,,30.134731,74.908722,194.3,4.9000001,,Only standing stubble is visible,Incorporate into the soil,
+127101111,p1,Bathinda,Sainewala Gurusar,6-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21859,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+127200031,p1,Bathinda,Salabatpura,12-Nov-19,No,.s,.s,No,,.s,.s,.s,.s,No,No,No,21865,0,0,0,1,0,0,,30.488836,75.244781,207.8,3.9000001,No,Only standing stubble is visible,.o,
+127200031,p1,Bathinda,Salabatpura,23-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21876,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+127200031,p2,Bathinda,Salabatpura,12-Nov-19,No,.s,.s,No,,.s,.s,.s,.s,No,No,No,21865,0,0,0,1,0,0,,30.482691,75.23822,213.8,3.5,No,Only standing stubble is visible,.o,
+127200031,p2,Bathinda,Salabatpura,23-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21876,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+127200851,p1,Bathinda,Salabatpura,14-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,.s,21867,0,0,0,1,0,0,,30.489071,75.251747,204.60001,4.8000002,Yes,No,,Yes
+128002171,p1,Bathinda,Sekhu,12-Nov-19,No,.s,.s,.s,.s,.s,"Yes, burnt roots and stems are mixed in the soil.",.s,.s,Yes,No,No,21865,1,1,1,1,1,1,1,29.96324,74.841301,187.89999,3.9000001,Yes,No,,Yes
+128002171,p2,Bathinda,Sekhu,12-Nov-19,Yes,.s,.s,.s,.s,.s,"Yes, burnt roots and stems are mixed in the soil.",.s,.s,Yes,No,No,21865,1,1,1,0,1,1,1,29.976831,74.874809,198.3,4.9000001,Yes,No,,Yes
+128002171,p3,Bathinda,Sekhu,12-Nov-19,Yes,.s,.s,.s,.s,Yes,.s,Yes,.s,.s,Yes,Yes,21865,1,1,1,0,1,1,1,29.969885,74.871704,185.8,4.5,No,No,,No
+128800281,p1,Bathinda,Sivian,29-Nov-19,No,No,.s,.s,.s,.s,.s,No,.s,.s,No,No,21882,0,0,0,1,0,0,,30.250353,74.888336,192.3,4.6999998,Yes,"Yes, only loose straw is visible",.o,
+128800441,p1,Bathinda,Sivian,10-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21863,0,0,0,1,0,0,,30.25897,74.884193,197.89999,4.6999998,No,No,,Yes
+128801261,p2,Bathinda,Sivian,10-Nov-19,No,.s,.s,.s,.s,.s,"Yes, burnt roots and stems are mixed in the soil.",.s,.s,No,No,No,21863,0,1,1,1,1,0,1,30.258802,74.887749,188.2,4.5,Yes,No,,Yes
+128801351,p1,Bathinda,Sivian,17-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",No,.s,.s,No,No,21870,0,0,0,1,0,0,,30.267553,74.917862,186.60001,4.6999998,No,No,,Yes
+128801351,p2,Bathinda,Sivian,17-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21870,0,0,0,1,0,0,,30.262779,74.914482,184.10001,4.9000001,No,No,,Yes
+128801381,p1,Bathinda,Sivian,12-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,.s,21865,0,0,0,1,0,0,,30.265711,74.918175,198.5,4,No,No,,No
+128801381,p1,Bathinda,Sivian,21-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,.s,21874,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+128801381,p2,Bathinda,Sivian,12-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,No,21865,0,0,0,1,0,0,,30.265579,74.916679,193.89999,4.5,No,No,,No
+128801381,p2,Bathinda,Sivian,21-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21874,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+128801991,p1,Bathinda,Sivian,14-Nov-19,No,.s,.s,.s,.s,.s,"Yes, burnt roots and stems are mixed in the soil.",.s,.s,No,No,.s,21867,0,1,1,1,1,0,1,30.25676,74.895943,194,1,Yes,No,,Yes
+129100631,p1,Bathinda,Siriewala,15-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,No,21868,0,0,0,1,0,0,,30.478903,75.067535,200,4.4000001,No,No,,No
+129100631,p1,Bathinda,Siriewala,18-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21871,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+129100861,p1,Bathinda,Siriewala,16-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,Yes,21869,1,0,1,1,0,1,,30.497423,75.060532,201.8,4,No,No,,No
+129100861,p1,Bathinda,Siriewala,18-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,.s,21871,0,0,0,1,0,1,,,,,,Yes,No,,Yes
+129101101,p1,Bathinda,Siriewala,8-Nov-19,No,.s,No,.s,.s,.s,.s,.s,.s,No,No,No,21861,0,0,0,1,0,0,,30.494677,75.050949,191.5,5,No,"Yes, loose straw spread over standing stubble is visible",Incorporate into the soil,
+129101101,p1,Bathinda,Siriewala,16-Nov-19,No,No,.s,.s,.s,.s,.s,,,,No,No,21869,0,0,0,1,0,0,,,,,,Yes,"Yes, only loose straw is visible",,
+129101101,p1,Bathinda,Siriewala,21-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21874,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+129103071,p1,Bathinda,Siriewala,4-Nov-19,No,.s,No,.s,.s,.s,.s,.s,.s,No,No,.s,21857,0,0,0,1,0,0,,30.479939,75.052452,191.89999,4.5,,"Yes, loose straw spread over standing stubble is visible",Use happy seeder,
+129103071,p1,Bathinda,Siriewala,7-Nov-19,No,.s,No,.s,.s,.s,.s,,,,No,No,21860,0,0,0,1,0,0,,,,,,Yes,"Yes, loose straw spread over standing stubble is visible",,
+129600301,p1,Bathinda,Teona Pujarian,19-Nov-19,No,No,.s,.s,.s,.s,.s,No,.s,.s,No,No,21872,0,0,0,1,0,0,,29.933666,75.069962,185.10001,4.9000001,No,"Yes, only loose straw is visible",Use happy seeder,
+129600301,p1,Bathinda,Teona Pujarian,24-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21877,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+129600641,p1,Bathinda,Teona Pujarian,8-Nov-19,No,.s,.s,No,,.s,.s,.s,.s,No,No,No,21861,0,0,0,1,0,0,,29.919214,75.065727,195.89999,4.5999999,No,Only standing stubble is visible,Sell/give away the stubble,
+129600641,p1,Bathinda,Teona Pujarian,14-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21867,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+205500251,p1,Faridkot,Bihle Wala,5-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",No,.s,.s,No,No,21858,0,0,0,1,0,0,,30.670338,74.610245,180,3.5,,No,,Yes
+205500461,p1,Faridkot,Bihle Wala,23-Nov-19,No,No,.s,.s,.s,.s,.s,.s,.s,No,No,No,21876,0,0,0,1,0,0,,30.663876,74.596542,185.89999,4.4000001,No,"Yes, only loose straw is visible",Sell/give away the stubble,
+205500461,p1,Faridkot,Bihle Wala,27-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,.s,21880,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+205500461,p2,Faridkot,Bihle Wala,23-Nov-19,No,No,.s,.s,.s,.s,.s,.s,.s,No,No,No,21876,0,0,0,1,0,0,,30.663799,74.596336,178.10001,4.5999999,No,"Yes, only loose straw is visible",Sell/give away the stubble,
+205500461,p2,Faridkot,Bihle Wala,27-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,.s,21880,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+205500801,p1,Faridkot,Bihle Wala,28-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21881,0,0,0,1,0,0,,30.682085,74.603157,189.60001,4.8000002,Yes,No,,Yes
+205500801,p2,Faridkot,Bihle Wala,28-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,.s,21881,0,0,0,1,0,0,,30.682344,74.603127,193.8,4.6999998,Yes,No,,Yes
+205500801,p3,Faridkot,Bihle Wala,28-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21881,0,0,0,1,0,0,,30.681885,74.603981,187.39999,4.5,Yes,No,,Yes
+206200071,p1,Faridkot,Burj Hari Ka,3-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,.s,21856,0,0,0,1,0,0,,30.54874,74.93679,195.10001,8.6000004,,No,,Yes
+206200071,p2,Faridkot,Burj Hari Ka,3-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21856,0,0,0,1,0,0,,30.547619,74.936661,199.8,5,,No,,Yes
+206200641,p1,Faridkot,Burj Hari Ka,19-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,.s,21872,0,0,0,1,0,0,,30.545322,74.918381,185.60001,4.6999998,No,Rolled bales are visible,,No
+206200641,p1,Faridkot,Burj Hari Ka,22-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21875,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+206200841,p1,Faridkot,Burj Hari Ka,5-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21858,0,0,0,1,0,0,,30.551456,74.935547,217.89999,4.8000002,,No,,Yes
+206200841,p2,Faridkot,Burj Hari Ka,5-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21858,0,0,0,1,0,0,,30.546125,74.93705,198.60001,4.1999998,,No,,Yes
+206200951,p1,Faridkot,Burj Hari Ka,7-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21860,0,0,0,1,0,0,,30.560122,74.940765,196.89999,4.0999999,No,No,,Yes
+206200951,p2,Faridkot,Burj Hari Ka,7-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21860,0,0,0,1,0,0,,30.560171,74.940109,197.39999,5,No,No,,Yes
+206200951,p3,Faridkot,Burj Hari Ka,11-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,.s,21864,0,0,0,1,0,0,,,,,,No,No,,Yes
+206200951,p4,Faridkot,Burj Hari Ka,11-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,.s,21864,0,0,0,1,0,0,,30.548685,74.948502,197.89999,4,No,No,,Yes
+206200951,p5,Faridkot,Burj Hari Ka,11-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21864,0,0,0,1,0,0,,30.549267,74.948021,197.3,4.5,No,No,,Yes
+206900061,p1,Faridkot,Chahal,11-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,.s,21864,0,0,0,1,0,0,,30.657799,74.794281,212.89999,4.8000002,No,No,,No
+206900061,p1,Faridkot,Chahal,25-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,.s,21878,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+206900061,p2,Faridkot,Chahal,11-Nov-19,No,.s,.s,.s,.s,Yes,.s,.s,.s,Yes,Yes,.s,21864,1,1,1,1,1,1,1,30.64584,74.795143,190.7,3.9000001,No,No,,No
+206900061,p2,Faridkot,Chahal,25-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21878,0,0,0,1,1,1,1,,,,,Yes,No,,Yes
+206900831,p1,Faridkot,Chahal,29-Oct-19,No,.s,.s,.s,.s,No,.s,No,.s,.s,No,No,21851,0,0,0,1,0,0,,30.645126,74.800903,195,4,,No,,No
+208100621,p1,Faridkot,Deep Singh Wala,31-Oct-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",No,.s,.s,No,.s,21853,0,0,0,1,0,0,,30.732647,74.472504,183.39999,4,,No,,Yes
+208100921,p1,Faridkot,Deep Singh Wala,2-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",No,.s,.s,No,No,21855,0,0,0,1,0,0,,30.737352,74.475281,205.7,4,,No,,Yes
+208100921,p1,Faridkot,Deep Singh Wala,15-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21868,0,0,0,1,0,0,,,,,,No,No,,Yes
+208100921,p2,Faridkot,Deep Singh Wala,2-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,No,.s,No,.s,21855,0,0,0,1,0,0,,30.736633,74.473335,202.7,4.3000002,,No,,Yes
+208100921,p2,Faridkot,Deep Singh Wala,15-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,.s,21868,0,0,0,1,0,0,,,,,,No,No,,Yes
+208101531,p1,Faridkot,Deep Singh Wala,26-Oct-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21848,0,0,0,1,0,0,,30.72925,74.477097,177.5,4.0999999,,No,,Yes
+208101661,p1,Faridkot,Deep Singh Wala,10-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21863,0,0,0,1,0,0,,30.729721,74.476395,183,4.1999998,No,No,,Yes
+208401811,p1,Faridkot,Dhaipai,26-Oct-19,No,No,.s,.s,.s,.s,.s,.s,.s,No,No,No,21848,0,0,0,1,0,0,,30.509306,74.833092,209.3,5,,"Yes, only loose straw is visible",Use mulcher,
+208401811,p1,Faridkot,Dhaipai,5-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21858,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+208401811,p2,Faridkot,Dhaipai,26-Oct-19,No,.s,No,.s,.s,.s,.s,.s,.s,No,No,No,21848,0,0,0,1,0,0,,30.508949,74.833626,192.39999,4.8000002,,"Yes, loose straw spread over standing stubble is visible",Use mulcher,
+208401811,p2,Faridkot,Dhaipai,5-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21858,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+208401811,p3,Faridkot,Dhaipai,26-Oct-19,No,.s,No,.s,.s,.s,.s,.s,.s,No,No,.s,21848,0,0,0,1,0,0,,30.507479,74.835114,197.3,4.5999999,,"Yes, loose straw spread over standing stubble is visible",Use mulcher,
+208401811,p3,Faridkot,Dhaipai,5-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,.s,21858,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+208402081,p1,Faridkot,Dhaipai,30-Oct-19,No,No,.s,.s,.s,.s,.s,.s,.s,No,No,No,21852,0,0,0,1,0,0,,30.515192,74.820679,216.60001,4.0999999,,"Yes, only loose straw is visible",Use happy seeder,
+208402081,p1,Faridkot,Dhaipai,12-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21865,0,0,0,1,0,0,,,,,,No,No,,Yes
+208402081,p2,Faridkot,Dhaipai,30-Oct-19,No,No,.s,.s,.s,.s,.s,.s,.s,No,No,No,21852,0,0,0,1,0,0,,30.514957,74.821281,191.89999,4,,"Yes, only loose straw is visible",Use happy seeder,
+208402081,p2,Faridkot,Dhaipai,12-Nov-19,No,No,.s,.s,.s,.s,.s,,,,No,.s,21865,0,0,0,1,0,0,,,,,,No,"Yes, only loose straw is visible",,
+208402201,p1,Faridkot,Dhaipai,22-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,.s,21875,0,0,0,1,0,0,,30.514692,74.818123,199.10001,1,No,No,,Yes
+208402201,p2,Faridkot,Dhaipai,22-Nov-19,No,.s,.s,.s,.s,.s,"Yes, burnt roots and stems are mixed in the soil.",.s,.s,No,Yes,Yes,21875,1,1,1,1,1,1,1,30.505289,74.815582,201.39999,2,Yes,No,,Yes
+209100681,p1,Faridkot,Dhudhi,17-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,No,21870,0,0,0,1,0,0,,30.68524,74.862793,199,3.9000001,No,No,,No
+209100681,p1,Faridkot,Dhudhi,21-Nov-19,No,.s,No,.s,.s,.s,.s,,,,No,.s,21874,0,0,0,1,0,0,,,,,,Yes,"Yes, loose straw spread over standing stubble is visible",,
+209100681,p2,Faridkot,Dhudhi,17-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,.s,21870,0,0,0,1,0,0,,30.686422,74.85778,205.89999,3.9000001,No,No,,No
+209101011,p1,Faridkot,Dhudhi,5-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,.s,21858,0,0,0,1,0,0,,30.695124,74.866394,195.7,4.6999998,,No,,Yes
+209200841,p1,Faridkot,Dhurkot,29-Oct-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,No,21851,0,0,0,1,0,0,,30.715488,74.876106,194.5,3.9000001,,No,,No
+209200841,p1,Faridkot,Dhurkot,13-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21866,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+212801141,p1,Faridkot,Hari Nau,24-Oct-19,No,No,.s,.s,.s,.s,.s,,,,No,No,21846,0,0,0,1,0,0,,30.499233,74.765434,190.3,4.5999999,,"Yes, only loose straw is visible",Incorporate into the soil,
+212801141,p1,Faridkot,Hari Nau,10-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21863,0,0,0,1,0,0,,,,,,No,No,,Yes
+212801141,p2,Faridkot,Hari Nau,24-Oct-19,No,No,.s,.s,.s,.s,.s,,,,No,No,21846,0,0,0,1,0,0,,30.497286,74.765884,195.39999,3.9000001,,"Yes, only loose straw is visible",Incorporate into the soil,
+212801141,p2,Faridkot,Hari Nau,10-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21863,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+212801251,p1,Faridkot,Hari Nau,11-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,.s,21864,0,0,0,1,0,0,,30.517227,74.783966,194.2,3.9000001,No,No,,No
+212801251,p1,Faridkot,Hari Nau,17-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,.s,21870,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+212802381,p1,Faridkot,Hari Nau,14-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21867,0,0,0,1,0,0,,30.501263,74.786774,190,4.1999998,No,No,,Yes
+212802381,p2,Faridkot,Hari Nau,14-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21867,0,0,0,1,0,0,,30.501219,74.788124,195.39999,4.4000001,No,No,,Yes
+212802381,p3,Faridkot,Hari Nau,14-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,.s,21867,0,0,0,1,0,0,,30.501463,74.788116,196.10001,3.9000001,No,No,,Yes
+213101181,p1,Faridkot,Jaito,15-Nov-19,No,.s,.s,Yes,,.s,.s,.s,.s,Yes,No,.s,21868,1,1,1,1,1,1,1,30.47599,74.914749,200.60001,4.5,Yes,Only standing stubble is visible,,
+213101181,p2,Faridkot,Jaito,15-Nov-19,No,.s,.s,Yes,,.s,.s,.s,.s,Yes,Yes,Yes,21868,1,1,1,1,1,1,1,30.474375,74.908272,200.10001,4.3000002,Yes,Only standing stubble is visible,,
+213101741,p1,Faridkot,Jaito,20-Nov-19,No,.s,.s,No,,.s,.s,.s,.s,No,No,.s,21873,0,0,0,1,0,0,,30.443491,74.860092,195.10001,3.9000001,No,Only standing stubble is visible,Use happy seeder,
+213101741,p1,Faridkot,Jaito,30-Nov-19,No,.s,.s,No,,.s,.s,,,,No,.s,21883,0,0,0,1,0,0,,,,,,Yes,Only standing stubble is visible,,
+213101741,p2,Faridkot,Jaito,20-Nov-19,No,.s,.s,No,,.s,.s,.s,.s,No,No,No,21873,0,0,0,1,0,0,,30.445604,74.860062,197,3.9000001,No,Only standing stubble is visible,Use happy seeder,
+213101741,p2,Faridkot,Jaito,30-Nov-19,No,.s,.s,No,,.s,.s,,,,No,No,21883,0,0,0,1,0,0,,,,,,Yes,Only standing stubble is visible,,
+216102951,p1,Faridkot,Khara,15-Nov-19,No,.s,No,.s,.s,.s,.s,.s,.s,No,No,No,21868,0,0,0,1,0,0,,30.552574,74.727448,188.3,3.9000001,No,"Yes, loose straw spread over standing stubble is visible",Incorporate into the soil,
+216102951,p2,Faridkot,Khara,20-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21873,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+216500891,p1,Faridkot,Kohaar Wala,8-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,No,21861,0,0,0,1,0,0,,30.530672,74.770302,190.7,4.0999999,No,No,,No
+216500891,p1,Faridkot,Kohaar Wala,13-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21866,0,0,0,1,0,0,,,,,,No,No,,Yes
+216500891,p2,Faridkot,Kohaar Wala,8-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,No,21861,0,0,0,1,0,0,,30.530565,74.771637,192.8,4.3000002,No,No,,No
+216500891,p2,Faridkot,Kohaar Wala,13-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21866,0,0,0,1,0,0,,,,,,No,No,,Yes
+216500891,p3,Faridkot,Kohaar Wala,8-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,No,21861,0,0,0,1,0,0,,30.530455,74.771889,186.7,4.4000001,No,No,,No
+216500891,p3,Faridkot,Kohaar Wala,13-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21866,0,0,0,1,0,0,,,,,,No,No,,Yes
+222600591,p1,Faridkot,Pakhi Kalan,5-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21858,0,0,0,1,0,0,,30.776724,74.763481,190.3,3.9000001,,No,,Yes
+223000251,p1,Faridkot,Panjgrain Kalan,21-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,.s,21874,0,0,0,1,0,0,,30.619406,74.920845,201,4.6999998,Yes,No,,Yes
+223002951,p1,Faridkot,Panjgrain Kalan,8-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,No,21861,0,0,0,1,0,0,,30.628588,74.89119,201.89999,4.8000002,No,Rolled bales are visible,,No
+223002951,p1,Faridkot,Panjgrain Kalan,12-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21865,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+226500731,p1,Faridkot,Rori Kapura,13-Nov-19,No,.s,.s,.s,.s,.s,"Yes, burnt roots and stems are mixed in the soil.",.s,.s,No,Yes,Yes,21866,1,1,1,1,1,1,1,30.449547,74.798225,193.3,4.5,No,No,,Yes
+226500971,p1,Faridkot,Rori Kapura,21-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,No,21874,0,0,0,1,0,0,,30.454784,74.827477,177.2,4.3000002,No,No,,No
+226500971,p1,Faridkot,Rori Kapura,28-Nov-19,No,.s,.s,No,,.s,.s,,,,No,No,21881,0,0,0,1,0,0,,,,,,Yes,Only standing stubble is visible,,
+226501121,p1,Faridkot,Rori Kapura,11-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,.s,21864,0,0,0,1,0,0,,30.456327,74.800217,198.8,4.6999998,No,Rolled bales are visible,,No
+226501121,p1,Faridkot,Rori Kapura,20-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21873,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+226901091,p1,Faridkot,Sadiq,31-Oct-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21853,0,0,0,1,0,0,,30.701305,74.572906,186.3,3.9000001,,No,,Yes
+226901091,p2,Faridkot,Sadiq,31-Oct-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",No,.s,.s,No,No,21853,0,0,0,1,0,0,,30.703165,74.573402,189.2,4.5999999,,No,,Yes
+226901271,p1,Faridkot,Sadiq,20-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21873,0,0,0,1,0,0,,30.708786,74.572128,203,4.6999998,Yes,No,,Yes
+226901331,p1,Faridkot,Sadiq,21-Nov-19,No,.s,.s,.s,.s,.s,.s,.s,.s,No,No,No,21874,0,0,0,1,0,0,,30.711168,74.572128,192.39999,4,Yes,The straw is loose but has been collected in one part of the plot.,.o,
+226901331,p2,Faridkot,Sadiq,21-Nov-19,No,.s,.s,.s,.s,.s,.s,.s,.s,No,No,No,21874,0,0,0,1,0,0,,30.711239,74.572845,189.8,5.1999998,Yes,The straw is loose but has been collected in one part of the plot.,.o,
+226901331,p3,Faridkot,Sadiq,21-Nov-19,No,.s,.s,.s,.s,.s,.s,No,.s,.s,No,Yes,21874,1,0,1,1,0,1,,30.710365,74.572647,175.89999,4.8000002,Yes,The straw is loose but has been collected in one part of the plot.,.o,
+228700181,p1,Faridkot,Sirsari,11-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21864,0,0,0,1,0,0,,30.644884,74.873009,210.60001,4.8000002,No,No,,Yes
+228700181,p2,Faridkot,Sirsari,11-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,No,21864,0,0,0,1,0,0,,30.643602,74.884109,196.10001,3.9000001,No,No,,No
+228700351,p1,Faridkot,Sirsari,18-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,No,21871,0,0,0,1,0,0,,30.638384,74.871033,196.60001,4,No,No,,No
+228700351,p1,Faridkot,Sirsari,22-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21875,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+228700731,p1,Faridkot,Sirsari,16-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,No,21869,0,0,0,1,0,0,,30.648293,74.878922,194,3.9000001,No,Rolled bales are visible,,No
+228700731,p1,Faridkot,Sirsari,29-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",,,,No,No,21882,0,0,0,1,0,0,,,,,,Yes,No,,Yes
+101400031,p2,Bathinda,Amarpura Urf Gurthuri,10-Nov-19,No,.s,.s,.s,.s,.s,"Yes, burnt roots and stems are mixed in the soil.",.s,.s,Yes,Yes,Yes,21863,1,1,1,1,1,1,1,30.046505,74.825737,186.89999,4.9000001,Yes,No,,Yes
+122401971,p2,Bathinda,Nehian Wala,13-Nov-19,No,.s,.s,.s,.s,No,.s,No,.s,.s,No,.s,21866,0,0,0,1,0,0,,30.300285,74.926445,198.39999,8.6999998,No,Rolled bales are visible,,No
+125300331,p1,Bathinda,Ram Tirath Jaga,10-Nov-19,No,.s,.s,No,,.s,.s,.s,.s,No,No,No,21863,0,0,0,1,0,0,,29.954491,75.131432,212.7,4.5999999,No,Only standing stubble is visible,Roll into bales,
+128800441,p2,Bathinda,Sivian,10-Nov-19,No,.s,.s,.s,.s,.s,"No, there are no burnt roots and stems visible.",.s,.s,No,No,No,21863,0,0,0,1,0,0,,30.259817,74.876266,192.8,4.3000002,No,No,,Yes
+128801261,p1,Bathinda,Sivian,10-Nov-19,No,.s,.s,.s,.s,No,.s,.s,.s,No,No,.s,21863,0,0,0,1,0,0,,30.25963,74.914055,191.39999,4,No,Rolled bales are visible,,No
