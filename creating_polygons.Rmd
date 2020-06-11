@@ -300,7 +300,7 @@ write_csv(clean_id_3, "H:/punjab_project/punjab_project/ids_3.csv", col_names = 
 
 write_csv(check_na, "H:/punjab_project/punjab_project/removed.csv", col_names = TRUE)
 
-write_csv(clean_done,"H:/punjab_project/punjab_project/clean_poly_info.csv", col_names = TRUE )
+write_csv(clean_done,"H:/punjab_project/punjab_project/clean_poly_info.csv", col_names = TRUE ) #re run this
 ```
 
 
