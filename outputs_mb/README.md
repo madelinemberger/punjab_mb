@@ -12,9 +12,8 @@ This folder contains spatial data and csvs created by the `creating_polygons` sc
 - `updated_2019_mon_sc` is an old file, this data has been updated
 
 
-
 **CSV**
 
-- `ids` these are lists of unique_ids that idenfity polygons that have been removed 
-- `removed` is a complete list of polygons that were removed
+- `ids` these are lists of unique_ids that idenfity polygons that have been removed while testing the loop, ie they were breaking the loop so they were removed. There is no clean_id_4, but if that was one written out than it would be all the unique_ids that were included in the loop
+- `removed` is a complete list of polygons that were removed during the check_na process
 
