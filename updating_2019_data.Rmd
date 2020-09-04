@@ -19,7 +19,7 @@ library(here)
 ```
 
 
-##Part 3: Add survey data, updated
+## Add survey data, updated for 2019
 
 1. Read in new data
 ```{r}
@@ -42,7 +42,7 @@ polygons <- read_sf(here(dsn = "outputs_mb"), layer = "test_all")
 
 ```
 
-###What is burned?
+### What is burned?
 
 **Monitoring data:** 
 - bl_error = plot is in monitoring but not baseline
