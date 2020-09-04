@@ -1,9 +1,13 @@
 ---
-title: "calibration_results"
+title: "Summarizing Calibration Model Results"
 author: "Madeline Berger"
 date: "5/27/2020"
 output: html_document
 ---
+
+## Results from calibration
+
+This script creates visualizations and summary statistics for the results of a calibration analysis of the BASMA burn detection algorithm (cite Gabriel?). The data were generated using ArcGis.
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -14,11 +18,8 @@ library(here)
 
 ```
 
-##Results from calibration
-This script creates visualizations and summary statistics for the results of a calibration analysis of the BASMA burn detection algorithm (cite Gabriel?). The data were generated using ArcGis.
 
-
-###Read in data
+### Read in data
 ```{r}
 results <- read_csv(here("raw_csv", "calibration_results.csv")) %>% 
   mutate(
@@ -29,7 +30,7 @@ results <- read_csv(here("raw_csv", "calibration_results.csv")) %>%
 ```
 
 
-###Summary statistics
+### Summary statistics
 - overall mean
 - average by char threshold
 - average by cutoff
@@ -71,7 +72,7 @@ cutoff_stats <- results %>%
 ```
 
 
-###Graphs
+### Graphs
 ```{r}
 
 all_line <- results %>% 
@@ -106,8 +107,8 @@ ggsave("./figs/bar_main.png", bar_main, width = 8, height = 6)
 
 
 
-##Repeat for any_burn 
-###Read in data
+## Repeat for any_burn 
+### Read in data
 ```{r}
 results_any <- read_csv(here("csv_data", "calibration_results_any.csv")) %>% 
   mutate(
@@ -118,7 +119,7 @@ results_any <- read_csv(here("csv_data", "calibration_results_any.csv")) %>%
 ```
 
 
-###Summary statistics
+### Summary statistics
 - overall mean
 - average by char threshold
 - average by cutoff
@@ -160,7 +161,7 @@ cutoff_stats_any <- results_any %>%
 ```
 
 
-###Graph
+### Graph
 ```{r}
 #line
 all_line_any <- ggplot(results_any, aes(x = char_threshold, y = match, group = cutoff))+

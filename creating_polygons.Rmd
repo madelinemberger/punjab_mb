@@ -1,5 +1,5 @@
 ---
-title: "baseline_data_clean"
+title: "Creating Plot Polygons"
 author: "Madeline Berger"
 date: "11/8/2019"
 output: html_document
@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-##Creating spatial data
+## Creating spatial data
 
 This script takes GIS coordinates provided by the Punjab field team and converts them into polygons representing all the plots that were monitored as part of the experiment (both control and treatment groups)
 
@@ -45,9 +45,9 @@ lat_lon_id$unique_id <- gsub(" ", "", lat_lon_id$unique_id, fixed = TRUE) #this 
 
 ```
 
-##Part 1: Create and Export the Polygons
+## Part 1: Create and Export the Polygons
 
-###Data Cleaning
+### Data Cleaning
 ```{r}
 #find any values with Na
 
@@ -65,7 +65,7 @@ clean_id <-lat_lon_id[complete.cases(lat_lon_id), ]
 
 
 
-###Creating vectors: id_vec is the one used in the final version of loop
+### Creating vectors: id_vec is the one used in the final version of loop
 -unique id, resp Id
 
 ```{r}
@@ -92,7 +92,7 @@ id_vec_resp_old <- unique(lat_lon$resp_id)
 
 
 
-###Data Exploration
+### Data Exploration
 1. How many loops are we dealing with?
 2. What are the first and last values?
 
@@ -122,7 +122,7 @@ length(id_vec_old)
 
 
 
-###Create subsets for testing loop (no need to run unless loop is amended)
+### Create subsets for testing loop (no need to run unless loop is amended)
 ```{r}
 #with unique Id
 #for testing
@@ -140,7 +140,7 @@ df_resp <- lat_lon_id %>%
 ```
 
 
-###Filtered sets post-error - *you need to run this to make sure the loop is operating on the clean data set*
+### Filtered sets post-error - *you need to run this to make sure the loop is operating on the clean data set*
 Removed: 1110600681, 1122201051, 1220301321, 1118200131
 ```{r}
 #second
